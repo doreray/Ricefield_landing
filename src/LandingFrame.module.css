@@ -1,0 +1,989 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fredoka:wght@300..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-weight: 600;
+    font-family: Nunito;
+}
+
+body {
+    overflow-x: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg11Icon {
+    position: relative;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Adjust as needed */
+    overflow: hidden;
+    object-fit: cover;
+    object-position: top;
+}
+
+.bg12Icon {
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    overflow: hidden; /* Ensures anything outside the container is cropped */
+    object-fit: cover; /* Ensures the image covers the entire area */
+    object-position: bottom; /* This will crop the top part of the image */
+}
+
+.bg31Icon {
+    position: relative;
+    width: 1921px;
+    height: 1063px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+/* Centered text section */
+.whatsCookingOn {
+    position: relative;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Responsive width */
+    max-width: 800px;
+    font-weight: 1000;
+    font-size: 90px;
+    text-align: center;
+}
+
+/* Wrapper with flexible dimensions */
+.whatsCookingOnCampusWrapper {
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Additional centered text */
+.fromClassesTo {
+    position: relative;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Dynamic height and text alignment */
+.fromClassesToClubsFromDoWrapper {
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+    height: auto;
+    text-align: center;
+    font-size: 30px;
+}
+.frameParent {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 80px;
+}
+.slide7 {
+    align-self: stretch;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 317px 561px;
+    box-sizing: border-box;
+    width: 100vw; /* Full-screen width */
+    overflow: hidden;
+    background-image: url('/public/assets/bg1\ 1.svg');
+    background-size: cover;
+    background-position: top center; /* Equivalent to object-position: top */
+    background-repeat: no-repeat; /* To avoid repeating the background */
+
+}
+.whatTheHeck {
+    position: relative;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+    width: 800px;
+    font-weight: 1000;
+}
+.whatTheHeckIsRicefieldWrapper {
+    align-self: stretch;
+    position: relative;
+    height: 200px;
+}
+.theBestWay {
+    margin: 0;
+}
+.theBestWayContainer1 {
+    width: 100%;
+}
+.theBestWayContainer {
+    position: relative;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    width: 720px;
+}
+.theBestWayToThinkOfRicefWrapper {
+    align-self: stretch;
+    position: relative;
+    height: 300px;
+    font-size: 30px;
+}
+.frameContainer {
+    width: 703px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.frameChild {
+    width: 654px;
+    position: relative;
+    height: 720.6px;
+    object-fit: cover;
+}
+.frameGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 118px;
+}
+.slide8 {
+    position: relative;
+    align-self: stretch;
+    background: linear-gradient(180deg, #f6f8f9 67.17%, #c4e2f6);
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100vw; /* Full-screen width */
+    overflow: hidden;
+}
+.soHowDoesContainer {
+    position: relative;
+    line-height: 100px;
+}
+.soHowDoesThisWorkWrapper {
+    margin:0;
+    width: 800px;
+    position: relative;
+}
+.soHowDoes {
+    font-weight: 1000;
+}
+.slide31 {
+    align-self: stretch;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    align-self: stretch;
+    width: 100vw; /* Full-screen width */
+    overflow: hidden;
+    background-image: url('/public/assets/bg1\ 2.svg'); /* Add the URL of your background image */
+    background-size: cover; /* Equivalent to object-fit: cover */
+    background-position: bottom center; /* Equivalent to object-position: top */
+    background-repeat: no-repeat; /* To avoid repeating the background */
+}
+.cook {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 100px;
+    font-weight: 1000;
+}
+.cookWrapper {
+    width: 242px;
+    position: relative;
+    height: 100px;
+}
+.wantToShare {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    width: 700px;
+}
+.wantToShareDramasComplainWrapper {
+    align-self: stretch;
+    position: relative;
+    height: 105px;
+    font-size: 30px;
+    font-weight: 1000;
+}
+.frameParent1 {
+    width: 703px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 75px;
+}
+.frameItem {
+    width: 650px;
+    position: relative;
+    height: 650px;
+    object-fit: cover;
+}
+.frameDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 122px;
+}
+.slide32 {
+    align-self: stretch;
+    background-color: #f6f8f9;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 208px 222px;
+    box-sizing: border-box;
+}
+.replyWrapper {
+    width: 265px;
+    position: relative;
+    height: 100px;
+    font-weight: 1000;
+}
+.cantFindA {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    width: 654px;
+}
+.cantFindACleanToiletSeatWrapper {
+    width: 654px;
+    position: relative;
+    height: 105px;
+    font-size: 30px;
+    font-weight: 1000;
+}
+.frameParent2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 75px;
+}
+.groupParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 171px;
+}
+.slide321 {
+    align-self: stretch;
+    background-color: #f6f8f9;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 215px 222px;
+    box-sizing: border-box;
+}
+.recookWrapper {
+    width: 344px;
+    position: relative;
+    height: 100px;
+    font-weight: 1000;
+}
+.frameParent4 {
+    width: 705px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 75px;
+}
+.recook3Icon {
+    width: 650px;
+    position: relative;
+    border-radius: 30px;
+    height: 650px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.frameParent3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 120px;
+}
+.putInYour {
+    position: absolute;
+    top: 789.43px;
+    left: 769px;
+    line-height: 30px;
+    transform:  rotate(-25deg);
+    transform-origin: 0 0;
+}
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 700px;
+    height: 700px;
+    object-fit: cover;
+}
+.upvoteIcon {
+    width: 50px;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.upvoteIcon:hover {
+    cursor: pointer;   
+}
+.b {
+    position: relative;
+    line-height: 24px;
+    font-family: DM Sans !important;
+}
+.b2 {
+    position: relative;
+    line-height: 24px;
+    font-family: DM Sans !important;
+}
+
+@media (max-width: 1220px) {
+    .b {
+      display: none;
+    }
+  }
+
+@media (max-width: 990px){
+    .b2 {
+        display: none;
+      }
+}
+.downvoteIcon {
+    width: 50px;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+.downvoteIcon:hover {
+    cursor: pointer;
+}
+.vote {
+    position: absolute;
+    top: 655px;
+    left: 614px;
+    border-radius: 30px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 30px;
+    gap: 20px;
+}
+.votes {
+    line-height: 100px;
+    font-weight: 1000;
+}
+
+.cookClasses{
+    position: relative;
+    line-height: 100px;
+    font-weight: 1000;
+    width: 800px;
+}
+.groupDiv {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 849px;
+    height: 745px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'DM Sans';
+}
+.putInYourVoteParent {
+    width: 999.2px;
+    position: relative;
+    height: 816.6px;
+}
+.upvoteDownvoteWrapper {
+    width: 501px;
+    position: relative;
+    height: 200px;
+    font-weight: 1000;
+}
+.agree {
+    font-family: Nunito;
+}
+.tooTiredToContainer {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    width: 503px;
+}
+.tooTiredToCookInWordsButWrapper {
+    width: 504px;
+    position: relative;
+    height: 140px;
+    font-size: 30px;
+    font-weight: 1000;
+}
+.frameParent5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 75px;
+    font-size: 100px;
+}
+.groupContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.slide34 {
+    align-self: stretch;
+    background-color: #f6f8f9;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 131px 195px;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.cookYourClassesWrapper {
+    width: 478px;
+    position: relative;
+    height: 300px;
+    font-weight: 1000;
+}
+.examPrepAssignment {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    width: 650px;
+}
+.frameParent7 {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+}
+.frameParent6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 175px;
+}
+.slide35 {
+    align-self: stretch;
+    background: linear-gradient(180deg, #f6f8f9 67.17%, #9edffd);
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 215px 222px;
+    box-sizing: border-box;
+}
+.weAreLaunchingNextSemesterWrapper {
+    width: 1000px;
+    position: relative;
+    height: 300px;
+    font-weight: 1000;
+}
+.weAreLaunching{
+    position: relative;
+    line-height: 100px;
+    font-weight: 1000;
+    width: 1000px;
+}
+.itsGonnaBeLitToBeOneOfWrapper {
+    width: 600px;
+    position: relative;
+    height: 250px;
+    text-align: left;
+    font-size: 30px;
+}
+.joinTheWaitlist {
+    position: relative;
+    line-height: 24px;
+    font-weight: 800;
+    font-size: 25px;
+}
+.joinWaitlistButton1 {
+    width: 288px;
+    border-radius: 35px;
+    background-color: #448d57;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.joinWaitlistButton {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.viewPrototypeButton1 {
+    width: 288px;
+    border-radius: 35px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.viewPrototypeButton {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #000;
+}
+.joinWaitlistButtonParent {
+    display: flex;
+    flex-direction: row;
+    width: 610px;
+    align-items: space;
+    justify-content: space-between;
+    font-size: 28px;
+    color: #fff;
+}
+.frameParent8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+.slide10 {
+    align-self: stretch;
+    background: linear-gradient(180deg, #9edffd, #bae4f5);
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Nunito;
+}
+.upcomingFeaturesTxtContainer {
+    line-break: anywhere;
+    width: 100%;
+}
+.upcomingFeatures {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    font-weight: 1000;
+}
+.eventsWrapper {
+    height: 250px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.events{
+    font-weight: 700;
+    font-size: 75px;
+}
+.eventsContent{
+    width: 400px;
+    font-size: 30px;
+    line-height: 1.5;
+    margin:0;
+}
+.noLongerMissingOutOnCoolWrapper {
+    width: 338px;
+    position: relative;
+    height: 105px;
+    font-size: 30px;
+    font-weight: 1000;
+}
+.frameParent11 {
+    position: absolute;
+    top: 11px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+.anonymous {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    line-height: 35px;
+}
+.anonymousWrapper {
+    width: 277px;
+    position: relative;
+    height: 46px;
+    font-weight: 1000;
+}
+.cookYourCampusAsATrueFarWrapper {
+    width: 370px;
+    position: relative;
+    height: 105px;
+    font-size: 30px;
+    font-weight: 1000;
+}
+.frameParent12 {
+    position: absolute;
+    top: 0px;
+    left: 517px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+.appWrapper {
+    width: 98px;
+    position: relative;
+    height: 46px;
+}
+.late2025FasterCoolerMorWrapper {
+    width: 230px;
+    position: relative;
+    height: 105px;
+    font-size: 30px;
+    font-weight: 1000;
+}
+.frameParent13 {
+    position: absolute;
+    top: 0px;
+    left: 1124px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+.frameParent10 {
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    justify-content: space-between;
+    position: relative;
+    text-align: left;
+    height: 400px;
+}
+.frameParent9 {
+    width: 1354px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 100px;
+}
+.slide11 {
+    width: 100vw; /* Full-screen width */
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    align-self: stretch;
+    overflow: hidden;
+    background-image: url('/public/assets/bg3\ 1.svg');
+    background-size: cover;
+    background-position: top center; /* Equivalent to object-position: top */
+    background-repeat: no-repeat; /* To avoid repeating the background */
+    line-height: 1;
+}
+.furtherInformation {
+    align-self: stretch;
+    position: relative;
+    line-height: 30px;
+    font-weight: 1000;
+}
+.viewPrototype {
+    border-radius: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.landingFooterButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 400px;
+    font-family: Nunito;
+}
+.landingFooterButtonParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 100;
+    color: #fff;
+}
+.footerRight{
+    display: flex;
+    flex-direction: column;
+    height:50vh;
+    justify-content: space-between;
+    padding-top: 6vh;
+}
+.furtherInformationParent {
+    position: relative;
+    width: 377px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+    color: #ffd700;
+}
+.footerBottomRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 18vh;
+}
+.copyright2024Ricefield {
+    position: relative;
+    line-height: 30px;
+}
+.copyright2024RicefieldAllWrapper {
+    position: relative;
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    font-family: DM Sans;
+}
+.instaLogoIcon {
+    width: 40px;
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.xLogoIcon {
+    width: 40px;
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.tiktokLogoIcon {
+    width: 35px;
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.footerSocialMedia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+.duy {
+    margin: 0;
+    font-weight: 900;
+}
+.duyEverythingFarmerContainer {
+    position: absolute;
+    top: 0px;
+    left: 21px;
+    line-height: 30px;
+}
+.minhOperatingFarmerContainer {
+    position: absolute;
+    top: 44px;
+    left: 228px;
+    line-height: 30px;
+}
+.lamTechnologyFarmerContainer {
+    position: absolute;
+    top: 4px;
+    left: 443px;
+    line-height: 30px;
+}
+.groupItem {
+    position: absolute;
+    top: 67px;
+    left: 0px;
+    width: 752px;
+    height: 433.9px;
+    object-fit: cover;
+}
+.duyEverythingFarmerParent {
+    position: absolute;
+    top: 226px;
+    left: 142px;
+    width: 752px;
+    height: 500.9px;
+    text-align: center;
+    font-size: 28px;
+    font-family: Nunito;
+}
+.mainLogoNoSlogan1 {
+    position: absolute;
+    top: 52px;
+    left: 142px;
+    width: 300px;
+    height: 54px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: stretch;
+    position: relative;
+    background-color: #448d57;
+    height: 779px;
+    font-size: 32px;
+    color: #fff;
+    font-family: Fredoka;
+}
+.footerButton{
+    margin:0px;
+}
+.footerButton1{
+    margin:0px;
+}
+.footerButton2{
+    margin:0px;
+}
+.footerButton3{
+    margin:0px;
+}
+.slide7Parent {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.tpMainLogoNoSloganGreen {
+    width: 300px;
+    position: relative;
+    height: 50.1px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.ricefieldLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.joinWaitlistButton2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 28px;
+    color: #fff;
+}
+.headerButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+}
+.headerLanding {
+    background-color: #fff;
+    width: 1920px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 70px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+    font-family: Nunito;
+}
+.headerStretch {
+    width: 100vw;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+
+}
+.landingFrame {
+    width: 100vw;
+    position: relative;
+    height: 8702px;
+    text-align: left;
+    font-size: 100px;
+    color: #000;
+}
+
