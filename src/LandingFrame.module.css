@@ -785,9 +785,9 @@ body {
 .footerRight{
     display: flex;
     flex-direction: column;
-    height:50vh;
+    height:650px;
     justify-content: space-between;
-    padding-top: 6vh;
+    padding-top: 100px;
 }
 .furtherInformationParent {
     position: relative;
