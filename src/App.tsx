@@ -245,11 +245,9 @@ function App() {
               </div>
               <div>
                 <div className={styles.eventsWrapper}>
-                  <b className={styles.events}>App</b>
+                  <b className={styles.appTitle}>App</b>
                   <div>
-                    <p className={styles.eventsContent}>Late 2025.</p>
-                    <p className={styles.eventsContent}>Faster. Cooler.</p>
-                    <p className={styles.eventsContent}>More convenient.</p>
+                    <p className={styles.appContent}>Late 2025.<br />Faster. Cooler.<br />More convenient.</p>
                   </div>
                 </div>
               </div>
@@ -272,7 +270,7 @@ function App() {
                 </p>
               </div>
               <div className={styles.lamTechnologyFarmerContainer}>
-                <p className={styles.duy}>lam</p>
+                <p className={styles.duy}>lâm</p>
                 <p className={styles.theBestWay}>
                   <i>technology farmer</i>
                 </p>

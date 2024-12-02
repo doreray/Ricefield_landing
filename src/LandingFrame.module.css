@@ -612,6 +612,7 @@ body {
     align-self: stretch;
     background: linear-gradient(180deg, #9edffd, #bae4f5);
     height: 800px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -627,24 +628,44 @@ body {
 .upcomingFeatures {
     display: flex;
     align-items: center;
-    width: 500px;
+    width: 550px;
     font-weight: 1000;
+    padding-left: 70px;
 }
 .eventsWrapper {
-    height: 250px;
+    height: 200px;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .events{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
     font-weight: 700;
-    font-size: 75px;
+    font-size: 60px;
+}
+.appTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 700;
+    font-size: 60px;
 }
 .eventsContent{
-    width: 400px;
-    font-size: 30px;
-    line-height: 1.5;
+    width: 320px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.2;
+    margin:0;
+}
+.appContent{
+    width: 230px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.2;
     margin:0;
 }
 .noLongerMissingOutOnCoolWrapper {
@@ -718,7 +739,7 @@ body {
 .frameParent10 {
     display: flex;
     flex-direction: row;
-    width: 70vw;
+    width: 75vw;
     justify-content: space-between;
     position: relative;
     text-align: left;
@@ -730,11 +751,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    gap: 100px;
+    height: 900px;
 }
 .slide11 {
     width: 100vw; /* Full-screen width */
-    height: 110vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -787,7 +808,8 @@ body {
     flex-direction: column;
     height:650px;
     justify-content: space-between;
-    padding-top: 100px;
+    padding-top: 70px;
+    padding-right: 100px;
 }
 .furtherInformationParent {
     position: relative;
@@ -897,7 +919,7 @@ body {
 .footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-self: stretch;
     position: relative;
     background-color: #448d57;
