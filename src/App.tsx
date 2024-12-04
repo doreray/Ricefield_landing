@@ -9,6 +9,8 @@ function App() {
   const [upvoteHovered, setUpvoteHovered] = useState(false);
   const [downvoteHovered, setDownvoteHovered] = useState(false);
 
+  const votenum = 23;
+
   // Handlers for upvote and downvote clicks
   const handleUpvoteClick = () => {
     setUpvoted(!upvoted); // Toggle the upvote state
@@ -19,26 +21,47 @@ function App() {
     setDownvoted(!downvoted); // Toggle the downvote state
     if (upvoted) setUpvoted(false); // Reset upvote if downvoted
   };
-
+  const handleJoinWaitlistClick = () => {
+    window.open('https://forms.gle/XgjRixUwhZ3ZzkLe9', '_blank');
+  };
+  const handleInstaClick = () => {
+    window.open('https://www.instagram.com/joinricefield/', '_blank');
+  }
+  const handleFarmersDictClick = () => {
+    window.open('https://joinricefield.notion.site/Farmers-Dictionary-1043b99ded3180a68889ec80aa0bace7', '_blank');
+  }
+  const handlePrototypeClick = () => {
+    window.open('https://www.figma.com/proto/XSI4ZVnYeubv5XS0fZuwvB/ricefield---editor?node-id=4225-18146&node-type=frame&t=MvhnGZxlXF5xTW4g-1&scaling=scale-down-width&content-scaling=fixed&page-id=4037%3A16555&starting-point-node-id=4248%3A15497', '_blank');
+  }
+  const handleMeetFoundersClick = () => {
+    window.open('https://joinricefield.notion.site/Headfarmers-Who-14e3b99ded318062a84ae848bac1cc32', '_blank');
+  }
   return (
     <div className={styles.landingFrame}>
       <div className={styles.headerStretch}>
         <div className={styles.headerLanding}>
           <div className={styles.ricefieldLogo}>
-            <img className={styles.tpMainLogoNoSloganGreen} alt="" src="/public/assets/tp-Main Logo (no slogan, green text) 1.svg" />
+            <img className={styles.tpMainLogoNoSloganGreen} alt="" src="/public/assets/tp_Main_Logo_no_slogan_green_text_1.svg"/>
           </div>
           <div className={styles.headerButtons}>
             <div className={styles.groupContainer}>
               <div className={styles.viewPrototype}>
-                <b className={styles.b}>Farmers' Dictionary</b>
+                <b className={styles.b}
+                onClick={handleFarmersDictClick}>Farmers' Dictionary</b>
               </div>
             </div>
             <div className={styles.groupContainer}>
               <div className={styles.viewPrototype}>
-                <b className={styles.b2}>View Prototype</b>
+                <b className={styles.b2}
+                onClick={handlePrototypeClick}>View Prototype</b>
               </div>
             </div>
-            <div className={styles.joinWaitlistButton2}>
+            <div 
+            className={styles.joinWaitlistButton2}
+            onClick={handleJoinWaitlistClick}
+                role='button'
+                tabIndex={0}
+                onKeyDown={(e) => e.key === 'Enter' && handleJoinWaitlistClick()}>
               <div className={styles.joinWaitlistButton1}>
                 <div className={styles.joinTheWaitlist}>Join the Waitlist</div>
               </div>
@@ -73,7 +96,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <img className={styles.frameChild} alt="" src="/public/assets/Group 1.png" />
+            <img className={styles.frameChild} alt="" src="/public/assets/Group_1.png" />
           </div>
         </div>
         <div className={styles.slide31}>
@@ -93,12 +116,12 @@ function App() {
                 <div className={styles.wantToShare}>Want to share dramas, complain about the communal bathrooms, or get help on your CSE232 assignments? Select a space and cook a post.</div>
               </div>
             </div>
-            <img className={styles.frameItem} alt="" src="/public/assets/Group 10.png" />
+            <img className={styles.frameItem} alt="" src="/public/assets/Group_10.png" />
           </div>
         </div>
         <div className={styles.slide321}>
           <div className={styles.groupParent}>
-            <img className={styles.frameItem} alt="" src="/public/assets/reply 1.png" />
+            <img className={styles.frameItem} alt="" src="/public/assets/reply_1.png" />
             <div className={styles.frameParent2}>
               <div className={styles.replyWrapper}>
                 <div className={styles.cook}>reply</div>
@@ -119,7 +142,7 @@ function App() {
                 <div className={styles.wantToShare}>Want your friends to also join the discussion? Recook it in your own words, thoughts, or perspectives to add more tea to the post.</div>
               </div>
             </div>
-            <img className={styles.recook3Icon} alt="" src="/public/assets/recook 3.png" />
+            <img className={styles.recook3Icon} alt="" src="/public/assets/recook_3.png" />
           </div>
         </div>
         <div className={styles.slide34}>
@@ -127,21 +150,21 @@ function App() {
             <div className={styles.putInYourVoteParent}>
               <div className={styles.putInYour}>put in your vote!</div>
               <div className={styles.groupDiv}>
-                <img className={styles.groupChild} alt="" src="/public/assets/Group 193.svg" />
+                <img className={styles.groupChild} alt="" src="/public/assets/Group_193.svg" />
                 <div className={styles.vote}>
                   <img
                     className={styles.upvoteIcon}
                     alt="Upvote"
-                    src={upvoted ? "/public/assets/state=chosen.svg" : (upvoteHovered ? "/public/assets/state=hover.svg" : "/public/assets/state=default.svg")}
+                    src={upvoted ? "/public/assets/state_chosen.svg" : (upvoteHovered ? "/public/assets/state_hover.svg" : "/public/assets/state_default.svg")}
                     onMouseEnter={() => setUpvoteHovered(true)} // Set hover state to true
                     onMouseLeave={() => setUpvoteHovered(false)} // Reset hover state to false
                     onClick={handleUpvoteClick}
                   />
-                  <b className={styles.b}>{upvoted ? '1' : (downvoted ? '-1' : '0')}</b>
+                  <b className={styles.num}>{upvoted ? votenum + 1 : (downvoted ? votenum - 1 : votenum)}</b>
                   <img
                     className={styles.downvoteIcon}
                     alt="Downvote"
-                    src={downvoted ? "/public/assets/downvote=chosen.svg" : (downvoteHovered ? "/public/assets/downvote=hover.svg" : "/public/assets/downvote=default.svg")}
+                    src={downvoted ? "/public/assets/downvote_chosen.svg" : (downvoteHovered ? "/public/assets/downvote_hover.svg" : "/public/assets/downvote_default.svg")}
                     onMouseEnter={() => setDownvoteHovered(true)} // Set hover state to true
                     onMouseLeave={() => setDownvoteHovered(false)} // Reset hover state to false
                     onClick={handleDownvoteClick}
@@ -184,7 +207,7 @@ function App() {
                 <div className={styles.examPrepAssignment}>Exam prep? Assignment help? Survival tips? Professor complaints? It’s your chance to cook these classes communities!</div>
               </div>
             </div>
-            <img className={styles.frameItem} alt="" src="/public/assets/Group 197.png" />
+            <img className={styles.frameItem} alt="" src="/public/assets/Group_197.png" />
           </div>
         </div>
         <div className={styles.slide10}>
@@ -197,7 +220,7 @@ function App() {
             <div className={styles.itsGonnaBeLitToBeOneOfWrapper}>
               <div>
                 <p className={styles.theBestWay}>
-                  <b className={styles.agree}>It’s gonna be lit to be one of the very first farmers on Ricefield, so join the ride now!</b>
+                  <b className={styles.theBestWay}>It’s gonna be lit to be one of the <span className={styles.veryfirst}>very first</span> farmers on Ricefield, so <span className={styles.veryfirst}>join the ride</span> now!</b>
                 </p>
                 <p className={styles.theBestWay}>&nbsp;</p>
                 <p className={styles.theBestWay}>In the meantime, take sometime to tour your future cooking space!</p>
@@ -205,11 +228,16 @@ function App() {
             </div>
             <div className={styles.joinWaitlistButtonParent}>
               <div className={styles.joinWaitlistButton}>
-                <div className={styles.joinWaitlistButton1}>
+                <div className={styles.joinWaitlistButton1}
+                onClick={handleJoinWaitlistClick}
+                role='button'
+                tabIndex={0}
+                onKeyDown={(e) => e.key === 'Enter' && handleJoinWaitlistClick()}>
                   <div className={styles.joinTheWaitlist}>Join the Waitlist</div>
                 </div>
               </div>
-              <div className={styles.viewPrototypeButton}>
+              <div className={styles.viewPrototypeButton}
+              onClick={handlePrototypeClick}>
                 <div className={styles.viewPrototypeButton1}>
                   <div className={styles.joinTheWaitlist}>View Prototype</div>
                 </div>
@@ -275,9 +303,9 @@ function App() {
                   <i>technology farmer</i>
                 </p>
               </div>
-              <img className={styles.groupItem} alt="" src="/public/assets/Group 202.svg" />
+              <img className={styles.groupItem} alt="" src="/public/assets/Group_202.svg" />
             </div>
-            <img className={styles.mainLogoNoSlogan1} alt="" src="/public/assets/Main Logo (no slogan) 1.svg" />
+            <img className={styles.mainLogoNoSlogan1} alt="" src="/public/assets/Main_Logo_no_slogan_1.svg" />
           </div>
           <div className={styles.footerRight}>
             <div className={styles.furtherInformationParent}>
@@ -285,31 +313,35 @@ function App() {
               <div className={styles.landingFooterButtonParent}>
                 <div className={styles.landingFooterButton}>
                   <div>
-                    <b className={styles.footerButton}>Join the Waitlist</b>
+                    <b className={styles.footerButton}
+                    onClick={handleJoinWaitlistClick}>Join the Waitlist</b>
                   </div>
                 </div>
                 <div className={styles.landingFooterButton}>
                   <div>
-                    <b className={styles.footerButton1}>Meet the Headfarmers (Founders)</b>
+                    <b className={styles.footerButton1}
+                    onClick={handleMeetFoundersClick}>Meet the Headfarmers (Founders)</b>
                   </div>
                 </div>
                 <div className={styles.landingFooterButton}>
                   <div>
-                    <b className={styles.footerButton2}>Farmers' Dictionary</b>
+                    <b className={styles.footerButton2}
+                    onClick={handleFarmersDictClick}>Farmers' Dictionary</b>
                   </div>
                 </div>
                 <div className={styles.landingFooterButton}>
                   <div>
-                    <b className={styles.footerButton3}>View Prototype</b>
+                    <b className={styles.footerButton3}
+                    onClick={handlePrototypeClick}>View Prototype</b>
                   </div>
                 </div>
               </div>
             </div>
             <div className={styles.footerBottomRight}>
               <div className={styles.footerSocialMedia}>
-                <img className={styles.instaLogoIcon} alt="" src="/public/assets/insta-logo.svg" />
-                <img className={styles.xLogoIcon} alt="" src="/public/assets/x-logo.svg" />
-                <img className={styles.tiktokLogoIcon} alt="" src="/public/assets/tiktok-logo.svg" />
+                <img className={styles.instaLogoIcon} alt="" src="/public/assets/insta_logo.svg" onClick={handleInstaClick}/>
+                {/* <img className={styles.xLogoIcon} alt="" src="/public/assets/x_logo.svg" />
+                <img className={styles.tiktokLogoIcon} alt="" src="/public/assets/tiktok_logo.svg" /> */}
               </div>
               <div className={styles.copyright2024RicefieldAllWrapper}>
                 <div className={styles.copyright2024Ricefield}>Copyright 2024 Ricefield. All rights reserved.</div>
