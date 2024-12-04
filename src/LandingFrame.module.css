@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fredoka:wght@300..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 * {
-    font-weight: 600;
+    font-weight: 500;
     font-family: Nunito;
 }
 
@@ -41,14 +41,14 @@ body {
 /* Centered text section */
 .whatsCookingOn {
     position: relative;
-    line-height: 1.2;
+    line-height: 0.8;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%; /* Responsive width */
-    max-width: 700px;
+    max-width: 800px;
     font-weight: 1000;
-    font-size: 90px;
+    font-size: 100px;
     text-align: center;
     font-family: Fredoka;
 }
@@ -67,14 +67,15 @@ body {
 /* Additional centered text */
 .fromClassesTo {
     position: relative;
-    line-height: 1.5;
+    line-height: 1.3;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     max-width: 800px;
     font-size: 30px;
-    text-align: center;
+    text-align: left;
+    padding-left: 35px;
 }
 
 /* Dynamic height and text alignment */
@@ -83,7 +84,6 @@ body {
     max-width: 800px;
     position: relative;
     height: auto;
-    text-align: center;
     font-size: 30px;
 }
 
@@ -107,7 +107,7 @@ body {
     box-sizing: border-box;
     width: 100vw; /* Full-screen width */
     overflow: hidden;
-    background-image: url('/public/assets/bg1\ 1.svg');
+    background-image: url('/public/assets/bg1_1.svg');
     background-size: cover;
     background-position: top center; /* Equivalent to object-position: top */
     background-repeat: no-repeat; /* To avoid repeating the background */
@@ -205,7 +205,7 @@ body {
     align-self: stretch;
     width: 100vw; /* Full-screen width */
     overflow: hidden;
-    background-image: url('/public/assets/bg1\ 2.svg'); /* Add the URL of your background image */
+    background-image: url('/public/assets/bg1_2.svg'); /* Add the URL of your background image */
     background-size: cover; /* Equivalent to object-fit: cover */
     background-position: bottom center; /* Equivalent to object-position: top */
     background-repeat: no-repeat; /* To avoid repeating the background */
@@ -350,11 +350,13 @@ body {
 }
 .putInYour {
     position: absolute;
-    top: 789.43px;
-    left: 769px;
+    top: 820px;
+    left: 800px;
     line-height: 30px;
     transform:  rotate(-25deg);
     transform-origin: 0 0;
+    font-weight: 1000;
+    font-family: Fredoka;
 }
 .groupChild {
     position: absolute;
@@ -377,12 +379,28 @@ body {
 .b {
     position: relative;
     line-height: 24px;
-    font-family: DM Sans !important;
+    font-weight: 650;
+}
+.b:hover{
+    cursor: pointer;
+    color: #448d57;
+    text-decoration: underline;
+    text-underline-offset: 6px;
 }
 .b2 {
     position: relative;
     line-height: 24px;
-    font-family: DM Sans !important;
+    font-weight: 650;
+}
+.b2:hover{
+    cursor: pointer;
+    color: #448d57;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+.num{
+    font-family: DM Sans;
+    font-weight: 1000;
 }
 
 @media (max-width: 1220px) {
@@ -413,6 +431,8 @@ body {
     left: 614px;
     border-radius: 30px;
     background-color: #e5e7eb;
+    border-style: solid;
+    border-color: #c8cace;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -444,7 +464,7 @@ body {
     font-family: 'DM Sans';
 }
 .putInYourVoteParent {
-    width: 999.2px;
+    width: 1100px;
     position: relative;
     height: 816.6px;
 }
@@ -456,6 +476,10 @@ body {
 }
 .agree {
     font-family: Nunito;
+    font-weight: 800;
+}
+.veryfirst{
+    font-weight: 800;
 }
 .tooTiredToContainer {
     position: absolute;
@@ -543,7 +567,7 @@ body {
 .weAreLaunchingNextSemesterWrapper {
     width: 1000px;
     position: relative;
-    height: 300px;
+    height: 200px;
     font-weight: 1000;
     display: flex;
     flex-direction: column;
@@ -552,17 +576,18 @@ body {
 }
 .weAreLaunching{
     position: relative;
-    line-height: 100px;
+    line-height: 0.9;
     font-weight: 1000;
     width: 800px;
     font-family: Fredoka;
 }
 .itsGonnaBeLitToBeOneOfWrapper {
-    width: 600px;
+    width: 580px;
     position: relative;
-    height: 250px;
+    height: 200px;
     text-align: left;
     font-size: 30px;
+    line-height: 1.2;
 }
 .joinTheWaitlist {
     position: relative;
@@ -581,6 +606,10 @@ body {
     justify-content: center;
     box-sizing: border-box;
 }
+.joinWaitlistButton1:hover{
+    opacity: 90%;
+    cursor: pointer;
+}
 .joinWaitlistButton {
     display: flex;
     flex-direction: row;
@@ -592,7 +621,7 @@ body {
     border-radius: 35px;
     border: 2px solid #000;
     box-sizing: border-box;
-    height: 72px;
+    height: 68px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -605,10 +634,14 @@ body {
     justify-content: flex-start;
     color: #000;
 }
+.viewPrototypeButton:hover{
+    cursor:pointer;
+    opacity: 70%;
+}
 .joinWaitlistButtonParent {
     display: flex;
     flex-direction: row;
-    width: 610px;
+    width: 590px;
     align-items: space;
     justify-content: space-between;
     font-size: 28px;
@@ -780,7 +813,7 @@ body {
     text-align: center;
     align-self: stretch;
     overflow: hidden;
-    background-image: url('/public/assets/bg3\ 1.svg');
+    background-image: url('/public/assets/bg3_1.svg');
     background-size: cover;
     background-position: top center; /* Equivalent to object-position: top */
     background-repeat: no-repeat; /* To avoid repeating the background */
@@ -882,6 +915,10 @@ body {
     justify-content: flex-start;
     gap: 50px;
 }
+.footerSocialMedia:hover{
+    cursor:pointer;
+    opacity: 80%;
+}
 .duy {
     margin: 0;
     font-weight: 900;
@@ -946,14 +983,42 @@ body {
 .footerButton{
     margin:0px;
 }
+.footerButton:hover{
+    cursor: pointer;
+    color: #ffd700;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    font-weight: 700;
+}
 .footerButton1{
     margin:0px;
+}
+.footerButton1:hover{
+    cursor: pointer;
+    color: #ffd700;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    font-weight: 700;
 }
 .footerButton2{
     margin:0px;
 }
+.footerButton2:hover{
+    cursor: pointer;
+    color: #ffd700;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    font-weight: 700;
+}
 .footerButton3{
     margin:0px;
+}
+.footerButton3:hover{
+    cursor: pointer;
+    color: #ffd700;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    font-weight: 700;
 }
 .slide7Parent {
     position: absolute;
@@ -986,6 +1051,10 @@ body {
     font-size: 28px;
     color: #fff;
 }
+.joinWaitlistButton2:hover{
+    cursor: pointer;
+    opacity: 90%;
+}
 .headerButtons {
     display: flex;
     flex-direction: row;
@@ -1006,6 +1075,12 @@ body {
     text-align: center;
     font-size: 24px;
     font-family: Nunito;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: #c8cace;
+    border-bottom-style: solid;
 }
 .headerStretch {
     width: 100vw;
