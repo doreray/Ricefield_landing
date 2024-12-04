@@ -41,7 +41,7 @@ function App() {
       <div className={styles.headerStretch}>
         <div className={styles.headerLanding}>
           <div className={styles.ricefieldLogo}>
-            <img className={styles.tpMainLogoNoSloganGreen} alt="" src="/public/assets/tp_Main_Logo_no_slogan_green_text_1.svg"/>
+            <img className={styles.tpMainLogoNoSloganGreen} alt="" src="./assets/tp_Main_Logo_no_slogan_green_text_1.svg"/>
           </div>
           <div className={styles.headerButtons}>
             <div className={styles.groupContainer}>
@@ -96,7 +96,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <img className={styles.frameChild} alt="" src="/public/assets/Group_1.png" />
+            <img className={styles.frameChild} alt="" src="./assets/Group_1.png" />
           </div>
         </div>
         <div className={styles.slide31}>
@@ -116,12 +116,12 @@ function App() {
                 <div className={styles.wantToShare}>Want to share dramas, complain about the communal bathrooms, or get help on your CSE232 assignments? Select a space and cook a post.</div>
               </div>
             </div>
-            <img className={styles.frameItem} alt="" src="/public/assets/Group_10.png" />
+            <img className={styles.frameItem} alt="" src="./assets/Group_10.png" />
           </div>
         </div>
         <div className={styles.slide321}>
           <div className={styles.groupParent}>
-            <img className={styles.frameItem} alt="" src="/public/assets/reply_1.png" />
+            <img className={styles.frameItem} alt="" src="./assets/reply_1.png" />
             <div className={styles.frameParent2}>
               <div className={styles.replyWrapper}>
                 <div className={styles.cook}>reply</div>
@@ -142,7 +142,7 @@ function App() {
                 <div className={styles.wantToShare}>Want your friends to also join the discussion? Recook it in your own words, thoughts, or perspectives to add more tea to the post.</div>
               </div>
             </div>
-            <img className={styles.recook3Icon} alt="" src="/public/assets/recook_3.png" />
+            <img className={styles.recook3Icon} alt="" src="./assets/recook_3.png" />
           </div>
         </div>
         <div className={styles.slide34}>
@@ -150,12 +150,12 @@ function App() {
             <div className={styles.putInYourVoteParent}>
               <div className={styles.putInYour}>put in your vote!</div>
               <div className={styles.groupDiv}>
-                <img className={styles.groupChild} alt="" src="/public/assets/Group_193.svg" />
+                <img className={styles.groupChild} alt="" src="./assets/Group_193.svg" />
                 <div className={styles.vote}>
                   <img
                     className={styles.upvoteIcon}
                     alt="Upvote"
-                    src={upvoted ? "/public/assets/state_chosen.svg" : (upvoteHovered ? "/public/assets/state_hover.svg" : "/public/assets/state_default.svg")}
+                    src={upvoted ? "./assets/state_chosen.svg" : (upvoteHovered ? "./assets/state_hover.svg" : "./assets/state_default.svg")}
                     onMouseEnter={() => setUpvoteHovered(true)} // Set hover state to true
                     onMouseLeave={() => setUpvoteHovered(false)} // Reset hover state to false
                     onClick={handleUpvoteClick}
@@ -164,7 +164,7 @@ function App() {
                   <img
                     className={styles.downvoteIcon}
                     alt="Downvote"
-                    src={downvoted ? "/public/assets/downvote_chosen.svg" : (downvoteHovered ? "/public/assets/downvote_hover.svg" : "/public/assets/downvote_default.svg")}
+                    src={downvoted ? "./assets/downvote_chosen.svg" : (downvoteHovered ? "./assets/downvote_hover.svg" : "./assets/downvote_default.svg")}
                     onMouseEnter={() => setDownvoteHovered(true)} // Set hover state to true
                     onMouseLeave={() => setDownvoteHovered(false)} // Reset hover state to false
                     onClick={handleDownvoteClick}
@@ -207,7 +207,7 @@ function App() {
                 <div className={styles.examPrepAssignment}>Exam prep? Assignment help? Survival tips? Professor complaints? It’s your chance to cook these classes communities!</div>
               </div>
             </div>
-            <img className={styles.frameItem} alt="" src="/public/assets/Group_197.png" />
+            <img className={styles.frameItem} alt="" src="./assets/Group_197.png" />
           </div>
         </div>
         <div className={styles.slide10}>
@@ -303,9 +303,9 @@ function App() {
                   <i>technology farmer</i>
                 </p>
               </div>
-              <img className={styles.groupItem} alt="" src="/public/assets/Group_202.svg" />
+              <img className={styles.groupItem} alt="" src="./assets/Group_202.svg" />
             </div>
-            <img className={styles.mainLogoNoSlogan1} alt="" src="/public/assets/Main_Logo_no_slogan_1.svg" />
+            <img className={styles.mainLogoNoSlogan1} alt="" src="./assets/Main_Logo_no_slogan_1.svg" />
           </div>
           <div className={styles.footerRight}>
             <div className={styles.furtherInformationParent}>
@@ -339,9 +339,9 @@ function App() {
             </div>
             <div className={styles.footerBottomRight}>
               <div className={styles.footerSocialMedia}>
-                <img className={styles.instaLogoIcon} alt="" src="/public/assets/insta_logo.svg" onClick={handleInstaClick}/>
-                {/* <img className={styles.xLogoIcon} alt="" src="/public/assets/x_logo.svg" />
-                <img className={styles.tiktokLogoIcon} alt="" src="/public/assets/tiktok_logo.svg" /> */}
+                <img className={styles.instaLogoIcon} alt="" src="./assets/insta_logo.svg" onClick={handleInstaClick}/>
+                {/* <img className={styles.xLogoIcon} alt="" src="./assets/x_logo.svg" />
+                <img className={styles.tiktokLogoIcon} alt="" src="./assets/tiktok_logo.svg" /> */}
               </div>
               <div className={styles.copyright2024RicefieldAllWrapper}>
                 <div className={styles.copyright2024Ricefield}>Copyright 2024 Ricefield. All rights reserved.</div>
