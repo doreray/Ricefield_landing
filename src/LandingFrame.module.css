@@ -5,12 +5,12 @@
     font-family: Nunito;
 }
 
-body {
-    overflow-x: hidden;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.landingPageContainer {
+    text-align: left;
+    font-size: 100px;
+    color: #000;
 }
+
 
 .bg11Icon {
     position: relative;
@@ -38,6 +38,25 @@ body {
     object-fit: cover;
 }
 
+.headingText {
+    font-size: 100px;
+    font-weight: 1000;
+}
+
+.bodyText {
+    font-size: 30px;
+}
+
+@media (max-width: 600px) {
+    .headingText {
+        font-size: 60px;
+    }
+
+    .bodyText {
+        font-size: 20px;
+    }
+}
+
 /* Centered text section */
 .whatsCookingOn {
     position: relative;
@@ -47,8 +66,6 @@ body {
     justify-content: center;
     width: 100%; /* Responsive width */
     max-width: 800px;
-    font-weight: 1000;
-    font-size: 100px;
     text-align: center;
     font-family: Fredoka;
 }
@@ -73,9 +90,8 @@ body {
     justify-content: center;
     width: 100%;
     max-width: 800px;
-    font-size: 30px;
     text-align: left;
-    padding-left: 35px;
+    /* padding-left: 35px; */
 }
 
 /* Dynamic height and text alignment */
@@ -87,23 +103,26 @@ body {
     font-size: 30px;
 }
 .frameParent {
-    width: 800px;
+    max-width: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     gap: 80px;
 }
+
 .slide7 {
-    align-self: stretch;
+    /* align-self: stretch; */
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 317px 561px;
+    /* padding: 350px 561px; */
     box-sizing: border-box;
-    width: 100vw; /* Full-screen width */
+
+    width: 100vw;
+
     overflow: hidden;
     background-image: url('/public/assets/bg1_1.svg');
     background-size: cover;
@@ -111,32 +130,40 @@ body {
     background-repeat: no-repeat; /* To avoid repeating the background */
 
 }
+
+@media (max-width: 600px) {
+    .slide7 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
 .whatTheHeck {
     position: relative;
     line-height: 100px;
     display: flex;
     align-items: center;
-    width: 700px;
+    max-width: 700px;
     font-weight: 1000;
     font-family: Fredoka;
 }
 .whatTheHeckIsRicefieldWrapper {
     align-self: stretch;
     position: relative;
-    height: 200px;
+    /* height: 200px; */
 }
 .theBestWay {
     margin: 0;
 }
 .theBestWayContainer1 {
-    width: 100%;
+    /* width: 100%; */
 }
 .theBestWayContainer {
     position: relative;
     line-height: 35px;
     display: flex;
     align-items: center;
-    width: 720px;
+    max-width: 720px;
 }
 .theBestWayToThinkOfRicefWrapper {
     align-self: stretch;
@@ -145,7 +172,7 @@ body {
     font-size: 30px;
 }
 .frameContainer {
-    width: 703px;
+    max-width: 703px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -154,29 +181,35 @@ body {
 }
 .frameChild {
     width: 654px;
+    max-width: 100%;
+    height: auto;
     position: relative;
-    height: 720.6px;
+    /* height: 720.6px; */
     object-fit: cover;
 }
 .frameGroup {
+    max-width: 100%;
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 118px;
+    flex-wrap: wrap;
 }
 .slide8 {
     position: relative;
     align-self: stretch;
     background: linear-gradient(180deg, #f6f8f9 67.17%, #c4e2f6);
-    height: 900px;
+    /* height: 900px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    width: 100vw; /* Full-screen width */
-    overflow: hidden;
+    /* width: 100vw; Full-screen width */
+    /* overflow: hidden; */
+    padding-bottom: 2rem;
 }
 .soHowDoesContainer {
     position: relative;
@@ -184,7 +217,7 @@ body {
 }
 .soHowDoesThisWorkWrapper {
     margin:0;
-    width: 700px;
+    max-width: 700px;
     position: relative;
 }
 .soHowDoes {
@@ -193,7 +226,7 @@ body {
 }
 .slide31 {
     align-self: stretch;
-    height: 50vh;
+    /* height: 50vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -202,16 +235,16 @@ body {
     text-align: center;
     align-self: stretch;
     width: 100vw; /* Full-screen width */
-    overflow: hidden;
+    /* overflow: hidden; */
     background-image: url('/public/assets/bg1_2.svg'); /* Add the URL of your background image */
     background-size: cover; /* Equivalent to object-fit: cover */
     background-position: bottom center; /* Equivalent to object-position: top */
     background-repeat: no-repeat; /* To avoid repeating the background */
 }
 .cook {
-    position: absolute;
+    /* position: absolute;
     top: 0px;
-    left: 0px;
+    left: 0px; */
     line-height: 100px;
     font-weight: 1000;
     font-family: Fredoka;
@@ -219,7 +252,7 @@ body {
 .cookWrapper {
     width: 242px;
     position: relative;
-    height: 100px;
+    /* height: 100px; */
 }
 .wantToShare {
     position: absolute;
@@ -228,7 +261,7 @@ body {
     line-height: 35px;
     display: flex;
     align-items: center;
-    width: 700px;
+    max-width: 700px;
 }
 .wantToShareDramasComplainWrapper {
     align-self: stretch;
@@ -238,7 +271,7 @@ body {
     font-weight: 1000;
 }
 .frameParent1 {
-    width: 703px;
+    max-width: 703px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -247,13 +280,16 @@ body {
 }
 .frameItem {
     width: 650px;
+    max-width: 100%;
+    height: auto;
     position: relative;
-    height: 650px;
+    /* height: 650px; */
     object-fit: cover;
 }
 .frameDiv {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 122px;
@@ -261,36 +297,37 @@ body {
 .slide32 {
     align-self: stretch;
     background-color: #f6f8f9;
-    height: 750px;
+    /* height: 750px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 208px 222px;
+    padding: 200px 208px ;
     box-sizing: border-box;
 }
 .replyWrapper {
-    width: 265px;
+    /* width: 265px; */
     position: relative;
-    height: 100px;
+    /* height: 100px; */
     font-weight: 1000;
 }
 .cantFindA {
-    position: absolute;
+    /* position: absolute;
     top: 0px;
-    left: 0px;
+    left: 0px; */
     line-height: 35px;
     display: flex;
     align-items: center;
-    width: 654px;
+    /* width: 654px; */
 }
 .cantFindACleanToiletSeatWrapper {
-    width: 654px;
+    /* width: 654px; */
     position: relative;
-    height: 105px;
+    /* height: 105px; */
     font-size: 30px;
     font-weight: 1000;
 }
+
 .frameParent2 {
     display: flex;
     flex-direction: column;
@@ -301,6 +338,7 @@ body {
 .groupParent {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 171px;
@@ -308,14 +346,15 @@ body {
 .slide321 {
     align-self: stretch;
     background-color: #f6f8f9;
-    height: 750px;
+    /* height: 750px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 215px 222px;
+    /* padding: 215px 222px; */
     box-sizing: border-box;
 }
+
 .recookWrapper {
     width: 344px;
     position: relative;
@@ -334,7 +373,7 @@ body {
     width: 650px;
     position: relative;
     border-radius: 30px;
-    height: 650px;
+    /* height: 650px; */
     overflow: hidden;
     flex-shrink: 0;
     object-fit: cover;
@@ -342,8 +381,9 @@ body {
 .frameParent3 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 120px;
 }
 .putInYour {
@@ -375,28 +415,7 @@ body {
 .upvoteIcon:hover {
     cursor: pointer;   
 }
-.b {
-    position: relative;
-    line-height: 24px;
-    font-weight: 650;
-}
-.b:hover{
-    cursor: pointer;
-    color: #448d57;
-    text-decoration: underline;
-    text-underline-offset: 6px;
-}
-.b2 {
-    position: relative;
-    line-height: 24px;
-    font-weight: 650;
-}
-.b2:hover{
-    cursor: pointer;
-    color: #448d57;
-    text-decoration: underline;
-    text-underline-offset: 6px;
-}
+
 .num{
     font-family: DM Sans;
     font-weight: 1000;
@@ -508,13 +527,14 @@ body {
 .groupContainer {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 .slide34 {
     align-self: stretch;
     background-color: #f6f8f9;
-    height: 850px;
+    /* height: 850px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -549,6 +569,7 @@ body {
 .frameParent6 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 175px;
@@ -556,7 +577,7 @@ body {
 .slide35 {
     align-self: stretch;
     background: linear-gradient(180deg, #f6f8f9 67.17%, #9edffd);
-    height: 750px;
+    /* height: 750px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -853,20 +874,20 @@ body {
 .footerRight{
     display: flex;
     flex-direction: column;
-    height:650px;
+    /* height:650px; */
     justify-content: space-between;
     padding-top: 70px;
-    padding-right: 100px;
+    /* padding-right: 100px; */
 }
 .furtherInformationParent {
     position: relative;
-    width: 377px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 30px;
     color: #ffd700;
+    margin-bottom: 3rem;
 }
 .footerBottomRight {
     display: flex;
@@ -875,13 +896,13 @@ body {
     height: 18vh;
 }
 .copyright2024Ricefield {
-    position: relative;
+    /* position: relative; */
     line-height: 30px;
 }
 .copyright2024RicefieldAllWrapper {
     position: relative;
-    width: 500px;
-    height: 30px;
+    /* width: 500px;
+    height: 30px; */
     font-size: 20px;
     font-family: DM Sans;
 }
@@ -922,63 +943,58 @@ body {
     margin: 0;
     font-weight: 900;
 }
-.duyEverythingFarmerContainer {
-    position: absolute;
-    top: 0px;
-    left: 21px;
-    line-height: 30px;
+
+.founderSvgText {
+    font: 26px Nunito;
+    fill: white;
 }
-.minhOperatingFarmerContainer {
-    position: absolute;
-    top: 44px;
-    left: 228px;
-    line-height: 30px;
+.founderSvgTextTitle {
+    font-weight: 900;
 }
-.lamTechnologyFarmerContainer {
-    position: absolute;
-    top: 4px;
-    left: 443px;
-    line-height: 30px;
+.founderSvgTextSubtitle {
+    font-style: italic;
 }
-.groupItem {
-    position: absolute;
-    top: 67px;
-    left: 0px;
-    width: 752px;
-    height: 433.9px;
-    object-fit: cover;
+
+.founderGraphic {
+    display: block;
+    width: 700px;
+    max-width: 100%;
 }
-.duyEverythingFarmerParent {
-    position: absolute;
-    top: 226px;
-    left: 142px;
-    width: 752px;
-    height: 500.9px;
-    text-align: center;
-    font-size: 28px;
-    font-family: Nunito;
-}
-.mainLogoNoSlogan1 {
-    position: absolute;
-    top: 52px;
-    left: 142px;
-    width: 300px;
-    height: 54px;
-    overflow: hidden;
-    object-fit: cover;
-}
+
 .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-self: stretch;
-    position: relative;
     background-color: #448d57;
-    height: 779px;
-    font-size: 32px;
     color: #fff;
     font-family: Fredoka;
+    padding-bottom: 4rem;
+    /* height: 779px; */
 }
+.footerLogo {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+
+.footerGroup {
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 4rem;
+    align-self: stretch;
+    position: relative;
+    font-size: 32px;
+}
+@media (min-width: 1200px) {
+    .footerGroup {
+        margin: auto 100px;
+    }
+    .footerRight {
+        margin-right: 100px;
+    }
+}
+
 .footerButton{
     margin:0px;
 }
@@ -1020,82 +1036,15 @@ body {
     font-weight: 700;
 }
 .slide7Parent {
-    position: absolute;
+    /* position: absolute;
     top: 100px;
     left: 0px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: flex-start; */
 }
-.tpMainLogoNoSloganGreen {
-    width: 300px;
-    position: relative;
-    height: 50.1px;
-    overflow: hidden;
-    flex-shrink: 0;
-    object-fit: cover;
-}
-.ricefieldLogo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-.joinWaitlistButton2 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    font-size: 28px;
-    color: #fff;
-}
-.joinWaitlistButton2:hover{
-    cursor: pointer;
-    opacity: 90%;
-}
-.headerButtons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 40px;
-}
-.headerLanding {
-    background-color: #fff;
-    width: 1920px;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px 70px;
-    box-sizing: border-box;
-    text-align: center;
-    font-size: 24px;
-    font-family: Nunito;
-    position:fixed;
-    top: 0;
-    z-index: 1000;
-}
-.headerStretch {
-    width: 100vw;
-    height: 100px;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;position:fixed;
-    top: 0;
-    z-index: 1000;
-    border-bottom:#dcdddf;
-    border-bottom-style: solid;
 
-}
-.landingFrame {
-    width: 100vw;
-    position: relative;
-    height: 8702px;
-    text-align: left;
-    font-size: 100px;
-    color: #000;
-}
+
+
 
