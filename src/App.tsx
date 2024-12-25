@@ -39,12 +39,11 @@ function App() {
   }
   return (
     <div className={styles.landingPageContainer}>
-
       <LandingPageHeader />
 
-      <div className={styles.slide7Parent}>
-        <div className={styles.slide7}>
-          <div className={styles.frameParent}>
+      <div>
+        <div className={styles.heroPage}>
+          <div className={styles.heroPageCenteredFrame}>
             <div className={styles.whatsCookingOnCampusWrapper}>
               <div className={`${styles.whatsCookingOn} ${styles.headingText}`}>
                 what’s cooking on campus?
@@ -57,6 +56,7 @@ function App() {
             </div>
           </div>
         </div>
+
         <div className={styles.slide8}>
           <div className={styles.frameGroup}>
             <div className={styles.frameContainer}>
@@ -89,6 +89,7 @@ function App() {
             />
           </div>
         </div>
+
         <div className={styles.slide31}>
           <div className={styles.soHowDoesThisWorkWrapper}>
             <div className={styles.soHowDoesContainer}>
@@ -98,6 +99,7 @@ function App() {
             </div>
           </div>
         </div>
+
         <div className={styles.slide32}>
           <div className={styles.frameDiv}>
             <div className={styles.frameParent1}>
@@ -121,6 +123,7 @@ function App() {
             />
           </div>
         </div>
+
         <div className={styles.slide321}>
           <div className={styles.groupParent}>
             <img
@@ -142,6 +145,7 @@ function App() {
             </div>
           </div>
         </div>
+
         <div className={styles.slide321}>
           <div className={styles.frameParent3}>
             <div className={styles.frameParent4}>
@@ -163,6 +167,7 @@ function App() {
             />
           </div>
         </div>
+
         <div className={styles.slide34}>
           <div className={styles.groupContainer}>
             <div className={styles.putInYourVoteParent}>
@@ -235,6 +240,7 @@ function App() {
             </div>
           </div>
         </div>
+
         <div className={styles.slide35}>
           <div className={styles.frameParent6}>
             <div className={styles.frameParent7}>
@@ -258,6 +264,7 @@ function App() {
             />
           </div>
         </div>
+
         <div className={styles.slide10}>
           <div className={styles.frameParent8}>
             <div className={styles.weAreLaunchingNextSemesterWrapper}>
@@ -311,6 +318,7 @@ function App() {
             </div>
           </div>
         </div>
+
         <div className={styles.slide11}>
           <div className={styles.frameParent9}>
             <div>
@@ -360,6 +368,7 @@ function App() {
             </div>
           </div>
         </div>
+
         <div className={styles.footer}>
           <div className={styles.footerGroup}>
             <div>

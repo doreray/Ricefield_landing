@@ -57,6 +57,8 @@
     }
 }
 
+/* #region LANDING HERO SECTION */
+
 /* Centered text section */
 .whatsCookingOn {
     position: relative;
@@ -102,7 +104,7 @@
     height: auto;
     font-size: 30px;
 }
-.frameParent {
+.heroPageCenteredFrame {
     max-width: 800px;
     display: flex;
     flex-direction: column;
@@ -111,7 +113,7 @@
     gap: 80px;
 }
 
-.slide7 {
+.heroPage {
     /* align-self: stretch; */
     height: 100vh;
     display: flex;
@@ -132,11 +134,13 @@
 }
 
 @media (max-width: 600px) {
-    .slide7 {
+    .heroPage {
         padding-left: 10px;
         padding-right: 10px;
     }
 }
+
+/* #endregion */
 
 .whatTheHeck {
     position: relative;
@@ -1035,16 +1039,3 @@
     text-underline-offset: 6px;
     font-weight: 700;
 }
-.slide7Parent {
-    /* position: absolute;
-    top: 100px;
-    left: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start; */
-}
-
-
-
-
