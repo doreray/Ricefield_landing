@@ -1098,6 +1098,7 @@ body {
   color: #000;
 }
 
+/* Add responsive styles - Introduction Page */
 @media screen and (max-width: 1440px) {
   .slide7 {
     padding: 317px 20px;
@@ -1182,7 +1183,7 @@ body {
   }
 }
 
-/* Add responsive styles */
+/* Add responsive styles - LaunchSection  */
 @media screen and (max-width: 1200px) {
   .weAreLaunchingNextSemesterWrapper {
     width: 90%;
@@ -1273,7 +1274,7 @@ body {
   }
 }
 
-/* Add responsive styles */
+/* Add responsive styles - Upcoming Feature */
 @media screen and (max-width: 1400px) {
   .frameParent9 {
     width: 100%;
