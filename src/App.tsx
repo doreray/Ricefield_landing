@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styles from './LandingFrame.module.css';
 import { LandingPageHeader } from './components/header/Header';
 
-function App() {
+function PutInYourVote() {
   const [upvoted, setUpvoted] = useState(false);
   const [downvoted, setDownvoted] = useState(false);
 
@@ -22,6 +22,55 @@ function App() {
     setDownvoted(!downvoted); // Toggle the downvote state
     if (upvoted) setUpvoted(false); // Reset upvote if downvoted
   };
+  
+  return (
+    <div className={styles.putInYourVoteParent}>
+      <div className={styles.putInYour}>put in your vote!</div>
+      <div className={styles.groupDiv}>
+        <img
+          className={styles.groupChild}
+          alt=""
+          src="./assets/Group_193.svg"
+        />
+        <div className={styles.vote}>
+          <img
+            className={styles.upvoteIcon}
+            alt="Upvote"
+            src={
+              upvoted
+                ? "./assets/state_chosen.svg"
+                : upvoteHovered
+                ? "./assets/state_hover.svg"
+                : "./assets/state_default.svg"
+            }
+            onMouseEnter={() => setUpvoteHovered(true)} // Set hover state to true
+            onMouseLeave={() => setUpvoteHovered(false)} // Reset hover state to false
+            onClick={handleUpvoteClick}
+          />
+          <b className={styles.num}>
+            {upvoted ? votenum + 1 : downvoted ? votenum - 1 : votenum}
+          </b>
+          <img
+            className={styles.downvoteIcon}
+            alt="Downvote"
+            src={
+              downvoted
+                ? "./assets/downvote_chosen.svg"
+                : downvoteHovered
+                ? "./assets/downvote_hover.svg"
+                : "./assets/downvote_default.svg"
+            }
+            onMouseEnter={() => setDownvoteHovered(true)} // Set hover state to true
+            onMouseLeave={() => setDownvoteHovered(false)} // Reset hover state to false
+            onClick={handleDownvoteClick}
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function App() {
   const handleJoinWaitlistClick = () => {
     window.open('https://forms.gle/XgjRixUwhZ3ZzkLe9', '_blank');
   };
@@ -132,11 +181,11 @@ function App() {
               src="./assets/reply_1.png"
             />
             <div className={styles.frameParent2}>
-              <div className={styles.replyWrapper}>
+              <div className={`${styles.replyWrapper} ${styles.headingText}`}>
                 <div className={styles.cook}>reply</div>
               </div>
               <div className={styles.cantFindACleanToiletSeatWrapper}>
-                <div className={styles.cantFindA}>
+                <div className={`${styles.cantFindA} ${styles.bodyText}`}>
                   Can’t find a clean toilet seat? Want to help your classmates
                   because the prof doesn’t care? Reply and throw yourself into
                   the discussion.
@@ -150,10 +199,10 @@ function App() {
           <div className={styles.frameParent3}>
             <div className={styles.frameParent4}>
               <div className={styles.recookWrapper}>
-                <div className={styles.cook}>recook</div>
+                <div className={`${styles.cook} ${styles.headingText}`}>recook</div>
               </div>
               <div className={styles.wantToShareDramasComplainWrapper}>
-                <div className={styles.wantToShare}>
+                <div className={`${styles.wantToShare} ${styles.bodyText}`}>
                   Want your friends to also join the discussion? Recook it in
                   your own words, thoughts, or perspectives to add more tea to
                   the post.
@@ -170,49 +219,7 @@ function App() {
 
         <div className={styles.slide34}>
           <div className={styles.groupContainer}>
-            <div className={styles.putInYourVoteParent}>
-              <div className={styles.putInYour}>put in your vote!</div>
-              <div className={styles.groupDiv}>
-                <img
-                  className={styles.groupChild}
-                  alt=""
-                  src="./assets/Group_193.svg"
-                />
-                <div className={styles.vote}>
-                  <img
-                    className={styles.upvoteIcon}
-                    alt="Upvote"
-                    src={
-                      upvoted
-                        ? "./assets/state_chosen.svg"
-                        : upvoteHovered
-                        ? "./assets/state_hover.svg"
-                        : "./assets/state_default.svg"
-                    }
-                    onMouseEnter={() => setUpvoteHovered(true)} // Set hover state to true
-                    onMouseLeave={() => setUpvoteHovered(false)} // Reset hover state to false
-                    onClick={handleUpvoteClick}
-                  />
-                  <b className={styles.num}>
-                    {upvoted ? votenum + 1 : downvoted ? votenum - 1 : votenum}
-                  </b>
-                  <img
-                    className={styles.downvoteIcon}
-                    alt="Downvote"
-                    src={
-                      downvoted
-                        ? "./assets/downvote_chosen.svg"
-                        : downvoteHovered
-                        ? "./assets/downvote_hover.svg"
-                        : "./assets/downvote_default.svg"
-                    }
-                    onMouseEnter={() => setDownvoteHovered(true)} // Set hover state to true
-                    onMouseLeave={() => setDownvoteHovered(false)} // Reset hover state to false
-                    onClick={handleDownvoteClick}
-                  />
-                </div>
-              </div>
-            </div>
+            <PutInYourVote />
             <div className={styles.frameParent5}>
               <div className={styles.upvoteDownvoteWrapper}>
                 <div className={styles.cook}>
@@ -241,7 +248,7 @@ function App() {
           </div>
         </div>
 
-        <div className={styles.slide35}>
+        {/* <div className={styles.slide35}>
           <div className={styles.frameParent6}>
             <div className={styles.frameParent7}>
               <div>
@@ -263,9 +270,9 @@ function App() {
               src="./assets/Group_197.png"
             />
           </div>
-        </div>
+        </div> */}
 
-        <div className={styles.slide10}>
+        {/* <div className={styles.slide10}>
           <div className={styles.frameParent8}>
             <div className={styles.weAreLaunchingNextSemesterWrapper}>
               <div>
@@ -317,9 +324,9 @@ function App() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className={styles.slide11}>
+        {/* <div className={styles.slide11}>
           <div className={styles.frameParent9}>
             <div>
               <div>
@@ -367,7 +374,7 @@ function App() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className={styles.footer}>
           <div className={styles.footerGroup}>

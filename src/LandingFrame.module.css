@@ -9,6 +9,7 @@
     text-align: left;
     font-size: 100px;
     color: #000;
+    width: 100vw; 
 }
 
 
@@ -271,7 +272,6 @@
     align-self: stretch;
     position: relative;
     height: 105px;
-    font-size: 30px;
     font-weight: 1000;
 }
 .frameParent1 {
@@ -306,7 +306,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 200px 208px ;
+    /* padding: 200px 208px ; */
     box-sizing: border-box;
 }
 .replyWrapper {
@@ -328,7 +328,6 @@
     /* width: 654px; */
     position: relative;
     /* height: 105px; */
-    font-size: 30px;
     font-weight: 1000;
 }
 
@@ -366,7 +365,7 @@
     font-weight: 1000;
 }
 .frameParent4 {
-    width: 705px;
+    /* width: 705px; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -375,6 +374,8 @@
 }
 .recook3Icon {
     width: 650px;
+    max-width: 100%;
+
     position: relative;
     border-radius: 30px;
     /* height: 650px; */
@@ -392,21 +393,23 @@
 }
 .putInYour {
     position: absolute;
-    top: 820px;
-    left: 800px;
+    /* top: 820px;
+    left: 800px; */
+    bottom: 10%;
+    right: -5%; 
     line-height: 30px;
     transform:  rotate(-25deg);
     transform-origin: 0 0;
     font-weight: 1000;
     font-family: Fredoka;
-    width: 300px;
+    /* width: 300px; */
 }
 .groupChild {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 700px;
-    height: 700px;
+    width: 74%;
+    /* height: 700px; */
     object-fit: cover;
 }
 .upvoteIcon {
@@ -449,8 +452,8 @@
 }
 .vote {
     position: absolute;
-    top: 655px;
-    left: 614px;
+    top: 69%;
+    left: 65%;
     border-radius: 30px;
     background-color: #e5e7eb;
     border-style: solid;
@@ -479,8 +482,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 849px;
-    height: 745px;
+    width: 100%;
+    height: 100%;
     text-align: center;
     font-size: 50px;
     font-family: 'DM Sans';
@@ -488,7 +491,8 @@
 .putInYourVoteParent {
     width: 950px;
     position: relative;
-    height: 816.6px;
+    /* height: 800px; */
+    aspect-ratio: 1 / 1;
 }
 .upvoteDownvoteWrapper {
     width: 501px;
@@ -543,7 +547,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 131px 195px;
+    /* padding: 131px 195px; */
     box-sizing: border-box;
     font-size: 30px;
 }
