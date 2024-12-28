@@ -1097,3 +1097,88 @@ body {
   font-size: 100px;
   color: #000;
 }
+
+@media screen and (max-width: 1440px) {
+  .slide7 {
+    padding: 317px 20px;
+  }
+  .frameParent {
+    width: 90%;
+    max-width: 800px;
+  }
+  .frameGroup {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .frameChild {
+    width: 100%;
+    max-width: 654px;
+    height: auto;
+  }
+  .frameContainer {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .whatsCookingOn {
+    font-size: 80px;
+  }
+  .whatTheHeck {
+    font-size: 70px;
+    line-height: 80px;
+  }
+  .fromClassesTo {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .whatsCookingOn {
+    font-size: 60px;
+  }
+  .whatTheHeck {
+    font-size: 50px;
+    line-height: 60px;
+    width: 100%;
+  }
+  .whatTheHeckIsRicefieldWrapper,
+  .theBestWayToThinkOfRicefWrapper {
+    width: 100%;
+    height: auto;
+  }
+  .theBestWayContainer {
+    width: 100%;
+  }
+  .theBestWayContainer1 {
+    display: block;
+    width: 100%;
+  }
+  .slide7,
+  .slide8 {
+    padding: 40px 20px;
+    height: auto;
+    min-height: 100vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .whatsCookingOn {
+    font-size: 40px;
+  }
+  .whatTheHeck {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .fromClassesTo {
+    font-size: 20px;
+    padding: 0;
+  }
+  .theBestWay {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
+
