@@ -1182,3 +1182,93 @@ body {
   }
 }
 
+/* Add responsive styles */
+@media screen and (max-width: 1200px) {
+  .weAreLaunchingNextSemesterWrapper {
+    width: 90%;
+    max-width: 800px;
+  }
+
+  .weAreLaunching {
+    width: 100%;
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .slide10 {
+    padding: 40px 20px;
+    height: auto;
+    min-height: 800px;
+  }
+
+  .weAreLaunching {
+    font-size: 70px;
+  }
+
+  .itsGonnaBeLitToBeOneOfWrapper {
+    width: 90%;
+    max-width: 580px;
+    height: auto;
+  }
+
+  .joinWaitlistButtonParent {
+    width: 100%;
+    max-width: 590px;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .frameParent8 {
+    gap: 40px;
+  }
+
+  .weAreLaunching {
+    font-size: 50px;
+  }
+
+  .itsGonnaBeLitToBeOneOfWrapper {
+    font-size: 24px;
+  }
+
+  .joinWaitlistButtonParent {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .joinWaitlistButton1,
+  .viewPrototypeButton1 {
+    width: 100%;
+    max-width: 288px;
+  }
+
+  .joinTheWaitlist {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .slide10 {
+    padding: 30px 15px;
+  }
+
+  .weAreLaunching {
+    font-size: 40px;
+  }
+
+  .itsGonnaBeLitToBeOneOfWrapper {
+    font-size: 20px;
+  }
+
+  .joinTheWaitlist {
+    font-size: 18px;
+  }
+
+  .joinWaitlistButton1,
+  .viewPrototypeButton1 {
+    height: 56px;
+    border-radius: 28px;
+  }
+}
