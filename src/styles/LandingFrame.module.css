@@ -1272,3 +1272,113 @@ body {
     border-radius: 28px;
   }
 }
+
+/* Add responsive styles */
+@media screen and (max-width: 1400px) {
+  .frameParent9 {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .frameParent10 {
+    width: 90%;
+    height: auto;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .upcomingFeatures {
+    width: 100%;
+    max-width: 400px;
+    font-size: 80px;
+  }
+
+  .events,
+  .appTitle {
+    font-size: 45px;
+  }
+
+  .eventsContent,
+  .appContent {
+    width: 250px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .frameParent10 {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .eventsWrapper {
+    height: auto;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .events,
+  .appTitle {
+    font-size: 40px;
+    justify-content: center;
+  }
+
+  .eventsContent,
+  .appContent {
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slide11 {
+    padding: 40px 20px;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .upcomingFeatures {
+    font-size: 60px;
+  }
+
+  .events,
+  .appTitle {
+    font-size: 35px;
+  }
+
+  .eventsContent,
+  .appContent {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .slide11 {
+    padding: 30px 15px;
+  }
+
+  .upcomingFeatures {
+    font-size: 45px;
+  }
+
+  .events,
+  .appTitle {
+    font-size: 30px;
+  }
+
+  .eventsContent,
+  .appContent {
+    font-size: 18px;
+    max-width: 280px;
+  }
+
+  .frameParent10 {
+    gap: 40px;
+  }
+}
