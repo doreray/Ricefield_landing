@@ -502,21 +502,21 @@ body {
 
 .putInYour {
   position: absolute;
-  top: 820px;
-  left: 800px;
+  bottom: 10%;
+  right: -5%; 
   line-height: 30px;
   transform: rotate(-25deg);
   transform-origin: 0 0;
   font-weight: 1000;
   font-family: Fredoka;
-  width: 300px;
+  /* width: 300px; */
 }
 .groupChild {
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 700px;
-  height: 700px;
+  width: 74%;
+  /* height: 700px; */
   object-fit: cover;
 }
 .upvoteIcon {
@@ -580,8 +580,8 @@ body {
 }
 .vote {
   position: absolute;
-  top: 655px;
-  left: 614px;
+  top: 69%;
+  left: 65%;
   border-radius: 30px;
   background-color: #e5e7eb;
   border-style: solid;
@@ -610,8 +610,8 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 849px;
-  height: 745px;
+  width: 100%;
+  height: 100%;
   text-align: center;
   font-size: 50px;
   font-family: "DM Sans";
@@ -619,7 +619,8 @@ body {
 .putInYourVoteParent {
   width: 950px;
   position: relative;
-  height: 816.6px;
+  /* height: 800px; */
+  aspect-ratio: 1 / 1;
 }
 .upvoteDownvoteWrapper {
   width: 501px;
@@ -677,6 +678,76 @@ body {
   box-sizing: border-box;
   font-size: 30px;
 }
+
+/* RESPONSIVE STYLES FOR 'upvote downvote' SECTION */
+@media (max-width: 600px) {
+  .slide34 {
+    width: 100vw;
+    height: auto;
+    display: block;
+    padding: 100px 10px;
+
+    & .groupContainer {
+      flex-direction: column-reverse;
+
+      & .putInYourVoteParent {
+        max-width: 100%;
+
+        & .putInYour {
+          font-size: 20px;
+          bottom: 10%;
+          right: 10%;
+          z-index: 1;
+        }
+
+        & .groupDiv {
+          /* Image */
+          & .groupChild {
+            position: static;
+            width: 90%;
+            margin: auto;
+          }
+
+          & .vote {
+            left: 10%;
+            gap: 10px;
+            padding: 10px 15px;
+
+            & .upvoteIcon, & .downvoteIcon {
+              width: 30px;
+              height: 30px
+            }
+
+            & .num {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+
+      & .frameParent5 {
+        display: block;
+        max-wdth: 100%;
+        padding-right: 0;
+        margin-bottom: 40px;
+
+        & .upvoteDownvoteWrapper {
+          width: auto;
+
+          & .cook {
+            position: static;
+
+            & .votes {
+              line-height: 1.5em;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
 .cookYourClassesWrapper {
   width: 478px;
   position: relative;

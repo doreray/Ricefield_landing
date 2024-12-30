@@ -86,11 +86,11 @@ export const Features = () => {
               </div>
             </div>
             <div className={styles.wantToShareDramasComplainWrapper}>
-                <div className={`${styles.wantToShare} ${styles.bodyText}`}>
+              <div className={`${styles.wantToShare} ${styles.bodyText}`}>
                 Want your friends to also join the discussion? Recook it in your
                 own words, thoughts, or perspectives to add more tea to the
                 post.
-                </div>
+              </div>
             </div>
           </div>
           <img
@@ -149,8 +149,12 @@ export const Features = () => {
           <div className={styles.frameParent5}>
             <div className={styles.upvoteDownvoteWrapper}>
               <div className={styles.cook}>
-                <div className={styles.votes}>upvote?</div>
-                <div className={styles.votes}>downvote!</div>
+                <div className={`${styles.votes} ${styles.headingText}`}>
+                  upvote?
+                </div>
+                <div className={`${styles.votes} ${styles.headingText}`}>
+                  downvote!
+                </div>
               </div>
             </div>
             <div className={styles.tooTiredToCookInWordsButWrapper}>
