@@ -3,6 +3,7 @@
 * {
   font-weight: 500;
   font-family: Nunito;
+  box-sizing: border-box;
 }
 
 body {
@@ -742,6 +743,10 @@ body {
             }
           }
         }
+
+        & .tooTiredToCookInWordsButWrapper {
+          max-width: 100%;
+        }
       }
     }
   }
@@ -1123,6 +1128,7 @@ body {
   padding-top: 70px;
   padding-right: 100px;
 }
+
 .furtherInformationParent {
   position: relative;
   width: 377px;
@@ -1183,6 +1189,39 @@ body {
   cursor: pointer;
   opacity: 80%;
 }
+
+/* RESPONSIVE STYLES FOR 'footer' */
+@media (max-width: 600px) {
+  .footerRight {
+    height: auto;
+    max-width: 100%;
+    padding-right: 0px;
+
+    & .furtherInformationParent {
+      & .furtherInformation {
+        width: auto;
+      }
+
+      width: auto;
+      padding-bottom: 50px;
+
+      & .landingFooterButtonParent {
+        max-width: 100%;
+
+        & .landingFooterButton {
+          max-width: 100%;
+          text-align: left;
+        }
+      }
+    }
+
+    & .copyright2024RicefieldAllWrapper {
+      max-width: 100%;
+    }
+  }
+}
+
+
 .duy {
   margin: 0;
   font-weight: 900;
@@ -1233,17 +1272,54 @@ body {
   object-fit: cover;
 }
 .footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-self: stretch;
-  position: relative;
   background-color: #448d57;
-  height: 779px;
-  font-size: 32px;
   color: #fff;
   font-family: Fredoka;
+  padding-bottom: 4rem;
 }
+.footerLogo {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.footerGroup {
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 4rem;
+    align-self: stretch;
+    position: relative;
+    font-size: 32px;
+}
+@media (min-width: 1200px) {
+    .footerGroup {
+        margin: auto 100px;
+    }
+    .footerRight {
+        margin-right: 100px;
+    }
+}
+
+.founderSvgText {
+    font: 26px Nunito;
+    fill: white;
+}
+.founderSvgTextTitle {
+    font-weight: 900;
+}
+.founderSvgTextSubtitle {
+    font-style: italic;
+}
+
+.founderGraphic {
+    display: block;
+    width: 700px;
+    max-width: 100%;
+}
+
 .footerButton {
   margin: 0px;
 }
@@ -1285,14 +1361,22 @@ body {
   font-weight: 700;
 }
 .mainPageContainer {
-  position: absolute;
+  /* position: absolute;
   top: 100px;
-  left: 0px;
-  display: flex;
+  left: 0px; */
+  padding-top: 100px;
+  /* display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: flex-start; */
 }
+
+@media (max-width: 600px) {
+  .mainPageContainer {
+    padding-top: 0px;
+  }
+}
+
 .tpMainLogoNoSloganGreen {
   width: 300px;
   position: relative;
@@ -1357,6 +1441,8 @@ body {
 }
 .landingFrame {
   width: 100vw;
+  overflow-x: hidden;
+
   position: relative;
   height: 8702px;
   text-align: left;

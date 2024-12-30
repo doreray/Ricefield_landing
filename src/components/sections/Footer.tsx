@@ -25,106 +25,162 @@ export const Footer = () => {
 
   return (
     <div className={styles.footer}>
-      <div>
-        <div className={styles.duyEverythingFarmerParent}>
-          <div className={styles.duyEverythingFarmerContainer}>
-            <p className={styles.duy}>duy</p>
-            <p className={styles.theBestWay}>
-              <i>everything farmer</i>
-            </p>
-          </div>
-          <div className={styles.minhOperatingFarmerContainer}>
-            <p className={styles.duy}>minh</p>
-            <p className={styles.theBestWay}>
-              <i>operating farmer</i>
-            </p>
-          </div>
-          <div className={styles.lamTechnologyFarmerContainer}>
-            <p className={styles.duy}>lâm</p>
-            <p className={styles.theBestWay}>
-              <i>technology farmer</i>
-            </p>
-          </div>
-          <img className={styles.groupItem} alt="" src="/public/assets/Group_202.svg" />
-        </div>
-        <img className={styles.mainLogoNoSlogan1} alt="" src="/public/assets/Main_Logo_no_slogan_1.svg" />
-      </div>
-      <div className={styles.footerRight}>
-        <div className={styles.furtherInformationParent}>
-          <b className={styles.furtherInformation}>Further Information</b>
-          <div className={styles.landingFooterButtonParent}>
-            <div className={styles.landingFooterButton}>
-              <div>
-                <b 
-                  className={styles.footerButton}
-                  onClick={handleJoinWaitlistClick}
-                  role="button"
-                  tabIndex={0}
-                  onKeyDown={(e) => e.key === 'Enter' && handleJoinWaitlistClick()}
-                >
-                  Join the Waitlist
-                </b>
-              </div>
-            </div>
-            <div className={styles.landingFooterButton}>
-              <div>
-                <b 
-                  className={styles.footerButton1}
-                  onClick={handleMeetFoundersClick}
-                  role="button"
-                  tabIndex={0}
-                  onKeyDown={(e) => e.key === 'Enter' && handleMeetFoundersClick()}
-                >
-                  Meet the Headfarmers (Founders)
-                </b>
-              </div>
-            </div>
-            <div className={styles.landingFooterButton}>
-              <div>
-                <b 
-                  className={styles.footerButton2}
-                  onClick={handleFarmersDictClick}
-                  role="button"
-                  tabIndex={0}
-                  onKeyDown={(e) => e.key === 'Enter' && handleFarmersDictClick()}
-                >
-                  Farmers' Dictionary
-                </b>
-              </div>
-            </div>
-            <div className={styles.landingFooterButton}>
-              <div>
-                <b 
-                  className={styles.footerButton3}
-                  onClick={handlePrototypeClick}
-                  role="button"
-                  tabIndex={0}
-                  onKeyDown={(e) => e.key === 'Enter' && handlePrototypeClick()}
-                >
-                  View Prototype
-                </b>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className={styles.footerBottomRight}>
-          <div className={styles.footerSocialMedia}>
-            <img 
-              className={styles.instaLogoIcon} 
-              alt="Instagram" 
-              src="/public/assets/insta_logo.svg" 
-              onClick={handleInstaClick}
-              role="button"
-              tabIndex={0}
-              onKeyDown={(e) => e.key === 'Enter' && handleInstaClick()}
+      <div className={styles.footerGroup}>
+        <div>
+          <img
+            className={styles.footerLogo}
+            alt=""
+            src="./assets/Main_Logo_no_slogan_1.svg"
+          />
+          <svg className={styles.founderGraphic} viewBox="0 0 756 500">
+            <text className={styles.founderSvgText} x="140" y="25">
+              <tspan
+                textAnchor="middle"
+                x="140"
+                className={styles.founderSvgTextTitle}
+              >
+                duy
+              </tspan>
+              <tspan
+                textAnchor="middle"
+                x="140"
+                dy="30"
+                className={styles.founderSvgTextSubtitle}
+              >
+                everything farmer
+              </tspan>
+            </text>
+
+            <text className={styles.founderSvgText} x="330" y="70">
+              <tspan
+                textAnchor="middle"
+                x="330"
+                className={styles.founderSvgTextTitle}
+              >
+                minh
+              </tspan>
+              <tspan
+                textAnchor="middle"
+                x="330"
+                dy="30"
+                className={styles.founderSvgTextSubtitle}
+              >
+                operating farmer
+              </tspan>
+            </text>
+
+            <text className={styles.founderSvgText} x="560" y="35">
+              <tspan
+                textAnchor="middle"
+                x="560"
+                className={styles.founderSvgTextTitle}
+              >
+                lâm
+              </tspan>
+              <tspan
+                textAnchor="middle"
+                x="560"
+                dy="30"
+                className={styles.founderSvgTextSubtitle}
+              >
+                technology farmer
+              </tspan>
+            </text>
+
+            <image
+              href="./assets/Group_202.svg"
+              x="0"
+              y="70"
+              width="756"
+              height="438"
             />
-            {/* Commented social media icons as in original code */}
-            {/* <img className={styles.xLogoIcon} alt="" src="/public/assets/x_logo.svg" />
-            <img className={styles.tiktokLogoIcon} alt="" src="/public/assets/tiktok_logo.svg" /> */}
+          </svg>
+        </div>
+        <div className={styles.footerRight}>
+          <div className={styles.furtherInformationParent}>
+            <b className={styles.furtherInformation}>Further Information</b>
+            <div className={styles.landingFooterButtonParent}>
+              <div className={styles.landingFooterButton}>
+                <div>
+                  <b
+                    className={styles.footerButton}
+                    onClick={handleJoinWaitlistClick}
+                    role="button"
+                    tabIndex={0}
+                    onKeyDown={(e) =>
+                      e.key === "Enter" && handleJoinWaitlistClick()
+                    }
+                  >
+                    Join the Waitlist
+                  </b>
+                </div>
+              </div>
+              <div className={styles.landingFooterButton}>
+                <div>
+                  <b
+                    className={styles.footerButton1}
+                    onClick={handleMeetFoundersClick}
+                    role="button"
+                    tabIndex={0}
+                    onKeyDown={(e) =>
+                      e.key === "Enter" && handleMeetFoundersClick()
+                    }
+                  >
+                    Meet the Headfarmers (Founders)
+                  </b>
+                </div>
+              </div>
+              <div className={styles.landingFooterButton}>
+                <div>
+                  <b
+                    className={styles.footerButton2}
+                    onClick={handleFarmersDictClick}
+                    role="button"
+                    tabIndex={0}
+                    onKeyDown={(e) =>
+                      e.key === "Enter" && handleFarmersDictClick()
+                    }
+                  >
+                    Farmers' Dictionary
+                  </b>
+                </div>
+              </div>
+              <div className={styles.landingFooterButton}>
+                <div>
+                  <b
+                    className={styles.footerButton3}
+                    onClick={handlePrototypeClick}
+                    role="button"
+                    tabIndex={0}
+                    onKeyDown={(e) =>
+                      e.key === "Enter" && handlePrototypeClick()
+                    }
+                  >
+                    View Prototype
+                  </b>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className={styles.copyright2024RicefieldAllWrapper}>
-            <div className={styles.copyright2024Ricefield}>
-              Copyright 2024 Ricefield. All rights reserved.
+          <div className={styles.footerBottomRight}>
+            <div className={styles.footerSocialMedia}>
+              <img
+                className={styles.instaLogoIcon}
+                alt="Instagram"
+                src="/public/assets/insta_logo.svg"
+                onClick={handleInstaClick}
+                role="button"
+                tabIndex={0}
+                onKeyDown={(e) => e.key === "Enter" && handleInstaClick()}
+              />
+              {/* Commented social media icons as in original code */}
+              {/* <img className={styles.xLogoIcon} alt="" src="/public/assets/x_logo.svg" />
+            <img className={styles.tiktokLogoIcon} alt="" src="/public/assets/tiktok_logo.svg" /> */}
+            </div>
+            <div className={styles.copyright2024RicefieldAllWrapper}>
+              <div className={styles.copyright2024Ricefield}>
+                Copyright 2024 Ricefield. All rights reserved.
+              </div>
             </div>
           </div>
         </div>
