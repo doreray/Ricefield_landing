@@ -32,7 +32,7 @@ export const Features = () => {
       </div>
       {/* Cook Feature */}
       <div className={styles.slide32}>
-        <div className={styles.frameDiv}>
+        <div className={`${styles.frameDiv} ${styles.featureFrame}`}>
           <div className={styles.frameParent1}>
             <div className={styles.cookWrapper}>
               <div className={`${styles.cook} ${styles.headingText}`}>cook</div>
@@ -54,7 +54,7 @@ export const Features = () => {
       </div>
       {/* Reply Feature */}
       <div className={styles.slide321}>
-        <div className={styles.groupParent}>
+        <div className={`${styles.groupParent} ${styles.featureFrame}`}>
           <img
             className={styles.frameItem}
             alt=""
@@ -78,7 +78,7 @@ export const Features = () => {
       </div>
       {/* Recook Feature */}
       <div className={styles.slide321}>
-        <div className={styles.frameParent3}>
+        <div className={`${styles.frameParent3} ${styles.featureFrame}`}>
           <div className={styles.frameParent4}>
             <div className={styles.recookWrapper}>
               <div className={`${styles.cook} ${styles.headingText}`}>
@@ -102,7 +102,7 @@ export const Features = () => {
       </div>
       {/* Voting Feature */}
       <div className={styles.slide34}>
-        <div className={styles.groupContainer}>
+        <div className={`${styles.groupContainer} ${styles.featureFrame}`}>
           <div className={styles.putInYourVoteParent}>
             <div className={styles.putInYour}>put in your vote!</div>
             <div className={styles.groupDiv}>

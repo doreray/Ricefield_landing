@@ -938,7 +938,7 @@ body {
   font-family: Nunito;
 }
 .upcomingFeaturesTxtContainer {
-  line-break: anywhere;
+  /* line-break: anywhere; */
   width: 100%;
 }
 .upcomingFeatures {
@@ -1739,5 +1739,12 @@ body {
 
   .frameParent10 {
     gap: 40px;
+  }
+}
+
+/* Responsive styles for feature frames for smaller desktop screens */
+@media (min-width: 600px) and (max-width: 1600px) {
+  .featureFrame {
+    transform: scale(0.7);
   }
 }

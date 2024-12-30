@@ -1,11 +1,10 @@
 // components/sections/ClassFeature.tsx
-import React from "react";
 import styles from "../../styles/LandingFrame.module.css";
 
 export const ClassFeature = () => {
   return (
     <div className={styles.slide35}>
-      <div className={styles.frameParent6}>
+      <div className={`${styles.frameParent6} ${styles.featureFrame}`}>
         <div className={styles.frameParent7}>
           <div>
             <div>
