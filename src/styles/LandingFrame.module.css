@@ -1509,6 +1509,8 @@ body {
   .viewPrototypeButton1 {
     width: 100%;
     max-width: 288px;
+
+    padding: 10px;
   }
 
   .joinTheWaitlist {
@@ -1608,6 +1610,10 @@ body {
     padding: 40px 20px;
     height: auto;
     min-height: 100vh;
+  }
+
+  .upcomingFeaturesTxtContainer {
+    line-break: normal;
   }
 
   .upcomingFeatures {
