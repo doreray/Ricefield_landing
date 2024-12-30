@@ -9,11 +9,11 @@ export const ClassFeature = () => {
         <div className={styles.frameParent7}>
           <div>
             <div>
-              <p className={styles.cookClasses}>cook your classes!</p>
+                <p className={`${styles.cookClasses} ${styles.headingText}`}>cook your classes!</p>
             </div>
           </div>
           <div className={styles.wantToShareDramasComplainWrapper}>
-            <div className={styles.examPrepAssignment}>
+            <div className={`${styles.examPrepAssignment} ${styles.bodyText}`}>
               Exam prep? Assignment help? Survival tips? Professor complaints?
               It’s your chance to cook these classes communities!
             </div>

@@ -727,7 +727,7 @@ body {
 
       & .frameParent5 {
         display: block;
-        max-wdth: 100%;
+        max-width: 100%;
         padding-right: 0;
         margin-bottom: 40px;
 
@@ -789,6 +789,46 @@ body {
   padding: 215px 222px;
   box-sizing: border-box;
 }
+
+/* RESPONSIVE STYLES FOR 'cook your classes' SECTION */
+@media (max-width: 600px) {
+  .slide35 {
+    width: 100vw;
+    height: auto;
+    display: block;
+    padding: 100px 10px;
+
+    & .frameParent6 {
+      flex-direction: column;
+
+      & .frameItem {
+        max-width: 100%;
+        height: auto;
+      }
+
+      & .frameParent7 {
+        width: auto;
+        display: block;
+
+        & .cookClasses {
+          width: auto;
+        }
+
+        & .wantToShareDramasComplainWrapper {
+          height: auto;
+
+          & .examPrepAssignment {
+            position: static;
+            width: auto;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+
 .weAreLaunchingNextSemesterWrapper {
   width: 1000px;
   position: relative;
