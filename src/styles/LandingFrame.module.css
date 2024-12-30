@@ -298,6 +298,7 @@ body {
 
     & .frameDiv {
       flex-direction: column;
+      gap: 0px;
 
       /* Image */
       & .frameItem {
@@ -307,6 +308,7 @@ body {
 
       & .frameParent1 {
         width: auto;
+        gap: 0px;
 
         & .cookWrapper {
           width: auto;
@@ -404,6 +406,7 @@ body {
 
     & .groupParent {
       flex-direction: column-reverse;
+      gap: 80px;
 
       & .frameItem {
         max-width: 100%;
@@ -411,6 +414,8 @@ body {
       }
 
       & .frameParent2 {
+        gap: 0px;
+
         & .replyWrapper {
           width: auto;
           height: auto;
@@ -438,6 +443,7 @@ body {
 
     & .frameParent3 {
       flex-direction: column;
+      gap: 60px;
 
       & .recook3Icon {
         max-width: 100%;
@@ -446,6 +452,7 @@ body {
 
       & .frameParent4 {
         width: auto;
+        gap: 0px;
 
         & .recookWrapper {
           width: auto;
@@ -734,6 +741,8 @@ body {
 
         & .upvoteDownvoteWrapper {
           width: auto;
+          height: auto;
+          margin-bottom: 30px;
 
           & .cook {
             position: static;
@@ -805,6 +814,7 @@ body {
 
     & .frameParent6 {
       flex-direction: column;
+      gap: 60px;
 
       & .frameItem {
         max-width: 100%;
@@ -817,6 +827,7 @@ body {
 
         & .cookClasses {
           width: auto;
+          margin-bottom: 10px;
         }
 
         & .wantToShareDramasComplainWrapper {
@@ -1514,6 +1525,10 @@ body {
     padding: 40px 20px;
     height: auto;
     min-height: 100vh;
+
+    & .frameContainer {
+      gap: 40px;
+    }
   }
 }
 
