@@ -12,6 +12,25 @@ body {
   align-items: center;
 }
 
+.headingText {
+    font-size: 100px;
+    font-weight: 1000;
+}
+
+.bodyText {
+    font-size: 30px;
+}
+
+@media (max-width: 600px) {
+    .headingText {
+        font-size: 40px;
+    }
+
+    .bodyText {
+        font-size: 20px;
+    }
+}
+
 .bg11Icon {
   position: relative;
   width: 100vw; /* Full viewport width */
@@ -181,11 +200,23 @@ body {
   position: relative;
   line-height: 100px;
 }
+@media (max-width: 600px) {
+  .soHowDoesContainer {
+    line-height: 0.5em;
+  }
+}
+
 .soHowDoesThisWorkWrapper {
   margin: 0;
   width: 700px;
   position: relative;
 }
+@media (max-width: 600px) {
+  .soHowDoesThisWorkWrapper {
+    width: auto;
+  }
+}
+
 .soHowDoes {
   font-weight: 1000;
   font-family: Fredoka;
@@ -236,27 +267,13 @@ body {
   font-size: 30px;
   font-weight: 1000;
 }
-.frameParent1 {
-  width: 703px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 75px;
-}
 .frameItem {
   width: 650px;
   position: relative;
   height: 650px;
   object-fit: cover;
 }
-.frameDiv {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 122px;
-}
+
 .slide32 {
   align-self: stretch;
   background-color: #f6f8f9;
@@ -268,6 +285,65 @@ body {
   padding: 208px 222px;
   box-sizing: border-box;
 }
+/* RESPONSIVE STYLES FOR 'cook' SECTION */
+@media (max-width: 600px) {
+  .slide32 {
+    width: 100vw; 
+
+    display: block;
+    padding: 100px 10px;
+    height: auto;
+    max-width: 100%;
+
+    & .frameDiv {
+      flex-direction: column;
+
+      /* Image */
+      & .frameItem {
+        max-width: 100%;
+        height: auto;
+      }
+
+      & .frameParent1 {
+        width: auto;
+
+        & .cookWrapper {
+          width: auto;
+
+          & .cook {
+            position: static;
+          }
+        }
+
+        & .wantToShareDramasComplainWrapper {
+          height: auto;
+          padding-bottom: 80px;
+
+          & .wantToShare {
+            position: static;
+            width: auto;
+          }
+        }
+      }
+    }
+  }
+}
+.frameParent1 {
+  width: 703px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 75px;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 122px;
+}
+
 .replyWrapper {
   width: 265px;
   position: relative;
@@ -315,6 +391,84 @@ body {
   padding: 215px 222px;
   box-sizing: border-box;
 }
+
+@media (max-width: 600px) {
+  /* RESPONSIVE STYLES FOR 'reply' SECTION */
+  .slide321 {
+    width: 100vw;
+    display: block;
+    padding: 100px 10px;
+    height: auto;
+    max-width: 100%;
+
+    & .groupParent {
+      flex-direction: column-reverse;
+
+      & .frameItem {
+        max-width: 100%;
+        height: auto;
+      }
+
+      & .frameParent2 {
+        & .replyWrapper {
+          width: auto;
+          height: auto;
+          padding-bottom: 20px;
+
+          & .cook {
+            position: static;
+          }
+        }
+
+        & .cantFindACleanToiletSeatWrapper {
+          width: auto; 
+          height: auto;
+
+          .cantFindA {
+            position: static;
+            display: block;
+            width: auto;
+          }
+        }
+      }
+    }
+
+    /* RESPONSIVE STYLES FOR 'recook' SECTION (same parent class) */
+
+    & .frameParent3 {
+      flex-direction: column;
+
+      & .recook3Icon {
+        max-width: 100%;
+        height: auto;
+      }
+
+      & .frameParent4 {
+        width: auto;
+
+        & .recookWrapper {
+          width: auto;
+
+          & .cook {
+            position: static;
+          }
+        }
+
+        & .wantToShareDramasComplainWrapper {
+            height: auto;
+            padding-bottom: 20px;
+            
+            & .wantToShare {
+              position: static;
+              width: auto;
+              display: block;
+            }
+          }
+      }
+    }
+  }
+}
+
 .recookWrapper {
   width: 344px;
   position: relative;
@@ -345,6 +499,7 @@ body {
   justify-content: flex-start;
   gap: 120px;
 }
+
 .putInYour {
   position: absolute;
   top: 820px;
@@ -1018,7 +1173,7 @@ body {
   text-underline-offset: 6px;
   font-weight: 700;
 }
-.slide7Parent {
+.mainPageContainer {
   position: absolute;
   top: 100px;
   left: 0px;

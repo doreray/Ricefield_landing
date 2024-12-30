@@ -24,7 +24,9 @@ export const Features = () => {
       <div className={styles.slide31}>
         <div className={styles.soHowDoesThisWorkWrapper}>
           <div className={styles.soHowDoesContainer}>
-            <p className={styles.soHowDoes}>so, how does this work?</p>
+            <p className={`${styles.soHowDoes} ${styles.headingText}`}>
+              so, how does this work?
+            </p>
           </div>
         </div>
       </div>
@@ -33,10 +35,10 @@ export const Features = () => {
         <div className={styles.frameDiv}>
           <div className={styles.frameParent1}>
             <div className={styles.cookWrapper}>
-              <div className={styles.cook}>cook</div>
+              <div className={`${styles.cook} ${styles.headingText}`}>cook</div>
             </div>
             <div className={styles.wantToShareDramasComplainWrapper}>
-              <div className={styles.wantToShare}>
+              <div className={`${styles.wantToShare} ${styles.bodyText}`}>
                 Want to share dramas, complain about the communal bathrooms, or
                 get help on your CSE232 assignments? Select a space and cook a
                 post.
@@ -60,10 +62,12 @@ export const Features = () => {
           />
           <div className={styles.frameParent2}>
             <div className={styles.replyWrapper}>
-              <div className={styles.cook}>reply</div>
+              <div className={`${styles.cook} ${styles.headingText}`}>
+                reply
+              </div>
             </div>
             <div className={styles.cantFindACleanToiletSeatWrapper}>
-              <div className={styles.cantFindA}>
+              <div className={`${styles.cantFindA} ${styles.bodyText}`}>
                 Can’t find a clean toilet seat? Want to help your classmates
                 because the prof doesn’t care? Reply and throw yourself into the
                 discussion.
@@ -77,14 +81,16 @@ export const Features = () => {
         <div className={styles.frameParent3}>
           <div className={styles.frameParent4}>
             <div className={styles.recookWrapper}>
-              <div className={styles.cook}>recook</div>
+              <div className={`${styles.cook} ${styles.headingText}`}>
+                recook
+              </div>
             </div>
             <div className={styles.wantToShareDramasComplainWrapper}>
-              <div className={styles.wantToShare}>
+                <div className={`${styles.wantToShare} ${styles.bodyText}`}>
                 Want your friends to also join the discussion? Recook it in your
                 own words, thoughts, or perspectives to add more tea to the
                 post.
-              </div>
+                </div>
             </div>
           </div>
           <img

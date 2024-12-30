@@ -12,7 +12,7 @@ function App() {
   return (
     <div className={styles.landingFrame}>
       <LandingPageHeader />
-      <div className={styles.slide7Parent}>
+      <div className={styles.mainPageContainer}>
         <Introduction />
         <Features />
         <ClassFeature />
