@@ -1,5 +1,5 @@
 // components/sections/Features.tsx
-import React, { useState } from "react";
+import { useState } from "react";
 import styles from "../../styles/LandingFrame.module.css";
 
 export const Features = () => {

@@ -1,5 +1,4 @@
 // components/sections/Header.tsx
-import React from "react";
 import styles from "../../styles/LandingFrame.module.css";
 
 export const Header = () => {
