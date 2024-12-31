@@ -48,7 +48,7 @@ export const Features = () => {
           <img
             className={styles.frameItem}
             alt=""
-            src="/public/assets/Group_10.png"
+            src="/assets/Group_10.png"
           />
         </div>
       </div>
@@ -58,7 +58,7 @@ export const Features = () => {
           <img
             className={styles.frameItem}
             alt=""
-            src="/public/assets/reply_1.png"
+            src="/assets/reply_1.png"
           />
           <div className={styles.frameParent2}>
             <div className={styles.replyWrapper}>
@@ -96,7 +96,7 @@ export const Features = () => {
           <img
             className={styles.recook3Icon}
             alt=""
-            src="/public/assets/recook_3.png"
+            src="/assets/recook_3.png"
           />
         </div>
       </div>
@@ -109,7 +109,7 @@ export const Features = () => {
               <img
                 className={styles.groupChild}
                 alt=""
-                src="/public/assets/Group_193.svg"
+                src="/assets/Group_193.svg"
               />
               <div className={styles.vote}>
                 <img
@@ -117,10 +117,10 @@ export const Features = () => {
                   alt="Upvote"
                   src={
                     upvoted
-                      ? "/public/assets/state_chosen.svg"
+                      ? "/assets/state_chosen.svg"
                       : upvoteHovered
-                      ? "/public/assets/state_hover.svg"
-                      : "/public/assets/state_default.svg"
+                      ? "/assets/state_hover.svg"
+                      : "/assets/state_default.svg"
                   }
                   onMouseEnter={() => setUpvoteHovered(true)} // Set hover state to true
                   onMouseLeave={() => setUpvoteHovered(false)} // Reset hover state to false
@@ -134,10 +134,10 @@ export const Features = () => {
                   alt="Downvote"
                   src={
                     downvoted
-                      ? "/public/assets/downvote_chosen.svg"
+                      ? "/assets/downvote_chosen.svg"
                       : downvoteHovered
-                      ? "/public/assets/downvote_hover.svg"
-                      : "/public/assets/downvote_default.svg"
+                      ? "/assets/downvote_hover.svg"
+                      : "/assets/downvote_default.svg"
                   }
                   onMouseEnter={() => setDownvoteHovered(true)} // Set hover state to true
                   onMouseLeave={() => setDownvoteHovered(false)} // Reset hover state to false

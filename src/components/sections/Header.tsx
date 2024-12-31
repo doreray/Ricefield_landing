@@ -29,7 +29,7 @@ export const Header = () => {
           <img
             className={styles.tpMainLogoNoSloganGreen}
             alt=""
-            src="/public/assets/tp_Main_Logo_no_slogan_green_text_1.svg"
+            src="/assets/tp_Main_Logo_no_slogan_green_text_1.svg"
           />
         </div>
         <div className={styles.headerButtons}>

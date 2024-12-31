@@ -21,7 +21,7 @@ export const ClassFeature = () => {
         <img
           className={styles.frameItem}
           alt=""
-          src="/public/assets/Group_197.png"
+          src="/assets/Group_197.png"
         />
       </div>
     </div>
