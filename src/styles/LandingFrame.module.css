@@ -125,7 +125,7 @@ body {
   box-sizing: border-box;
   width: 100vw; /* Full-screen width */
   overflow: hidden;
-  background-image: url("/public/assets/bg1_1.svg");
+  background-image: url("/assets/bg1_1.svg");
   background-size: cover;
   background-position: top center; /* Equivalent to object-position: top */
   background-repeat: no-repeat; /* To avoid repeating the background */
@@ -234,7 +234,7 @@ body {
   align-self: stretch;
   width: 100vw; /* Full-screen width */
   overflow: hidden;
-  background-image: url("/public/assets/bg1_2.svg"); /* Add the URL of your background image */
+  background-image: url("/assets/bg1_2.svg"); /* Add the URL of your background image */
   background-size: cover; /* Equivalent to object-fit: cover */
   background-position: bottom center; /* Equivalent to object-position: top */
   background-repeat: no-repeat; /* To avoid repeating the background */
@@ -1093,7 +1093,7 @@ body {
   text-align: center;
   align-self: stretch;
   overflow: hidden;
-  background-image: url("/public/assets/bg3_1.svg");
+  background-image: url("/assets/bg3_1.svg");
   background-size: cover;
   background-position: top center; /* Equivalent to object-position: top */
   background-repeat: no-repeat; /* To avoid repeating the background */

@@ -45,7 +45,7 @@ export const Introduction = () => {
           <img
             className={styles.frameChild}
             alt=""
-            src="/public/assets/Group_1.png"
+            src="/assets/Group_1.png"
           />
         </div>
       </div>
