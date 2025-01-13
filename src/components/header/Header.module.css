@@ -1,7 +1,7 @@
 
 .headerStretch {
     width: 100vw;
-    height: 100px;
+    height: 67px;
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    gap: 40px;
+    gap: 26px;
 }
 
 .headerLanding {
@@ -27,10 +27,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 12px 70px;
+    padding: 8px 70px;
     box-sizing: border-box;
     text-align: center;
-    font-size: 24px;
+    font-size: 16px;
     font-family: Nunito;
     position:fixed;
     top: 0;
@@ -45,9 +45,9 @@
 }
 
 .tpMainLogoNoSloganGreen {
-    width: 300px;
+    width: 201px;
     position: relative;
-    height: 50.1px;
+    height: 33px;
     overflow: hidden;
     flex-shrink: 0;
     object-fit: cover;
@@ -55,25 +55,25 @@
 
 .b {
     position: relative;
-    line-height: 24px;
+    line-height: 16px;
     font-weight: 650;
 }
 .b:hover{
     cursor: pointer;
     color: #448d57;
     text-decoration: underline;
-    text-underline-offset: 6px;
+    text-underline-offset: 4px;
 }
 .b2 {
     position: relative;
-    line-height: 24px;
+    line-height: 16px;
     font-weight: 650;
 }
 .b2:hover{
     cursor: pointer;
     color: #448d57;
     text-decoration: underline;
-    text-underline-offset: 6px;
+    text-underline-offset: 4px;
 }
 
 .joinWaitlistButton2 {
@@ -81,7 +81,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    font-size: 28px;
+    font-size: 18px;
     color: #fff;
 }
 
@@ -112,15 +112,15 @@
 
 .joinTheWaitlist {
     position: relative;
-    line-height: 24px;
+    line-height: 16px;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 16px;
 }
 .joinWaitlistButton1 {
-    width: 288px;
-    border-radius: 35px;
+    width: 192px;
+    border-radius: 23px;
     background-color: #448d57;
-    height: 68px;
+    height: 45px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -147,7 +147,7 @@
 }
 
 .viewPrototype {
-    border-radius: 35px;
+    border-radius: 23px;
     display: flex;
     flex-direction: row;
     align-items: center;
