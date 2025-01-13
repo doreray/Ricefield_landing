@@ -1462,7 +1462,301 @@ body {
 }
 
 /* Add responsive styles - Introduction Page */
-/* temp removed */
+/* Add responsive styles - Introduction Page */
+@media screen and (max-width: 1440px) {
+  .slide7 {
+    padding: 317px 20px;
+  }
+  .frameParent {
+    width: 90%;
+    max-width: 800px;
+  }
+  .frameGroup {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .frameChild {
+    width: 100%;
+    max-width: 654px;
+    height: auto;
+  }
+  .frameContainer {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .whatsCookingOn {
+    font-size: 80px;
+  }
+  .whatTheHeck {
+    font-size: 70px;
+    line-height: 80px;
+  }
+  .fromClassesTo {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .whatsCookingOn {
+    font-size: 60px;
+  }
+  .whatTheHeck {
+    font-size: 50px;
+    line-height: 60px;
+    width: 100%;
+  }
+  .whatTheHeckIsRicefieldWrapper,
+  .theBestWayToThinkOfRicefWrapper {
+    width: 100%;
+    height: auto;
+  }
+  .theBestWayContainer {
+    width: 100%;
+  }
+  .theBestWayContainer1 {
+    display: block;
+    width: 100%;
+  }
+  .slide7,
+  .slide8 {
+    padding: 40px 20px;
+    height: auto;
+    min-height: 100vh;
+
+    & .frameContainer {
+      gap: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .whatsCookingOn {
+    font-size: 40px;
+  }
+  .whatTheHeck {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .fromClassesTo {
+    font-size: 20px;
+    padding: 0;
+  }
+  .theBestWay {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
+
+/* Add responsive styles - LaunchSection  */
+@media screen and (max-width: 1200px) {
+  .weAreLaunchingNextSemesterWrapper {
+    width: 90%;
+    max-width: 800px;
+  }
+
+  .weAreLaunching {
+    width: 100%;
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .slide10 {
+    padding: 40px 20px;
+    height: auto;
+    min-height: 800px;
+  }
+
+  .weAreLaunching {
+    font-size: 70px;
+  }
+
+  .itsGonnaBeLitToBeOneOfWrapper {
+    width: 90%;
+    max-width: 580px;
+    height: auto;
+  }
+
+  .joinWaitlistButtonParent {
+    width: 100%;
+    max-width: 590px;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .frameParent8 {
+    gap: 40px;
+  }
+
+  .weAreLaunching {
+    font-size: 50px;
+  }
+
+  .itsGonnaBeLitToBeOneOfWrapper {
+    font-size: 24px;
+  }
+
+  .joinWaitlistButtonParent {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .joinWaitlistButton1,
+  .viewPrototypeButton1 {
+    width: 100%;
+    max-width: 288px;
+
+    padding: 10px;
+  }
+
+  .joinTheWaitlist {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .slide10 {
+    padding: 30px 15px;
+  }
+
+  .weAreLaunching {
+    font-size: 40px;
+  }
+
+  .itsGonnaBeLitToBeOneOfWrapper {
+    font-size: 20px;
+  }
+
+  .joinTheWaitlist {
+    font-size: 18px;
+  }
+
+  .joinWaitlistButton1,
+  .viewPrototypeButton1 {
+    height: 56px;
+    border-radius: 28px;
+  }
+}
+
+/* Add responsive styles - Upcoming Feature */
+@media screen and (max-width: 1400px) {
+  .frameParent9 {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .frameParent10 {
+    width: 90%;
+    height: auto;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .upcomingFeatures {
+    width: 100%;
+    max-width: 400px;
+    font-size: 80px;
+  }
+
+  .events,
+  .appTitle {
+    font-size: 45px;
+  }
+
+  .eventsContent,
+  .appContent {
+    width: 250px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .frameParent10 {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .eventsWrapper {
+    height: auto;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .events,
+  .appTitle {
+    font-size: 40px;
+    justify-content: center;
+  }
+
+  .eventsContent,
+  .appContent {
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slide11 {
+    padding: 40px 20px;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .upcomingFeaturesTxtContainer {
+    line-break: normal;
+  }
+
+  .upcomingFeatures {
+    font-size: 60px;
+  }
+
+  .events,
+  .appTitle {
+    font-size: 35px;
+  }
+
+  .eventsContent,
+  .appContent {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .slide11 {
+    padding: 30px 15px;
+  }
+
+  .upcomingFeatures {
+    font-size: 45px;
+  }
+
+  .events,
+  .appTitle {
+    font-size: 30px;
+  }
+
+  .eventsContent,
+  .appContent {
+    font-size: 18px;
+    max-width: 280px;
+  }
+
+  .frameParent10 {
+    gap: 40px;
+  }
+}
 
 /* Responsive styles for feature frames for smaller desktop screens */
 @media (min-width: 600px) and (max-width: 1600px) {
