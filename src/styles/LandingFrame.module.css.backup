@@ -14,12 +14,12 @@ body {
 }
 
 .headingText {
-    font-size: 67px;
+    font-size: 100px;
     font-weight: 1000;
 }
 
 .bodyText {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 @media (max-width: 600px) {
@@ -52,8 +52,8 @@ body {
 
 .bg31Icon {
   position: relative;
-  width: 1287px;
-  height: 712px;
+  width: 1921px;
+  height: 1063px;
   overflow: hidden;
   object-fit: cover;
 }
@@ -66,9 +66,9 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%; /* Responsive width */
-  max-width: 536px;
+  max-width: 800px;
   font-weight: 1000;
-  font-size: 67px;
+  font-size: 100px;
   text-align: center;
   font-family: Fredoka;
 }
@@ -76,7 +76,7 @@ body {
 /* Wrapper with flexible dimensions */
 .whatsCookingOnCampusWrapper {
   width: 100%;
-  max-width: 536px;
+  max-width: 800px;
   position: relative;
   height: auto;
   display: flex;
@@ -92,27 +92,27 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 536px;
-  font-size: 20px;
+  max-width: 800px;
+  font-size: 30px;
   text-align: left;
-  padding-left: 23px;
+  padding-left: 35px;
 }
 
 /* Dynamic height and text alignment */
 .fromClassesToClubsFromDoWrapper {
   width: 100%;
-  max-width: 536px;
+  max-width: 800px;
   position: relative;
   height: auto;
-  font-size: 20px;
+  font-size: 30px;
 }
 .frameParent {
-  width: 536px;
+  width: 800px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: 53px;
+  gap: 80px;
 }
 .slide7 {
   align-self: stretch;
@@ -121,7 +121,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 212px 561px;
+  padding: 317px 561px;
   box-sizing: border-box;
   width: 100vw; /* Full-screen width */
   overflow: hidden;
@@ -132,17 +132,17 @@ body {
 }
 .whatTheHeck {
   position: relative;
-  line-height: 67px;
+  line-height: 100px;
   display: flex;
   align-items: center;
-  width: 469px;
+  width: 700px;
   font-weight: 1000;
   font-family: Fredoka;
 }
 .whatTheHeckIsRicefieldWrapper {
   align-self: stretch;
   position: relative;
-  height: 134px;
+  height: 200px;
 }
 .theBestWay {
   margin: 0;
@@ -152,29 +152,29 @@ body {
 }
 .theBestWayContainer {
   position: relative;
-  line-height: 23px;
+  line-height: 35px;
   display: flex;
   align-items: center;
-  width: 482px;
+  width: 720px;
 }
 .theBestWayToThinkOfRicefWrapper {
   align-self: stretch;
   position: relative;
-  height: 201px;
-  font-size: 20px;
+  height: 300px;
+  font-size: 30px;
 }
 .frameContainer {
-  width: 471px;
+  width: 703px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 67px;
+  gap: 100px;
 }
 .frameChild {
-  width: 438px;
+  width: 654px;
   position: relative;
-  height: 482px;
+  height: 720.6px;
   object-fit: cover;
 }
 .frameGroup {
@@ -182,13 +182,13 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 79px;
+  gap: 118px;
 }
 .slide8 {
   position: relative;
   align-self: stretch;
   background: linear-gradient(180deg, #f6f8f9 67.17%, #c4e2f6);
-  /* height: 603px; */
+  /* height: 900px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -199,7 +199,7 @@ body {
 }
 .soHowDoesContainer {
   position: relative;
-  line-height: 67px;
+  line-height: 100px;
 }
 @media (max-width: 600px) {
   .soHowDoesContainer {
@@ -209,7 +209,7 @@ body {
 
 .soHowDoesThisWorkWrapper {
   margin: 0;
-  width: 469px;
+  width: 700px;
   position: relative;
 }
 @media (max-width: 600px) {
@@ -243,47 +243,47 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  line-height: 67px;
+  line-height: 100px;
   font-weight: 1000;
   font-family: Fredoka;
 }
 .cookWrapper {
-  width: 162px;
+  width: 242px;
   position: relative;
-  height: 67px;
+  height: 100px;
 }
 .wantToShare {
   position: absolute;
   top: 0px;
   left: 0px;
-  line-height: 23px;
+  line-height: 35px;
   display: flex;
   align-items: center;
-  width: 469px;
+  width: 700px;
 }
 .wantToShareDramasComplainWrapper {
   align-self: stretch;
   position: relative;
-  height: 70px;
-  font-size: 20px;
+  height: 105px;
+  font-size: 30px;
   font-weight: 1000;
 }
 .frameItem {
-  width: 435px;
+  width: 650px;
   position: relative;
-  height: 435px;
+  height: 650px;
   object-fit: cover;
 }
 
 .slide32 {
   align-self: stretch;
   background-color: #f6f8f9;
-  height: 502px;
+  height: 750px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 139px 222px;
+  padding: 208px 222px;
   box-sizing: border-box;
 }
 /* RESPONSIVE STYLES FOR 'cook' SECTION */
@@ -332,41 +332,41 @@ body {
   }
 }
 .frameParent1 {
-  width: 471px;
+  width: 703px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 50px;
+  gap: 75px;
 }
 .frameDiv {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 81px;
+  gap: 122px;
 }
 
 .replyWrapper {
-  width: 177px;
+  width: 265px;
   position: relative;
-  height: 67px;
+  height: 100px;
   font-weight: 1000;
 }
 .cantFindA {
   position: absolute;
   top: 0px;
   left: 0px;
-  line-height: 23px;
+  line-height: 35px;
   display: flex;
   align-items: center;
-  width: 438px;
+  width: 654px;
 }
 .cantFindACleanToiletSeatWrapper {
-  width: 438px;
+  width: 654px;
   position: relative;
-  height: 70px;
-  font-size: 20px;
+  height: 105px;
+  font-size: 30px;
   font-weight: 1000;
 }
 .frameParent2 {
@@ -374,24 +374,24 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 50px;
+  gap: 75px;
 }
 .groupParent {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 114px;
+  gap: 171px;
 }
 .slide321 {
   align-self: stretch;
   background-color: #f6f8f9;
-  height: 502px;
+  height: 750px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 144px 222px;
+  padding: 215px 222px;
   box-sizing: border-box;
 }
 
@@ -478,24 +478,24 @@ body {
 }
 
 .recookWrapper {
-  width: 230px;
+  width: 344px;
   position: relative;
-  height: 67px;
+  height: 100px;
   font-weight: 1000;
 }
 .frameParent4 {
-  width: 472px;
+  width: 705px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 50px;
+  gap: 75px;
 }
 .recook3Icon {
-  width: 435px;
+  width: 650px;
   position: relative;
-  border-radius: 20px;
-  height: 435px;
+  border-radius: 30px;
+  height: 650px;
   overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
@@ -505,32 +505,32 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  gap: 80px;
+  gap: 120px;
 }
 
 .putInYour {
   position: absolute;
   bottom: 10%;
   right: -5%; 
-  line-height: 20px;
+  line-height: 30px;
   transform: rotate(-25deg);
   transform-origin: 0 0;
   font-weight: 1000;
   font-family: Fredoka;
-  /* width: 201px; */
+  /* width: 300px; */
 }
 .groupChild {
   position: absolute;
   top: 0px;
   left: 0px;
   width: 74%;
-  /* height: 469px; */
+  /* height: 700px; */
   object-fit: cover;
 }
 .upvoteIcon {
-  width: 33px;
+  width: 50px;
   position: relative;
-  height: 33px;
+  height: 50px;
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -539,25 +539,25 @@ body {
 }
 .b {
   position: relative;
-  line-height: 16px;
+  line-height: 24px;
   font-weight: 650;
 }
 .b:hover {
   cursor: pointer;
   color: #448d57;
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 6px;
 }
 .b2 {
   position: relative;
-  line-height: 16px;
+  line-height: 24px;
   font-weight: 650;
 }
 .b2:hover {
   cursor: pointer;
   color: #448d57;
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 6px;
 }
 .num {
   font-family: DM Sans;
@@ -576,9 +576,9 @@ body {
   }
 }
 .downvoteIcon {
-  width: 33px;
+  width: 50px;
   position: relative;
-  height: 33px;
+  height: 50px;
   overflow: hidden;
   flex-shrink: 0;
   object-fit: contain;
@@ -590,7 +590,7 @@ body {
   position: absolute;
   top: 69%;
   left: 65%;
-  border-radius: 20px;
+  border-radius: 30px;
   background-color: #e5e7eb;
   border-style: solid;
   border-color: #c8cace;
@@ -598,21 +598,21 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  padding: 13px 30px;
-  gap: 13px;
+  padding: 20px 30px;
+  gap: 20px;
 }
 .votes {
-  line-height: 67px;
+  line-height: 100px;
   font-weight: 1000;
   font-family: Fredoka;
 }
 
 .cookClasses {
   position: relative;
-  line-height: 67px;
+  line-height: 100px;
   font-weight: 1000;
   font-family: Fredoka;
-  width: 536px;
+  width: 800px;
 }
 .groupDiv {
   position: absolute;
@@ -621,19 +621,19 @@ body {
   width: 100%;
   height: 100%;
   text-align: center;
-  font-size: 33px;
+  font-size: 50px;
   font-family: "DM Sans";
 }
 .putInYourVoteParent {
-  width: 636px;
+  width: 950px;
   position: relative;
-  /* height: 536px; */
+  /* height: 800px; */
   aspect-ratio: 1 / 1;
 }
 .upvoteDownvoteWrapper {
-  width: 335px;
+  width: 501px;
   position: relative;
-  height: 134px;
+  height: 200px;
   font-weight: 1000;
 }
 .agree {
@@ -646,17 +646,17 @@ body {
 .tooTiredToContainer {
   position: absolute;
   top: 0px;
-  left: 0px;
-  line-height: 23px;
+  left: 1px;
+  line-height: 35px;
   display: flex;
   align-items: center;
-  width: 337px;
+  width: 503px;
 }
 .tooTiredToCookInWordsButWrapper {
-  width: 337px;
+  width: 504px;
   position: relative;
-  height: 93px;
-  font-size: 20px;
+  height: 140px;
+  font-size: 30px;
   font-weight: 1000;
 }
 .frameParent5 {
@@ -664,9 +664,9 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 50px;
-  font-size: 67px;
-  padding-right: 26px;
+  gap: 75px;
+  font-size: 100px;
+  padding-right: 40px;
 }
 .groupContainer {
   display: flex;
@@ -677,14 +677,14 @@ body {
 .slide34 {
   align-self: stretch;
   background-color: #f6f8f9;
-  height: 569px;
+  height: 850px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 87px 195px;
+  padding: 131px 195px;
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /* RESPONSIVE STYLES FOR 'upvote downvote' SECTION */
@@ -763,44 +763,44 @@ body {
 
 
 .cookYourClassesWrapper {
-  width: 320px;
+  width: 478px;
   position: relative;
-  height: 201px;
+  height: 300px;
   font-weight: 1000;
 }
 .examPrepAssignment {
   position: absolute;
   top: 0px;
   left: 0px;
-  line-height: 23px;
+  line-height: 35px;
   display: flex;
   align-items: center;
-  width: 435px;
+  width: 650px;
 }
 .frameParent7 {
-  width: 435px;
+  width: 650px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 16px;
+  gap: 25px;
 }
 .frameParent6 {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 117px;
+  gap: 175px;
 }
 .slide35 {
   align-self: stretch;
   background: linear-gradient(180deg, #f6f8f9 67.17%, #9edffd);
-  height: 502px;
+  height: 750px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 144px 222px;
+  padding: 215px 222px;
   box-sizing: border-box;
 }
 
@@ -846,9 +846,9 @@ body {
 
 
 .weAreLaunchingNextSemesterWrapper {
-  width: 670px;
+  width: 1000px;
   position: relative;
-  height: 134px;
+  height: 200px;
   font-weight: 1000;
   display: flex;
   flex-direction: column;
@@ -859,28 +859,28 @@ body {
   position: relative;
   line-height: 0.9;
   font-weight: 1000;
-  width: 536px;
+  width: 800px;
   font-family: Fredoka;
 }
 .itsGonnaBeLitToBeOneOfWrapper {
-  width: 388px;
+  width: 580px;
   position: relative;
-  height: 134px;
+  height: 200px;
   text-align: left;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1.2;
 }
 .joinTheWaitlist {
   position: relative;
-  line-height: 16px;
+  line-height: 24px;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 25px;
 }
 .joinWaitlistButton1 {
-  width: 192px;
-  border-radius: 23px;
+  width: 288px;
+  border-radius: 35px;
   background-color: #448d57;
-  height: 45px;
+  height: 68px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -898,11 +898,11 @@ body {
   justify-content: flex-start;
 }
 .viewPrototypeButton1 {
-  width: 192px;
-  border-radius: 23px;
-  border: 1px solid #000;
+  width: 288px;
+  border-radius: 35px;
+  border: 2px solid #000;
   box-sizing: border-box;
-  height: 45px;
+  height: 68px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -922,10 +922,10 @@ body {
 .joinWaitlistButtonParent {
   display: flex;
   flex-direction: row;
-  width: 395px;
+  width: 590px;
   align-items: space;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 28px;
   color: #fff;
 }
 .frameParent8 {
@@ -933,12 +933,12 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 75px;
 }
 .slide10 {
   align-self: stretch;
   background: linear-gradient(180deg, #9edffd, #bae4f5);
-  height: 536px;
+  height: 800px;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -955,12 +955,12 @@ body {
 .upcomingFeatures {
   display: flex;
   align-items: center;
-  width: 321px;
+  width: 480px;
   font-weight: 1000;
   font-family: Fredoka;
 }
 .eventsWrapper {
-  height: 113px;
+  height: 170px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -972,96 +972,96 @@ body {
   align-items: center;
   justify-content: flex-start;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 55px;
 }
 .appTitle {
   display: flex;
   flex-direction: row;
   align-items: center;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 55px;
 }
 .eventsContent {
-  width: 194px;
+  width: 290px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 25px;
   line-height: 1.2;
   margin: 0;
 }
 .appContent {
-  width: 180px;
+  width: 270px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 25px;
   line-height: 1.2;
   margin: 0;
 }
 .noLongerMissingOutOnCoolWrapper {
-  width: 226px;
+  width: 338px;
   position: relative;
-  height: 70px;
-  font-size: 20px;
+  height: 105px;
+  font-size: 30px;
   font-weight: 1000;
 }
 .frameParent11 {
   position: absolute;
-  top: 7px;
+  top: 11px;
   left: 0px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
 }
 .anonymous {
   position: absolute;
-  top: 1px;
+  top: 2px;
   left: 0px;
-  line-height: 23px;
+  line-height: 35px;
 }
 .anonymousWrapper {
-  width: 185px;
+  width: 277px;
   position: relative;
-  height: 30px;
+  height: 46px;
   font-weight: 1000;
 }
 .cookYourCampusAsATrueFarWrapper {
-  width: 247px;
+  width: 370px;
   position: relative;
-  height: 70px;
-  font-size: 20px;
+  height: 105px;
+  font-size: 30px;
   font-weight: 1000;
 }
 .frameParent12 {
   position: absolute;
   top: 0px;
-  left: 346px;
+  left: 517px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
 }
 .appWrapper {
-  width: 65px;
+  width: 98px;
   position: relative;
-  height: 30px;
+  height: 46px;
 }
 .late2025FasterCoolerMorWrapper {
-  width: 154px;
+  width: 230px;
   position: relative;
-  height: 70px;
-  font-size: 20px;
+  height: 105px;
+  font-size: 30px;
   font-weight: 1000;
 }
 .frameParent13 {
   position: absolute;
   top: 0px;
-  left: 753px;
+  left: 1124px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
 }
 .frameParent10 {
   display: flex;
@@ -1070,16 +1070,16 @@ body {
   justify-content: space-between;
   position: relative;
   text-align: left;
-  height: 268px;
+  height: 400px;
 }
 .frameParent9 {
-  width: 907px;
+  width: 1354px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  height: 636px;
-  gap: 13px;
+  height: 950px;
+  gap: 20px;
 }
 .slide11 {
   width: 100vw; /* Full-screen width */
@@ -1088,7 +1088,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 13px;
+  padding: 20px;
   box-sizing: border-box;
   text-align: center;
   align-self: stretch;
@@ -1102,11 +1102,11 @@ body {
 .furtherInformation {
   align-self: stretch;
   position: relative;
-  line-height: 20px;
+  line-height: 30px;
   font-weight: 1000;
 }
 .viewPrototype {
-  border-radius: 23px;
+  border-radius: 35px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1117,7 +1117,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  width: 268px;
+  width: 400px;
   font-family: Nunito;
 }
 .landingFooterButtonParent {
@@ -1125,29 +1125,29 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 10px;
+  gap: 15px;
   text-align: center;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 100;
   color: #fff;
 }
 .footerRight {
   display: flex;
   flex-direction: column;
-  height: 435px;
+  height: 650px;
   justify-content: space-between;
-  padding-top: 46px;
-  padding-right: 67px;
+  padding-top: 70px;
+  padding-right: 100px;
 }
 
 .furtherInformationParent {
   position: relative;
-  width: 252px;
+  width: 377px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 20px;
+  gap: 30px;
   color: #ffd700;
 }
 .footerBottomRight {
@@ -1158,34 +1158,34 @@ body {
 }
 .copyright2024Ricefield {
   position: relative;
-  line-height: 20px;
+  line-height: 30px;
 }
 .copyright2024RicefieldAllWrapper {
   position: relative;
-  width: 335px;
-  height: 20px;
-  font-size: 13px;
+  width: 500px;
+  height: 30px;
+  font-size: 20px;
   font-family: DM Sans;
 }
 .instaLogoIcon {
-  width: 26px;
+  width: 40px;
   position: relative;
-  height: 26px;
+  height: 40px;
   overflow: hidden;
   flex-shrink: 0;
 }
 .xLogoIcon {
-  width: 26px;
+  width: 40px;
   position: relative;
-  height: 26px;
+  height: 40px;
   overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
 }
 .tiktokLogoIcon {
-  width: 23px;
+  width: 35px;
   position: relative;
-  height: 26px;
+  height: 40px;
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -1194,7 +1194,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  gap: 33px;
+  gap: 50px;
 }
 .footerSocialMedia:hover {
   cursor: pointer;
@@ -1240,45 +1240,45 @@ body {
 .duyEverythingFarmerContainer {
   position: absolute;
   top: 0px;
-  left: 14px;
-  line-height: 20px;
+  left: 21px;
+  line-height: 30px;
 }
 .minhOperatingFarmerContainer {
   position: absolute;
-  top: 29px;
-  left: 152px;
-  line-height: 20px;
+  top: 44px;
+  left: 228px;
+  line-height: 30px;
 }
 .lamTechnologyFarmerContainer {
   position: absolute;
-  top: 2px;
-  left: 296px;
-  line-height: 20px;
+  top: 4px;
+  left: 443px;
+  line-height: 30px;
 }
 .groupItem {
   position: absolute;
-  top: 44px;
+  top: 67px;
   left: 0px;
-  width: 503px;
-  height: 290px;
+  width: 752px;
+  height: 433.9px;
   object-fit: cover;
 }
 .duyEverythingFarmerParent {
   position: absolute;
-  top: 151px;
-  left: 95px;
-  width: 503px;
-  height: 335px;
+  top: 226px;
+  left: 142px;
+  width: 752px;
+  height: 500.9px;
   text-align: center;
-  font-size: 18px;
+  font-size: 28px;
   font-family: Nunito;
 }
 .mainLogoNoSlogan1 {
   position: absolute;
-  top: 34px;
-  left: 95px;
-  width: 201px;
-  height: 36px;
+  top: 52px;
+  left: 142px;
+  width: 300px;
+  height: 54px;
   overflow: hidden;
   object-fit: cover;
 }
@@ -1294,7 +1294,7 @@ body {
 }
 
 .footerGroup {
-    padding: 0 13px;
+    padding: 0 20px;
 
     display: flex;
     flex-direction: row;
@@ -1303,19 +1303,19 @@ body {
     gap: 4rem;
     align-self: stretch;
     position: relative;
-    font-size: 21px;
+    font-size: 32px;
 }
-@media (min-width: 804px) {
+@media (min-width: 1200px) {
     .footerGroup {
-        margin: auto 67px;
+        margin: auto 100px;
     }
     .footerRight {
-        margin-right: 67px;
+        margin-right: 100px;
     }
 }
 
 .founderSvgText {
-    font: 17px Nunito;
+    font: 26px Nunito;
     fill: white;
 }
 .founderSvgTextTitle {
@@ -1327,7 +1327,7 @@ body {
 
 .founderGraphic {
     display: block;
-    width: 469px;
+    width: 700px;
     max-width: 100%;
 }
 
@@ -1338,7 +1338,7 @@ body {
   cursor: pointer;
   color: #ffd700;
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 6px;
   font-weight: 700;
 }
 .footerButton1 {
@@ -1348,7 +1348,7 @@ body {
   cursor: pointer;
   color: #ffd700;
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 6px;
   font-weight: 700;
 }
 .footerButton2 {
@@ -1358,7 +1358,7 @@ body {
   cursor: pointer;
   color: #ffd700;
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 6px;
   font-weight: 700;
 }
 .footerButton3 {
@@ -1368,14 +1368,14 @@ body {
   cursor: pointer;
   color: #ffd700;
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 6px;
   font-weight: 700;
 }
 .mainPageContainer {
   /* position: absolute;
-  top: 67px;
+  top: 100px;
   left: 0px; */
-  padding-top: 67px;
+  padding-top: 100px;
   /* display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1389,9 +1389,9 @@ body {
 }
 
 .tpMainLogoNoSloganGreen {
-  width: 201px;
+  width: 300px;
   position: relative;
-  height: 33px;
+  height: 50.1px;
   overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
@@ -1407,7 +1407,7 @@ body {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  font-size: 18px;
+  font-size: 28px;
   color: #fff;
 }
 .joinWaitlistButton2:hover {
@@ -1419,20 +1419,20 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  gap: 26px;
+  gap: 40px;
 }
 .headerLanding {
   background-color: #fff;
-  width: 1286px;
-  height: 67px;
+  width: 1920px;
+  height: 100px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 70px;
+  padding: 12px 70px;
   box-sizing: border-box;
   text-align: center;
-  font-size: 16px;
+  font-size: 24px;
   font-family: Nunito;
   position: fixed;
   top: 0;
@@ -1440,7 +1440,7 @@ body {
 }
 .headerStretch {
   width: 100vw;
-  height: 67px;
+  height: 100px;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -1455,9 +1455,9 @@ body {
   overflow-x: hidden;
 
   position: relative;
-  /* height: 5830px; */
+  /* height: 8702px; */
   text-align: left;
-  font-size: 67px;
+  font-size: 100px;
   color: #000;
 }
 
