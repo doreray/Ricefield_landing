@@ -1759,8 +1759,8 @@ body {
 }
 
 /* Responsive styles for feature frames for smaller desktop screens */
-@media (min-width: 600px) and (max-width: 1600px) {
+/* @media (min-width: 600px) and (max-width: 1600px) {
   .featureFrame {
-    /* transform: scale(0.7); */
+     transform: scale(0.7); 
   }
-}
+} */
