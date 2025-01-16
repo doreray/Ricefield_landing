@@ -2,7 +2,6 @@ import styles from "./styles/LandingFrame.module.css";
 
 import { Introduction } from "./components/sections/Introduction";
 import { Features } from "./components/sections/Feature";
-import { ClassFeature } from "./components/sections/ClassFeature";
 import { LaunchSection } from "./components/sections/LaunchSection";
 import { UpcomingFeatures } from "./components/sections/UpcomingFeature";
 import { Footer } from "./components/sections/Footer";
@@ -15,7 +14,6 @@ function App() {
       <div className={styles.mainPageContainer}>
         <Introduction />
         <Features />
-        <ClassFeature />
         <LaunchSection />
         <UpcomingFeatures />
         <Footer />
