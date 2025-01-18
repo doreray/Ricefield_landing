@@ -1,161 +1,200 @@
-
 .headerStretch {
-    width: 100vw;
-    height: 67px;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    position:fixed;
-    top: 0;
-    z-index: 1000;
-    border-bottom:#dcdddf;
-    border-bottom-style: solid;
+  width: 100vw;
+  height: 100px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  border-bottom: #dcdddf;
+  border-bottom-style: solid;
 }
 
 .headerButtons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
 }
 
 .headerLanding {
-    background-color: #fff;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 8px 70px;
-    box-sizing: border-box;
-    text-align: center;
-    font-size: 16px;
-    font-family: Nunito;
-    position:fixed;
-    top: 0;
-    z-index: 1000;
+  background-color: #fff;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 70px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 24px;
+  font-family: Nunito;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
 
 .ricefieldLogo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .tpMainLogoNoSloganGreen {
-    width: 201px;
-    position: relative;
-    height: 33px;
-    overflow: hidden;
-    flex-shrink: 0;
-    object-fit: cover;
+  width: 300px;
+  position: relative;
+  height: 50.1px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
 }
 
 .b {
-    position: relative;
-    line-height: 16px;
-    font-weight: 650;
+  position: relative;
+  line-height: 24px;
+  font-weight: 650;
 }
-.b:hover{
-    cursor: pointer;
-    color: #448d57;
-    text-decoration: underline;
-    text-underline-offset: 4px;
+.b:hover {
+  cursor: pointer;
+  color: #448d57;
+  text-decoration: underline;
+  text-underline-offset: 6px;
 }
 .b2 {
-    position: relative;
-    line-height: 16px;
-    font-weight: 650;
+  position: relative;
+  line-height: 24px;
+  font-weight: 650;
 }
-.b2:hover{
-    cursor: pointer;
-    color: #448d57;
-    text-decoration: underline;
-    text-underline-offset: 4px;
+.b2:hover {
+  cursor: pointer;
+  color: #448d57;
+  text-decoration: underline;
+  text-underline-offset: 6px;
 }
 
 .joinWaitlistButton2 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    font-size: 18px;
-    color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 28px;
+  color: #fff;
 }
 
-.joinWaitlistButton2:hover{
-    cursor: pointer;
-    opacity: 90%;
+.joinWaitlistButton2:hover {
+  cursor: pointer;
+  opacity: 90%;
 }
 
 @media (max-width: 600px) {
-    .headerStretch {
-        height: auto;
-        padding: 0 0;
-    }
+  .headerStretch {
+    height: auto;
+    padding: 0 0;
+  }
 
-    /* Hide header buttons on mobile */
-    .headerButtons {
-        display: none;
-    }
+  /* Hide header buttons on mobile */
+  .headerButtons {
+    display: none;
+  }
 
-    .tpMainLogoNoSloganGreen {
-        width: 60%;
-        height: auto;
-        margin: auto;
-    }
+  .tpMainLogoNoSloganGreen {
+    width: 60%;
+    height: auto;
+    margin: auto;
+  }
 }
 
 /* Duplicate from LandingFrameModule.css */
 
 .joinTheWaitlist {
-    position: relative;
-    line-height: 16px;
-    font-weight: 800;
-    font-size: 16px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 800;
+  font-size: 25px;
 }
 .joinWaitlistButton1 {
-    width: 192px;
-    border-radius: 23px;
-    background-color: #448d57;
-    height: 45px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
+  width: 288px;
+  border-radius: 35px;
+  background-color: #448d57;
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }
-.joinWaitlistButton1:hover{
-    opacity: 90%;
-    cursor: pointer;
+.joinWaitlistButton1:hover {
+  opacity: 90%;
+  cursor: pointer;
 }
 .joinWaitlistButton {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .groupContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .viewPrototype {
-    border-radius: 23px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  border-radius: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 1200px) {
-    .viewPrototype {
-        display: none;
-    }
+  .viewPrototype {
+    display: none;
+  }
+}
+
+.hamburgerMenu {
+  display: none;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.mobileMenu {
+  display: none;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-top: 1px solid #dcdddf;
+  z-index: 1000;
+}
+
+.mobileMenuItem {
+  padding: 15px 70px;
+  font-size: 20px;
+  color: #000;
+  cursor: pointer;
+  font-weight: 650;
+}
+
+.mobileMenuItem:hover {
+  color: #448d57;
+  background-color: rgba(68, 141, 87, 0.1);
+}
+
+@media (max-width: 600px) {
+  .hamburgerMenu {
+    display: block;
+  }
+
+  .mobileMenu {
+    display: block;
+  }
 }
