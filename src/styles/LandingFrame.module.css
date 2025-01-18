@@ -14,22 +14,22 @@ body {
 }
 
 .headingText {
-    font-size: 67px;
-    font-weight: 1000;
+  font-size: 67px;
+  font-weight: 1000;
 }
 
 .bodyText {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 @media (max-width: 600px) {
-    .headingText {
-        font-size: 40px;
-    }
+  .headingText {
+    font-size: 40px;
+  }
 
-    .bodyText {
-        font-size: 20px;
-    }
+  .bodyText {
+    font-size: 20px;
+  }
 }
 
 .bg11Icon {
@@ -289,7 +289,7 @@ body {
 /* RESPONSIVE STYLES FOR 'cook' SECTION */
 @media (max-width: 600px) {
   .slide32 {
-    width: 100vw; 
+    width: 100vw;
 
     display: block;
     padding: 100px 10px;
@@ -427,7 +427,7 @@ body {
         }
 
         & .cantFindACleanToiletSeatWrapper {
-          width: auto; 
+          width: auto;
           height: auto;
 
           .cantFindA {
@@ -463,15 +463,15 @@ body {
         }
 
         & .wantToShareDramasComplainWrapper {
-            height: auto;
-            padding-bottom: 20px;
-            
-            & .wantToShare {
-              position: static;
-              width: auto;
-              display: block;
-            }
+          height: auto;
+          padding-bottom: 20px;
+
+          & .wantToShare {
+            position: static;
+            width: auto;
+            display: block;
           }
+        }
       }
     }
   }
@@ -511,7 +511,7 @@ body {
 .putInYour {
   position: absolute;
   bottom: 10%;
-  right: -5%; 
+  right: -5%;
   line-height: 20px;
   transform: rotate(-25deg);
   transform-origin: 0 0;
@@ -721,9 +721,10 @@ body {
             gap: 10px;
             padding: 10px 15px;
 
-            & .upvoteIcon, & .downvoteIcon {
+            & .upvoteIcon,
+            & .downvoteIcon {
               width: 30px;
-              height: 30px
+              height: 30px;
             }
 
             & .num {
@@ -760,7 +761,6 @@ body {
     }
   }
 }
-
 
 .cookYourClassesWrapper {
   width: 320px;
@@ -844,7 +844,6 @@ body {
     }
   }
 }
-
 
 .weAreLaunchingNextSemesterWrapper {
   width: 670px;
@@ -1233,7 +1232,6 @@ body {
   }
 }
 
-
 .duy {
   margin: 0;
   font-weight: 900;
@@ -1290,46 +1288,46 @@ body {
   padding-bottom: 4rem;
 }
 .footerLogo {
-    margin-top: 2rem;
-    margin-bottom: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 
 .footerGroup {
-    padding: 0 13px;
+  padding: 0 13px;
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 4rem;
-    align-self: stretch;
-    position: relative;
-    font-size: 21px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4rem;
+  align-self: stretch;
+  position: relative;
+  font-size: 21px;
 }
 @media (min-width: 804px) {
-    .footerGroup {
-        margin: auto 67px;
-    }
-    .footerRight {
-        margin-right: 67px;
-    }
+  .footerGroup {
+    margin: auto 67px;
+  }
+  .footerRight {
+    margin-right: 67px;
+  }
 }
 
 .founderSvgText {
-    font: 17px Nunito;
-    fill: white;
+  font: 26px Nunito;
+  fill: white;
 }
 .founderSvgTextTitle {
-    font-weight: 900;
+  font-weight: 900;
 }
 .founderSvgTextSubtitle {
-    font-style: italic;
+  font-style: italic;
 }
 
 .founderGraphic {
-    display: block;
-    width: 469px;
-    max-width: 100%;
+  display: block;
+  width: 469px;
+  max-width: 100%;
 }
 
 .footerButton {
