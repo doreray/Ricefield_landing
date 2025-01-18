@@ -168,7 +168,7 @@
 .mobileMenu {
   display: none;
   position: absolute;
-  top: 67px;
+  top: 100%;
   left: 0;
   right: 0;
   background-color: white;
