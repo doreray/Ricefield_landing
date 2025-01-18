@@ -77,7 +77,7 @@ export const Features = () => {
         </div>
       </div>
       {/* Recook Feature */}
-      <div className={styles.slide321}>
+      {/* <div className={styles.slide321}>
         <div className={`${styles.frameParent3} ${styles.featureFrame}`}>
           <div className={styles.frameParent4}>
             <div className={styles.recookWrapper}>
@@ -99,7 +99,36 @@ export const Features = () => {
             src="/assets/recook_3.png"
           />
         </div>
+      </div> */}
+
+      {/* Cook your classes feature */}
+      <div className={styles.slide35}>
+        <div className={`${styles.frameParent6} ${styles.featureFrame}`}>
+          <div className={styles.frameParent7}>
+            <div>
+              <div>
+                <p className={`${styles.cookClasses} ${styles.headingText}`}>
+                  cook your classes!
+                </p>
+              </div>
+            </div>
+            <div className={styles.wantToShareDramasComplainWrapper}>
+              <div
+                className={`${styles.examPrepAssignment} ${styles.bodyText}`}
+              >
+                Exam prep? Assignment help? Survival tips? Professor complaints?
+                It’s your chance to cook these classes communities!
+              </div>
+            </div>
+          </div>
+          <img
+            className={styles.frameItem}
+            alt=""
+            src="/assets/Group_197.png"
+          />
+        </div>
       </div>
+
       {/* Voting Feature */}
       <div className={styles.slide34}>
         <div className={`${styles.groupContainer} ${styles.featureFrame}`}>

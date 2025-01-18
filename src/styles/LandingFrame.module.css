@@ -14,22 +14,22 @@ body {
 }
 
 .headingText {
-    font-size: 100px;
-    font-weight: 1000;
+  font-size: 67px;
+  font-weight: 1000;
 }
 
 .bodyText {
-    font-size: 30px;
+  font-size: 20px;
 }
 
 @media (max-width: 600px) {
-    .headingText {
-        font-size: 40px;
-    }
+  .headingText {
+    font-size: 40px;
+  }
 
-    .bodyText {
-        font-size: 20px;
-    }
+  .bodyText {
+    font-size: 20px;
+  }
 }
 
 .bg11Icon {
@@ -52,8 +52,8 @@ body {
 
 .bg31Icon {
   position: relative;
-  width: 1921px;
-  height: 1063px;
+  width: 1287px;
+  height: 712px;
   overflow: hidden;
   object-fit: cover;
 }
@@ -66,9 +66,9 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%; /* Responsive width */
-  max-width: 800px;
+  max-width: 536px;
   font-weight: 1000;
-  font-size: 100px;
+  font-size: 67px;
   text-align: center;
   font-family: Fredoka;
 }
@@ -76,7 +76,7 @@ body {
 /* Wrapper with flexible dimensions */
 .whatsCookingOnCampusWrapper {
   width: 100%;
-  max-width: 800px;
+  max-width: 536px;
   position: relative;
   height: auto;
   display: flex;
@@ -92,27 +92,27 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 800px;
-  font-size: 30px;
+  max-width: 536px;
+  font-size: 20px;
   text-align: left;
-  padding-left: 35px;
+  padding-left: 23px;
 }
 
 /* Dynamic height and text alignment */
 .fromClassesToClubsFromDoWrapper {
   width: 100%;
-  max-width: 800px;
+  max-width: 536px;
   position: relative;
   height: auto;
-  font-size: 30px;
+  font-size: 20px;
 }
 .frameParent {
-  width: 800px;
+  width: 536px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: 80px;
+  gap: 53px;
 }
 .slide7 {
   align-self: stretch;
@@ -121,7 +121,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 317px 561px;
+  padding: 212px 561px;
   box-sizing: border-box;
   width: 100vw; /* Full-screen width */
   overflow: hidden;
@@ -132,17 +132,17 @@ body {
 }
 .whatTheHeck {
   position: relative;
-  line-height: 100px;
+  line-height: 67px;
   display: flex;
   align-items: center;
-  width: 700px;
+  width: 469px;
   font-weight: 1000;
   font-family: Fredoka;
 }
 .whatTheHeckIsRicefieldWrapper {
   align-self: stretch;
   position: relative;
-  height: 200px;
+  height: 134px;
 }
 .theBestWay {
   margin: 0;
@@ -152,43 +152,44 @@ body {
 }
 .theBestWayContainer {
   position: relative;
-  line-height: 35px;
+  line-height: 23px;
   display: flex;
   align-items: center;
-  width: 720px;
+  width: 482px;
 }
 .theBestWayToThinkOfRicefWrapper {
   align-self: stretch;
   position: relative;
-  height: 300px;
-  font-size: 30px;
+  height: 201px;
+  font-size: 20px;
 }
 .frameContainer {
-  width: 703px;
+  width: 471px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 100px;
+  gap: 67px;
 }
 .frameChild {
-  width: 654px;
+  width: 438px;
   position: relative;
-  height: 720.6px;
+  height: 482px;
   object-fit: cover;
 }
 .frameGroup {
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 118px;
+  gap: 79px;
 }
 .slide8 {
   position: relative;
   align-self: stretch;
   background: linear-gradient(180deg, #f6f8f9 67.17%, #c4e2f6);
-  height: 900px;
+  /* height: 603px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -199,7 +200,7 @@ body {
 }
 .soHowDoesContainer {
   position: relative;
-  line-height: 100px;
+  line-height: 67px;
 }
 @media (max-width: 600px) {
   .soHowDoesContainer {
@@ -209,7 +210,7 @@ body {
 
 .soHowDoesThisWorkWrapper {
   margin: 0;
-  width: 700px;
+  width: 469px;
   position: relative;
 }
 @media (max-width: 600px) {
@@ -243,53 +244,53 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  line-height: 100px;
+  line-height: 67px;
   font-weight: 1000;
   font-family: Fredoka;
 }
 .cookWrapper {
-  width: 242px;
+  width: 162px;
   position: relative;
-  height: 100px;
+  height: 67px;
 }
 .wantToShare {
   position: absolute;
   top: 0px;
   left: 0px;
-  line-height: 35px;
+  line-height: 23px;
   display: flex;
   align-items: center;
-  width: 700px;
+  width: 469px;
 }
 .wantToShareDramasComplainWrapper {
   align-self: stretch;
   position: relative;
-  height: 105px;
-  font-size: 30px;
+  height: 70px;
+  font-size: 20px;
   font-weight: 1000;
 }
 .frameItem {
-  width: 650px;
+  width: 435px;
   position: relative;
-  height: 650px;
+  height: 435px;
   object-fit: cover;
 }
 
 .slide32 {
   align-self: stretch;
   background-color: #f6f8f9;
-  height: 750px;
+  height: 502px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 208px 222px;
+  padding: 139px 222px;
   box-sizing: border-box;
 }
 /* RESPONSIVE STYLES FOR 'cook' SECTION */
 @media (max-width: 600px) {
   .slide32 {
-    width: 100vw; 
+    width: 100vw;
 
     display: block;
     padding: 100px 10px;
@@ -332,41 +333,41 @@ body {
   }
 }
 .frameParent1 {
-  width: 703px;
+  width: 471px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 75px;
+  gap: 50px;
 }
 .frameDiv {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 122px;
+  gap: 81px;
 }
 
 .replyWrapper {
-  width: 265px;
+  width: 177px;
   position: relative;
-  height: 100px;
+  height: 67px;
   font-weight: 1000;
 }
 .cantFindA {
   position: absolute;
   top: 0px;
   left: 0px;
-  line-height: 35px;
+  line-height: 23px;
   display: flex;
   align-items: center;
-  width: 654px;
+  width: 438px;
 }
 .cantFindACleanToiletSeatWrapper {
-  width: 654px;
+  width: 438px;
   position: relative;
-  height: 105px;
-  font-size: 30px;
+  height: 70px;
+  font-size: 20px;
   font-weight: 1000;
 }
 .frameParent2 {
@@ -374,24 +375,24 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 75px;
+  gap: 50px;
 }
 .groupParent {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 171px;
+  gap: 114px;
 }
 .slide321 {
   align-self: stretch;
   background-color: #f6f8f9;
-  height: 750px;
+  height: 502px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 215px 222px;
+  padding: 144px 222px;
   box-sizing: border-box;
 }
 
@@ -427,7 +428,7 @@ body {
         }
 
         & .cantFindACleanToiletSeatWrapper {
-          width: auto; 
+          width: auto;
           height: auto;
 
           .cantFindA {
@@ -463,39 +464,39 @@ body {
         }
 
         & .wantToShareDramasComplainWrapper {
-            height: auto;
-            padding-bottom: 20px;
-            
-            & .wantToShare {
-              position: static;
-              width: auto;
-              display: block;
-            }
+          height: auto;
+          padding-bottom: 20px;
+
+          & .wantToShare {
+            position: static;
+            width: auto;
+            display: block;
           }
+        }
       }
     }
   }
 }
 
 .recookWrapper {
-  width: 344px;
+  width: 230px;
   position: relative;
-  height: 100px;
+  height: 67px;
   font-weight: 1000;
 }
 .frameParent4 {
-  width: 705px;
+  width: 472px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 75px;
+  gap: 50px;
 }
 .recook3Icon {
-  width: 650px;
+  width: 435px;
   position: relative;
-  border-radius: 30px;
-  height: 650px;
+  border-radius: 20px;
+  height: 435px;
   overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
@@ -505,32 +506,32 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  gap: 120px;
+  gap: 80px;
 }
 
 .putInYour {
   position: absolute;
   bottom: 10%;
-  right: -5%; 
-  line-height: 30px;
+  right: -5%;
+  line-height: 20px;
   transform: rotate(-25deg);
   transform-origin: 0 0;
   font-weight: 1000;
   font-family: Fredoka;
-  /* width: 300px; */
+  /* width: 201px; */
 }
 .groupChild {
   position: absolute;
   top: 0px;
   left: 0px;
   width: 74%;
-  /* height: 700px; */
+  /* height: 469px; */
   object-fit: cover;
 }
 .upvoteIcon {
-  width: 50px;
+  width: 33px;
   position: relative;
-  height: 50px;
+  height: 33px;
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -539,25 +540,25 @@ body {
 }
 .b {
   position: relative;
-  line-height: 24px;
+  line-height: 16px;
   font-weight: 650;
 }
 .b:hover {
   cursor: pointer;
   color: #448d57;
   text-decoration: underline;
-  text-underline-offset: 6px;
+  text-underline-offset: 4px;
 }
 .b2 {
   position: relative;
-  line-height: 24px;
+  line-height: 16px;
   font-weight: 650;
 }
 .b2:hover {
   cursor: pointer;
   color: #448d57;
   text-decoration: underline;
-  text-underline-offset: 6px;
+  text-underline-offset: 4px;
 }
 .num {
   font-family: DM Sans;
@@ -576,9 +577,9 @@ body {
   }
 }
 .downvoteIcon {
-  width: 50px;
+  width: 33px;
   position: relative;
-  height: 50px;
+  height: 33px;
   overflow: hidden;
   flex-shrink: 0;
   object-fit: contain;
@@ -590,7 +591,7 @@ body {
   position: absolute;
   top: 69%;
   left: 65%;
-  border-radius: 30px;
+  border-radius: 20px;
   background-color: #e5e7eb;
   border-style: solid;
   border-color: #c8cace;
@@ -598,21 +599,21 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  padding: 20px 30px;
-  gap: 20px;
+  padding: 13px 30px;
+  gap: 13px;
 }
 .votes {
-  line-height: 100px;
+  line-height: 67px;
   font-weight: 1000;
   font-family: Fredoka;
 }
 
 .cookClasses {
   position: relative;
-  line-height: 100px;
+  line-height: 67px;
   font-weight: 1000;
   font-family: Fredoka;
-  width: 800px;
+  width: 536px;
 }
 .groupDiv {
   position: absolute;
@@ -621,19 +622,19 @@ body {
   width: 100%;
   height: 100%;
   text-align: center;
-  font-size: 50px;
+  font-size: 33px;
   font-family: "DM Sans";
 }
 .putInYourVoteParent {
-  width: 950px;
+  width: 636px;
   position: relative;
-  /* height: 800px; */
+  /* height: 536px; */
   aspect-ratio: 1 / 1;
 }
 .upvoteDownvoteWrapper {
-  width: 501px;
+  width: 335px;
   position: relative;
-  height: 200px;
+  height: 134px;
   font-weight: 1000;
 }
 .agree {
@@ -646,17 +647,17 @@ body {
 .tooTiredToContainer {
   position: absolute;
   top: 0px;
-  left: 1px;
-  line-height: 35px;
+  left: 0px;
+  line-height: 23px;
   display: flex;
   align-items: center;
-  width: 503px;
+  width: 337px;
 }
 .tooTiredToCookInWordsButWrapper {
-  width: 504px;
+  width: 337px;
   position: relative;
-  height: 140px;
-  font-size: 30px;
+  height: 93px;
+  font-size: 20px;
   font-weight: 1000;
 }
 .frameParent5 {
@@ -664,9 +665,9 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 75px;
-  font-size: 100px;
-  padding-right: 40px;
+  gap: 50px;
+  font-size: 67px;
+  padding-right: 26px;
 }
 .groupContainer {
   display: flex;
@@ -676,15 +677,15 @@ body {
 }
 .slide34 {
   align-self: stretch;
-  background-color: #f6f8f9;
-  height: 850px;
+  background: linear-gradient(180deg, #f6f8f9 67.17%, #9edffd);
+  height: 569px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 131px 195px;
+  padding: 87px 195px;
   box-sizing: border-box;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 /* RESPONSIVE STYLES FOR 'upvote downvote' SECTION */
@@ -721,9 +722,10 @@ body {
             gap: 10px;
             padding: 10px 15px;
 
-            & .upvoteIcon, & .downvoteIcon {
+            & .upvoteIcon,
+            & .downvoteIcon {
               width: 30px;
-              height: 30px
+              height: 30px;
             }
 
             & .num {
@@ -761,46 +763,46 @@ body {
   }
 }
 
-
 .cookYourClassesWrapper {
-  width: 478px;
+  width: 320px;
   position: relative;
-  height: 300px;
+  height: 201px;
   font-weight: 1000;
 }
 .examPrepAssignment {
   position: absolute;
   top: 0px;
   left: 0px;
-  line-height: 35px;
+  line-height: 23px;
   display: flex;
   align-items: center;
-  width: 650px;
+  width: 435px;
 }
 .frameParent7 {
-  width: 650px;
+  width: 435px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 25px;
+  gap: 16px;
 }
 .frameParent6 {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 175px;
+  gap: 117px;
 }
 .slide35 {
   align-self: stretch;
-  background: linear-gradient(180deg, #f6f8f9 67.17%, #9edffd);
-  height: 750px;
+  background: #f6f8f9;
+  height: 502px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 215px 222px;
+  padding: 144px 222px;
+  padding-bottom: 240px;
   box-sizing: border-box;
 }
 
@@ -844,11 +846,10 @@ body {
   }
 }
 
-
 .weAreLaunchingNextSemesterWrapper {
-  width: 1000px;
+  width: 670px;
   position: relative;
-  height: 200px;
+  height: 134px;
   font-weight: 1000;
   display: flex;
   flex-direction: column;
@@ -859,28 +860,28 @@ body {
   position: relative;
   line-height: 0.9;
   font-weight: 1000;
-  width: 800px;
+  width: 536px;
   font-family: Fredoka;
 }
 .itsGonnaBeLitToBeOneOfWrapper {
-  width: 580px;
+  width: 388px;
   position: relative;
-  height: 200px;
+  height: 134px;
   text-align: left;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 1.2;
 }
 .joinTheWaitlist {
   position: relative;
-  line-height: 24px;
+  line-height: 16px;
   font-weight: 800;
-  font-size: 25px;
+  font-size: 16px;
 }
 .joinWaitlistButton1 {
-  width: 288px;
-  border-radius: 35px;
+  width: 192px;
+  border-radius: 23px;
   background-color: #448d57;
-  height: 68px;
+  height: 45px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -898,11 +899,11 @@ body {
   justify-content: flex-start;
 }
 .viewPrototypeButton1 {
-  width: 288px;
-  border-radius: 35px;
-  border: 2px solid #000;
+  width: 192px;
+  border-radius: 23px;
+  border: 1px solid #000;
   box-sizing: border-box;
-  height: 68px;
+  height: 45px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -922,10 +923,10 @@ body {
 .joinWaitlistButtonParent {
   display: flex;
   flex-direction: row;
-  width: 590px;
+  width: 395px;
   align-items: space;
   justify-content: space-between;
-  font-size: 28px;
+  font-size: 18px;
   color: #fff;
 }
 .frameParent8 {
@@ -933,12 +934,12 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 75px;
+  gap: 50px;
 }
 .slide10 {
   align-self: stretch;
   background: linear-gradient(180deg, #9edffd, #bae4f5);
-  height: 800px;
+  height: 536px;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -955,12 +956,12 @@ body {
 .upcomingFeatures {
   display: flex;
   align-items: center;
-  width: 480px;
+  width: 321px;
   font-weight: 1000;
   font-family: Fredoka;
 }
 .eventsWrapper {
-  height: 170px;
+  height: 113px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -972,96 +973,96 @@ body {
   align-items: center;
   justify-content: flex-start;
   font-weight: 700;
-  font-size: 55px;
+  font-size: 36px;
 }
 .appTitle {
   display: flex;
   flex-direction: row;
   align-items: center;
   font-weight: 700;
-  font-size: 55px;
+  font-size: 36px;
 }
 .eventsContent {
-  width: 290px;
+  width: 194px;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 16px;
   line-height: 1.2;
   margin: 0;
 }
 .appContent {
-  width: 270px;
+  width: 180px;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 16px;
   line-height: 1.2;
   margin: 0;
 }
 .noLongerMissingOutOnCoolWrapper {
-  width: 338px;
+  width: 226px;
   position: relative;
-  height: 105px;
-  font-size: 30px;
+  height: 70px;
+  font-size: 20px;
   font-weight: 1000;
 }
 .frameParent11 {
   position: absolute;
-  top: 11px;
+  top: 7px;
   left: 0px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
 }
 .anonymous {
   position: absolute;
-  top: 2px;
+  top: 1px;
   left: 0px;
-  line-height: 35px;
+  line-height: 23px;
 }
 .anonymousWrapper {
-  width: 277px;
+  width: 185px;
   position: relative;
-  height: 46px;
+  height: 30px;
   font-weight: 1000;
 }
 .cookYourCampusAsATrueFarWrapper {
-  width: 370px;
+  width: 247px;
   position: relative;
-  height: 105px;
-  font-size: 30px;
+  height: 70px;
+  font-size: 20px;
   font-weight: 1000;
 }
 .frameParent12 {
   position: absolute;
   top: 0px;
-  left: 517px;
+  left: 346px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
 }
 .appWrapper {
-  width: 98px;
+  width: 65px;
   position: relative;
-  height: 46px;
+  height: 30px;
 }
 .late2025FasterCoolerMorWrapper {
-  width: 230px;
+  width: 154px;
   position: relative;
-  height: 105px;
-  font-size: 30px;
+  height: 70px;
+  font-size: 20px;
   font-weight: 1000;
 }
 .frameParent13 {
   position: absolute;
   top: 0px;
-  left: 1124px;
+  left: 753px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
 }
 .frameParent10 {
   display: flex;
@@ -1070,16 +1071,16 @@ body {
   justify-content: space-between;
   position: relative;
   text-align: left;
-  height: 400px;
+  height: 268px;
 }
 .frameParent9 {
-  width: 1354px;
+  width: 907px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  height: 950px;
-  gap: 20px;
+  height: 636px;
+  gap: 13px;
 }
 .slide11 {
   width: 100vw; /* Full-screen width */
@@ -1088,7 +1089,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 20px;
+  padding: 13px;
   box-sizing: border-box;
   text-align: center;
   align-self: stretch;
@@ -1102,11 +1103,11 @@ body {
 .furtherInformation {
   align-self: stretch;
   position: relative;
-  line-height: 30px;
+  line-height: 20px;
   font-weight: 1000;
 }
 .viewPrototype {
-  border-radius: 35px;
+  border-radius: 23px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1117,7 +1118,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  width: 400px;
+  width: 268px;
   font-family: Nunito;
 }
 .landingFooterButtonParent {
@@ -1125,29 +1126,29 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 15px;
+  gap: 10px;
   text-align: center;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 100;
   color: #fff;
 }
 .footerRight {
   display: flex;
   flex-direction: column;
-  height: 650px;
+  height: 435px;
   justify-content: space-between;
-  padding-top: 70px;
-  padding-right: 100px;
+  padding-top: 46px;
+  padding-right: 67px;
 }
 
 .furtherInformationParent {
   position: relative;
-  width: 377px;
+  width: 252px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 30px;
+  gap: 20px;
   color: #ffd700;
 }
 .footerBottomRight {
@@ -1158,34 +1159,34 @@ body {
 }
 .copyright2024Ricefield {
   position: relative;
-  line-height: 30px;
+  line-height: 20px;
 }
 .copyright2024RicefieldAllWrapper {
   position: relative;
-  width: 500px;
-  height: 30px;
-  font-size: 20px;
+  width: 335px;
+  height: 20px;
+  font-size: 13px;
   font-family: DM Sans;
 }
 .instaLogoIcon {
-  width: 40px;
+  width: 26px;
   position: relative;
-  height: 40px;
+  height: 26px;
   overflow: hidden;
   flex-shrink: 0;
 }
 .xLogoIcon {
-  width: 40px;
+  width: 26px;
   position: relative;
-  height: 40px;
+  height: 26px;
   overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
 }
 .tiktokLogoIcon {
-  width: 35px;
+  width: 23px;
   position: relative;
-  height: 40px;
+  height: 26px;
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -1194,7 +1195,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  gap: 50px;
+  gap: 33px;
 }
 .footerSocialMedia:hover {
   cursor: pointer;
@@ -1232,7 +1233,6 @@ body {
   }
 }
 
-
 .duy {
   margin: 0;
   font-weight: 900;
@@ -1240,45 +1240,45 @@ body {
 .duyEverythingFarmerContainer {
   position: absolute;
   top: 0px;
-  left: 21px;
-  line-height: 30px;
+  left: 14px;
+  line-height: 20px;
 }
 .minhOperatingFarmerContainer {
   position: absolute;
-  top: 44px;
-  left: 228px;
-  line-height: 30px;
+  top: 29px;
+  left: 152px;
+  line-height: 20px;
 }
 .lamTechnologyFarmerContainer {
   position: absolute;
-  top: 4px;
-  left: 443px;
-  line-height: 30px;
+  top: 2px;
+  left: 296px;
+  line-height: 20px;
 }
 .groupItem {
   position: absolute;
-  top: 67px;
+  top: 44px;
   left: 0px;
-  width: 752px;
-  height: 433.9px;
+  width: 503px;
+  height: 290px;
   object-fit: cover;
 }
 .duyEverythingFarmerParent {
   position: absolute;
-  top: 226px;
-  left: 142px;
-  width: 752px;
-  height: 500.9px;
+  top: 151px;
+  left: 95px;
+  width: 503px;
+  height: 335px;
   text-align: center;
-  font-size: 28px;
+  font-size: 18px;
   font-family: Nunito;
 }
 .mainLogoNoSlogan1 {
   position: absolute;
-  top: 52px;
-  left: 142px;
-  width: 300px;
-  height: 54px;
+  top: 34px;
+  left: 95px;
+  width: 201px;
+  height: 36px;
   overflow: hidden;
   object-fit: cover;
 }
@@ -1289,46 +1289,46 @@ body {
   padding-bottom: 4rem;
 }
 .footerLogo {
-    margin-top: 2rem;
-    margin-bottom: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 
 .footerGroup {
-    padding: 0 20px;
+  padding: 0 13px;
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 4rem;
-    align-self: stretch;
-    position: relative;
-    font-size: 32px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4rem;
+  align-self: stretch;
+  position: relative;
+  font-size: 21px;
 }
-@media (min-width: 1200px) {
-    .footerGroup {
-        margin: auto 100px;
-    }
-    .footerRight {
-        margin-right: 100px;
-    }
+@media (min-width: 804px) {
+  .footerGroup {
+    margin: auto 67px;
+  }
+  .footerRight {
+    margin-right: 67px;
+  }
 }
 
 .founderSvgText {
-    font: 26px Nunito;
-    fill: white;
+  font: 26px Nunito;
+  fill: white;
 }
 .founderSvgTextTitle {
-    font-weight: 900;
+  font-weight: 900;
 }
 .founderSvgTextSubtitle {
-    font-style: italic;
+  font-style: italic;
 }
 
 .founderGraphic {
-    display: block;
-    width: 700px;
-    max-width: 100%;
+  display: block;
+  width: 469px;
+  max-width: 100%;
 }
 
 .footerButton {
@@ -1338,7 +1338,7 @@ body {
   cursor: pointer;
   color: #ffd700;
   text-decoration: underline;
-  text-underline-offset: 6px;
+  text-underline-offset: 4px;
   font-weight: 700;
 }
 .footerButton1 {
@@ -1348,7 +1348,7 @@ body {
   cursor: pointer;
   color: #ffd700;
   text-decoration: underline;
-  text-underline-offset: 6px;
+  text-underline-offset: 4px;
   font-weight: 700;
 }
 .footerButton2 {
@@ -1358,7 +1358,7 @@ body {
   cursor: pointer;
   color: #ffd700;
   text-decoration: underline;
-  text-underline-offset: 6px;
+  text-underline-offset: 4px;
   font-weight: 700;
 }
 .footerButton3 {
@@ -1368,14 +1368,14 @@ body {
   cursor: pointer;
   color: #ffd700;
   text-decoration: underline;
-  text-underline-offset: 6px;
+  text-underline-offset: 4px;
   font-weight: 700;
 }
 .mainPageContainer {
   /* position: absolute;
-  top: 100px;
+  top: 67px;
   left: 0px; */
-  padding-top: 100px;
+  padding-top: 67px;
   /* display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1389,9 +1389,9 @@ body {
 }
 
 .tpMainLogoNoSloganGreen {
-  width: 300px;
+  width: 201px;
   position: relative;
-  height: 50.1px;
+  height: 33px;
   overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
@@ -1407,7 +1407,7 @@ body {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  font-size: 28px;
+  font-size: 18px;
   color: #fff;
 }
 .joinWaitlistButton2:hover {
@@ -1419,20 +1419,20 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  gap: 40px;
+  gap: 26px;
 }
 .headerLanding {
   background-color: #fff;
-  width: 1920px;
-  height: 100px;
+  width: 1286px;
+  height: 67px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 70px;
+  padding: 8px 70px;
   box-sizing: border-box;
   text-align: center;
-  font-size: 24px;
+  font-size: 16px;
   font-family: Nunito;
   position: fixed;
   top: 0;
@@ -1440,7 +1440,7 @@ body {
 }
 .headerStretch {
   width: 100vw;
-  height: 100px;
+  height: 67px;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -1455,12 +1455,13 @@ body {
   overflow-x: hidden;
 
   position: relative;
-  height: 8702px;
+  /* height: 5830px; */
   text-align: left;
-  font-size: 100px;
+  font-size: 67px;
   color: #000;
 }
 
+/* Add responsive styles - Introduction Page */
 /* Add responsive styles - Introduction Page */
 @media screen and (max-width: 1440px) {
   .slide7 {
@@ -1470,19 +1471,19 @@ body {
     width: 90%;
     max-width: 800px;
   }
-  .frameGroup {
+  /* .frameGroup {
     flex-direction: column;
     gap: 60px;
-  }
-  .frameChild {
+  } */
+  /* .frameChild {
     width: 100%;
     max-width: 654px;
     height: auto;
-  }
-  .frameContainer {
+  } */
+  /* .frameContainer {
     width: 100%;
     padding: 0 20px;
-  }
+  } */
 }
 
 @media screen and (max-width: 1024px) {
@@ -1758,8 +1759,8 @@ body {
 }
 
 /* Responsive styles for feature frames for smaller desktop screens */
-@media (min-width: 600px) and (max-width: 1600px) {
+/* @media (min-width: 600px) and (max-width: 1600px) {
   .featureFrame {
-    transform: scale(0.7);
+     transform: scale(0.7); 
   }
-}
+} */
