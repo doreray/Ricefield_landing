@@ -173,26 +173,39 @@
   left: 0;
   right: 0;
   background-color: white;
-  border-top: 0px solid #dcdddf;
+  border-top: 1px solid #dcdddf;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   z-index: 1000;
 }
 
 .mobileMenuItem {
-  padding: 10px 70px;
-  font-size: 13px;
+  padding: 16px 24px;
+  font-size: 14px;
   color: #000;
   cursor: pointer;
   font-weight: 650;
+  border-bottom: 1px solid #dcdddf;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobileMenuItem:last-child {
+  border-bottom: none;
+  background-color: #f8f9fa;
 }
 
 .mobileMenuItem:hover {
   color: #448d57;
   background-color: rgba(68, 141, 87, 0.1);
+  padding-left: 28px; /* Slight indent on hover */
 }
 
 @media (max-width: 600px) {
   .hamburgerMenu {
     display: block;
+    padding: 8px;
   }
 
   .mobileMenu {
