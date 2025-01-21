@@ -16,7 +16,7 @@ export const LaunchSection = () => {
             <div className={styles.weAreLaunchingNextSemesterWrapper}>
               <div>
                 <p className={styles.weAreLaunching}>
-                  we are launching this semester!
+                  we are launching THIS semester!
                 </p>
               </div>
             </div>
