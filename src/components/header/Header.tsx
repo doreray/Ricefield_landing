@@ -6,7 +6,7 @@ export function LandingPageHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleJoinWaitlistClick = () => {
-    window.open("https://forms.gle/XgjRixUwhZ3ZkLe9", "_blank");
+    window.open("https://forms.gle/AxPhoJat9qWFq1P1A", "_blank");
   };
 
   const handleFarmersDictClick = () => {
