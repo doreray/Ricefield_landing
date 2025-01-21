@@ -21,7 +21,8 @@
 
 .headerLanding {
   background-color: #fff;
-  width: 100vw;
+  width: 100%;
+  max-width: 1000px;
   display: flex;
   flex-direction: row;
   align-items: center;
