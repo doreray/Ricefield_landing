@@ -126,9 +126,9 @@ body {
   width: 100vw; /* Full-screen width */
   overflow: hidden;
   background-image: url("/assets/bg1_1.svg");
-  background-size: cover;
+  background-size: auto 100%;
   background-position: top center; /* Equivalent to object-position: top */
-  background-repeat: no-repeat; /* To avoid repeating the background */
+  /* background-repeat: no-repeat; To avoid repeating the background */
 }
 .whatTheHeck {
   position: relative;
@@ -189,7 +189,8 @@ body {
 .slide8 {
   position: relative;
   align-self: stretch;
-  background: linear-gradient(180deg, #f6f8f9 67.17%, #c4e2f6);
+  /* background: linear-gradient(180deg, #f6f8f9 67.17%, #c4e2f6); */
+  background: linear-gradient(180deg, #f6f8f9 80%, #72c9f2);
   /* height: 603px; */
   display: flex;
   flex-direction: column;
@@ -237,9 +238,9 @@ body {
   width: 100vw; /* Full-screen width */
   overflow: hidden;
   background-image: url("/assets/bg1_2.svg"); /* Add the URL of your background image */
-  background-size: cover; /* Equivalent to object-fit: cover */
+  background-size: auto 100%; /* Equivalent to object-fit: cover */
   background-position: bottom center; /* Equivalent to object-position: top */
-  background-repeat: no-repeat; /* To avoid repeating the background */
+  /* background-repeat: no-repeat; */
 }
 .cook {
   position: absolute;
@@ -751,7 +752,7 @@ body {
             position: static;
 
             & .votes {
-              line-height: 1.5em;
+              line-height: 1em;
             }
           }
         }
