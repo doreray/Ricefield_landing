@@ -101,9 +101,15 @@
   }
 
   .tpMainLogoNoSloganGreen {
-    width: 60%;
+    width: 50%;
     height: auto;
-    margin: auto;
+    margin: 0;
+  }
+
+  .headerLanding {
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
