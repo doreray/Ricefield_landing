@@ -28,7 +28,7 @@ export const Introduction = () => {
             </div>
             <div className={styles.theBestWayToThinkOfRicefWrapper}>
               <div className={styles.theBestWayContainer}>
-                <span className={styles.theBestWayContainer1}>
+                <span className={`${styles.theBestWayContainer1} ${styles.bodyText}`}>
                   <p className={styles.theBestWay}>
                     The best way to think of Ricefield is that: if X and Reddit
                     decided to have a baby together, that would be us :)

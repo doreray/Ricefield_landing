@@ -32,7 +32,7 @@ body {
     }
 
     .bodyText {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 1.4;
     }
 }
@@ -166,7 +166,7 @@ body {
   align-self: stretch;
   position: relative;
   height: 201px;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 .frameContainer {
   /* width: 471px; */
@@ -1563,11 +1563,11 @@ body {
     line-height: 50px;
   }
   .fromClassesTo {
-    font-size: 20px;
+    font-size: 18px;
     padding: 0;
   }
   .theBestWay {
-    font-size: 20px;
+    /* font-size: 20px; */
     line-height: 1.4;
   }
 }
@@ -1651,7 +1651,7 @@ body {
   }
 
   .itsGonnaBeLitToBeOneOfWrapper {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .joinTheWaitlist {
