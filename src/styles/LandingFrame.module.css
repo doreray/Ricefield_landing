@@ -331,6 +331,8 @@ body {
           padding-bottom: 80px;
 
           & .wantToShare {
+            padding-top: 10px; 
+
             position: static;
             width: auto;
 
