@@ -1313,7 +1313,7 @@ body {
 }
 
 .footerGroup {
-    margin: auto var(--column-margin-mobile);
+    margin: auto auto;
 
     display: flex;
     flex-direction: row;
@@ -1324,9 +1324,13 @@ body {
     position: relative;
     font-size: 21px;
 }
+@media (max-width: 600px) {
+  .footerGroup {
+     margin: auto var(--column-margin-mobile);
+  }
+}
 @media (min-width: 804px) {
     .footerGroup {
-        margin: 0px 13px;
         max-width: var(--column-width);
         padding: 0 ;
     }
