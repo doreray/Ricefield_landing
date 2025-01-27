@@ -7,7 +7,7 @@ export const Introduction = () => {
       <div className={styles.slide7}>
         <div className={styles.frameParent}>
           <div className={styles.whatsCookingOnCampusWrapper}>
-            <div className={styles.whatsCookingOn}>
+            <div className={`${styles.whatsCookingOn} ${styles.headingText}`}>
               what's cooking on campus?
             </div>
           </div>
