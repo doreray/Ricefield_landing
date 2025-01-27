@@ -191,7 +191,10 @@
 
 @media (max-width: 600px) {
   .hamburgerMenu {
-    display: block;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .mobileMenu {
