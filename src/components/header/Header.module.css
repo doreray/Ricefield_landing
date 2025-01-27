@@ -184,6 +184,11 @@
   font-weight: 650;
 }
 
+.joinWaitlistMenuItem {
+  background: #448d57;
+  color: white;
+}
+
 .mobileMenuItem:hover {
   color: #448d57;
   background-color: rgba(68, 141, 87, 0.1);
