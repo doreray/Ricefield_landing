@@ -33,6 +33,7 @@ body {
 
     .bodyText {
         font-size: 20px;
+        line-height: 1.4;
     }
 }
 
@@ -156,7 +157,7 @@ body {
 }
 .theBestWayContainer {
   position: relative;
-  line-height: 23px;
+  /* line-height: 23px; */
   display: flex;
   align-items: center;
   width: 482px;
@@ -263,7 +264,7 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  line-height: 23px;
+  /* line-height: 23px; */
   display: flex;
   align-items: center;
   width: 469px;
@@ -332,6 +333,8 @@ body {
           & .wantToShare {
             position: static;
             width: auto;
+
+            line-height: inherit;
           }
         }
       }
@@ -364,7 +367,7 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  line-height: 23px;
+  /* line-height: 23px; */
   display: flex;
   align-items: center;
   width: 438px;
@@ -441,6 +444,7 @@ body {
             position: static;
             display: block;
             width: auto;
+            line-height: inherit;
           }
         }
       }
@@ -654,7 +658,7 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  line-height: 23px;
+  /* line-height: 23px; */
   display: flex;
   align-items: center;
   width: 337px;
@@ -779,7 +783,7 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  line-height: 23px;
+  /* line-height: 23px; */
   display: flex;
   align-items: center;
   width: 435px;
@@ -845,6 +849,7 @@ body {
             position: static;
             width: auto;
             display: block;
+            line-height: inherit;
           }
         }
       }
