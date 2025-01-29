@@ -178,7 +178,7 @@ export const Footer = () => {
             </div>
             <div className={styles.copyright2024RicefieldAllWrapper}>
               <div className={styles.copyright2024Ricefield}>
-                Copyright 2024 Ricefield. All rights reserved.
+                Copyright 2025 Ricefield. All rights reserved.
               </div>
             </div>
           </div>

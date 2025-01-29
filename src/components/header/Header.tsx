@@ -88,6 +88,81 @@ export function LandingPageHeader() {
               View Prototype
             </div>
             <div
+              className={`${styles.mobileMenuItem} ${styles.joinWaitlistMenuItem}`}
+              onClick={handleJoinWaitlistClick}
+            >
+              Join the Waitlist
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+  return (
+    <div className={styles.headerStretch}>
+      <div className={styles.headerLanding}>
+        <div className={styles.ricefieldLogo}>
+          <img
+            className={styles.tpMainLogoNoSloganGreen}
+            alt=""
+            src="./assets/tp_Main_Logo_no_slogan_green_text_1.svg"
+          />
+        </div>
+
+        {/* Hamburger Menu Button - Only shows on mobile */}
+        <div className={styles.hamburgerMenu}>
+          <Menu
+            size={24}
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            color="#448d57"
+          />
+        </div>
+
+        {/* Original Header Buttons */}
+        <div className={styles.headerButtons}>
+          <div className={styles.groupContainer}>
+            <div className={styles.viewPrototype}>
+              <b className={styles.b} onClick={handleFarmersDictClick}>
+                Farmers' Dictionary
+              </b>
+            </div>
+          </div>
+          <div className={styles.groupContainer}>
+            <div className={styles.viewPrototype}>
+              <b className={styles.b2} onClick={handlePrototypeClick}>
+                View Prototype
+              </b>
+            </div>
+          </div>
+          <div
+            className={styles.joinWaitlistButton2}
+            onClick={handleJoinWaitlistClick}
+            role="button"
+            tabIndex={0}
+            onKeyDown={(e) => e.key === "Enter" && handleJoinWaitlistClick()}
+          >
+            <div className={styles.joinWaitlistButton1}>
+              <div className={styles.joinTheWaitlist}>Join the Waitlist</div>
+            </div>
+          </div>
+        </div>
+
+        {/* Mobile Menu */}
+        {isMenuOpen && (
+          <div className={styles.mobileMenu}>
+            <div
+              className={styles.mobileMenuItem}
+              onClick={handleFarmersDictClick}
+            >
+              Farmers' Dictionary
+            </div>
+            <div
+              className={styles.mobileMenuItem}
+              onClick={handlePrototypeClick}
+            >
+              View Prototype
+            </div>
+            <div
               className={styles.mobileMenuItem}
               onClick={handleJoinWaitlistClick}
             >

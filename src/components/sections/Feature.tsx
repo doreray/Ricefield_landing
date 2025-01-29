@@ -25,7 +25,7 @@ export const Features = () => {
         <div className={styles.soHowDoesThisWorkWrapper}>
           <div className={styles.soHowDoesContainer}>
             <p className={`${styles.soHowDoes} ${styles.headingText}`}>
-              so, how does this work?
+              so, how does <br/> this work?
             </p>
           </div>
         </div>
@@ -188,7 +188,7 @@ export const Features = () => {
             </div>
             <div className={styles.tooTiredToCookInWordsButWrapper}>
               <div className={styles.tooTiredToContainer}>
-                <span className={styles.theBestWayContainer1}>
+                <span className={`${styles.theBestWayContainer1} ${styles.bodyText}`}>
                   <p className={styles.theBestWay}>
                     Too tired to cook in words but still
                   </p>
