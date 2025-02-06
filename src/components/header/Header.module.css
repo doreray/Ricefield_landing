@@ -102,9 +102,15 @@
   }
 
   .tpMainLogoNoSloganGreen {
-    width: 60%;
+    width: 50%;
     height: auto;
-    margin: auto;
+    margin: 0;
+  }
+
+  .headerLanding {
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -196,6 +202,11 @@
   background-color: #f8f9fa;
 }
 
+.joinWaitlistMenuItem {
+  background: #448d57;
+  color: white;
+}
+
 .mobileMenuItem:hover {
   color: #448d57;
   background-color: rgba(68, 141, 87, 0.1);
@@ -204,8 +215,9 @@
 
 @media (max-width: 600px) {
   .hamburgerMenu {
-    display: block;
-    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .mobileMenu {

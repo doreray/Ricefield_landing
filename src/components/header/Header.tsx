@@ -88,7 +88,7 @@ export function LandingPageHeader() {
               View Prototype
             </div>
             <div
-              className={styles.mobileMenuItem}
+              className={`${styles.mobileMenuItem} ${styles.joinWaitlistMenuItem}`}
               onClick={handleJoinWaitlistClick}
             >
               Join the Waitlist
