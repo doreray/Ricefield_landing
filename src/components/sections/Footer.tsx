@@ -5,6 +5,14 @@ export const Footer = () => {
   const handleInstaClick = () => {
     window.open('https://www.instagram.com/joinricefield/', '_blank');
   };
+
+  const handleTiktokClick = () => {
+    window.open('https://www.tiktok.com/@joinricefield', '_blank');
+  };
+
+  const handleYoutubeClick = () => {
+    window.open('https://www.youtube.com/@joinricefield', '_blank');
+  };
   
   const handleMeetFoundersClick = () => {
     window.open('https://joinricefield.notion.site/Headfarmers-Who-14e3b99ded318062a84ae848bac1cc32', '_blank');
@@ -173,8 +181,9 @@ export const Footer = () => {
                 onKeyDown={(e) => e.key === "Enter" && handleInstaClick()}
               />
               {/* Commented social media icons as in original code */}
-              <img className={styles.xLogoIcon} alt="" src="/assets/x_logo.svg" />
-            <img className={styles.tiktokLogoIcon} alt="" src="/assets/tiktok_logo.svg" />
+              {/* <img className={styles.xLogoIcon} alt="" src="/assets/x_logo.svg" /> */}
+            <img className={styles.tiktokLogoIcon} alt="" src="/assets/tiktok_logo.svg" onClick={handleTiktokClick}/>
+            <img className={styles.youtubeLogoIcon} alt="" src="/assets/youtube_logo.svg" onClick={handleYoutubeClick}/>
             </div>
             <div className={styles.copyright2024RicefieldAllWrapper}>
               <div className={styles.copyright2024Ricefield}>

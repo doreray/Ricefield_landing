@@ -1199,8 +1199,7 @@ body {
   filter: sepia(90%) saturate(400) hue-rotate(326deg) brightness(1) contrast(4);
 }
 
-.xLogoIcon {
-  width: 26px;
+.youtubeLogoIcon {
   position: relative;
   height: 26px;
   overflow: hidden;
@@ -1208,7 +1207,7 @@ body {
   object-fit: cover;
 }
 
-.xLogoIcon:hover {
+.youtubeLogoIcon:hover {
   filter: sepia(90%) saturate(400) hue-rotate(326deg) brightness(1) contrast(4);
 }
 
