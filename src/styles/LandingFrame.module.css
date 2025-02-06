@@ -644,7 +644,8 @@ body {
   aspect-ratio: 1 / 1;
 }
 .upvoteDownvoteWrapper {
-  width: 335px;
+  /* width: 335px; */
+  text-align: left;
   position: relative;
   height: 134px;
   font-weight: 1000;
@@ -750,7 +751,8 @@ body {
       & .frameParent5 {
         display: block;
         max-width: 100%;
-        padding-right: 0;
+        width: 100%;
+        padding: 0 var(--column-margin-mobile);
         margin-bottom: 40px;
 
         & .upvoteDownvoteWrapper {
