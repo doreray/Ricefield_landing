@@ -173,8 +173,8 @@ export const Footer = () => {
                 onKeyDown={(e) => e.key === "Enter" && handleInstaClick()}
               />
               {/* Commented social media icons as in original code */}
-              {/* <img className={styles.xLogoIcon} alt="" src="/assets/x_logo.svg" />
-            <img className={styles.tiktokLogoIcon} alt="" src="/assets/tiktok_logo.svg" /> */}
+              <img className={styles.xLogoIcon} alt="" src="/assets/x_logo.svg" />
+            <img className={styles.tiktokLogoIcon} alt="" src="/assets/tiktok_logo.svg" />
             </div>
             <div className={styles.copyright2024RicefieldAllWrapper}>
               <div className={styles.copyright2024Ricefield}>

@@ -1194,6 +1194,11 @@ body {
   overflow: hidden;
   flex-shrink: 0;
 }
+
+.instaLogoIcon:hover {
+  filter: sepia(90%) saturate(400) hue-rotate(326deg) brightness(1) contrast(4);
+}
+
 .xLogoIcon {
   width: 26px;
   position: relative;
@@ -1202,6 +1207,11 @@ body {
   flex-shrink: 0;
   object-fit: cover;
 }
+
+.xLogoIcon:hover {
+  filter: sepia(90%) saturate(400) hue-rotate(326deg) brightness(1) contrast(4);
+}
+
 .tiktokLogoIcon {
   width: 23px;
   position: relative;
@@ -1209,6 +1219,13 @@ body {
   overflow: hidden;
   flex-shrink: 0;
 }
+
+
+.tiktokLogoIcon:hover {
+  filter: sepia(90%) saturate(400) hue-rotate(326deg) brightness(1) contrast(4);
+}
+
+
 .footerSocialMedia {
   margin-top: 10px;
 
@@ -1220,7 +1237,7 @@ body {
 }
 .footerSocialMedia:hover {
   cursor: pointer;
-  opacity: 80%;
+  /* opacity: 80%; */
 }
 
 /* RESPONSIVE STYLES FOR 'footer' */
