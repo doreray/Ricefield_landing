@@ -9,8 +9,8 @@ export const Introduction = () => {
           <div className={styles.whatsCookingOnCampusWrapper}>
             <div className={`${styles.whatsCookingOn} ${styles.headingText}`}>
               what's cooking 
-              <br>
-              </br>on campus?
+              <br/>
+              on campus?
             </div>
           </div>
           <div className={styles.fromClassesToClubsFromDoWrapper}>
