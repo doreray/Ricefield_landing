@@ -213,7 +213,7 @@
 
 .joinWaitlistMenuItem {
   background: #448d57;
-  color: white;
+  /* color: white; */
 }
 
 .mobileMenuItem:hover {
