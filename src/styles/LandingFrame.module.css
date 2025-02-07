@@ -1511,7 +1511,7 @@ body {
     padding: 317px 20px;
   }
   .frameParent {
-    width: 90%;
+    width: 100%;
     max-width: 800px;
   }
   /* .frameGroup {
@@ -1591,6 +1591,10 @@ body {
   .theBestWay {
     /* font-size: 20px; */
     line-height: 1.4;
+  }
+
+  .fromClassesTo {
+    font-size: 17px;
   }
 }
 
