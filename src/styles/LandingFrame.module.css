@@ -7,6 +7,7 @@
 
   --column-width: 1000px;
   --column-margin-mobile: 20px;
+  --feature-section-spacing: 35px;
 }
 
 body {
@@ -300,7 +301,7 @@ body {
     width: 100vw;
 
     display: block;
-    padding: 100px var(--column-margin-mobile);
+    padding: var(--feature-section-spacing) var(--column-margin-mobile);
     height: auto;
     max-width: 100%;
 
@@ -328,7 +329,7 @@ body {
 
         & .wantToShareDramasComplainWrapper {
           height: auto;
-          padding-bottom: 80px;
+          padding-bottom: 60px;
 
           & .wantToShare {
             padding-top: 10px; 
@@ -412,13 +413,13 @@ body {
   .slide321 {
     width: 100vw;
     display: block;
-    padding: 100px var(--column-margin-mobile);
+    padding: var(--feature-section-spacing) var(--column-margin-mobile);
     height: auto;
     max-width: 100%;
 
     & .groupParent {
       flex-direction: column-reverse;
-      gap: 80px;
+      gap: 60px;
 
       & .frameItem {
         max-width: 100%;
@@ -707,7 +708,7 @@ body {
     width: 100vw;
     height: auto;
     display: block;
-    padding: 100px 0;
+    padding: var(--feature-section-spacing) 0;
 
     & .groupContainer {
       flex-direction: column-reverse;
@@ -826,7 +827,7 @@ body {
     width: 100vw;
     height: auto;
     display: block;
-    padding: 100px var(--column-margin-mobile);
+    padding: var(--feature-section-spacing) var(--column-margin-mobile);
 
     & .frameParent6 {
       flex-direction: column;
@@ -1802,6 +1803,10 @@ body {
 
   .frameParent10 {
     gap: 40px;
+  }
+
+  .frameParent9 {
+    padding-top: 0px;
   }
 }
 
