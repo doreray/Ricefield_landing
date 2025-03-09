@@ -1,25 +1,8 @@
 // components/sections/Features.tsx
-import { useState } from "react";
 import styles from "../../styles/LandingFrame.module.css";
 import newStyles from "../../styles/refactored.module.css";
 
 export const Features = () => {
-  const [upvoted, setUpvoted] = useState(false);
-  const [downvoted, setDownvoted] = useState(false);
-  const [upvoteHovered, setUpvoteHovered] = useState(false);
-  const [downvoteHovered, setDownvoteHovered] = useState(false);
-  const votenum = 23;
-
-  const handleUpvoteClick = () => {
-    setUpvoted(!upvoted);
-    if (downvoted) setDownvoted(false);
-  };
-
-  const handleDownvoteClick = () => {
-    setDownvoted(!downvoted);
-    if (upvoted) setUpvoted(false);
-  };
-
   return (
     <>
       <div className={styles.slide31}>
