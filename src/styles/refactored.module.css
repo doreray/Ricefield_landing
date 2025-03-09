@@ -26,6 +26,8 @@
   align-items: center;
   justify-content: center;
   gap: 115px;
+
+  padding-bottom: 30px;
 }
 
 .lastFeature {
@@ -41,6 +43,7 @@
   line-height: 67px;
   font-weight: 1000;
   font-family: Fredoka;
+  margin-bottom: 30px;
 }
 
 .featureText .featureDescription {
