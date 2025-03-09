@@ -50,29 +50,9 @@ export const Features = () => {
         </div>
       </div>
       {/* Reply Feature */}
-      <div className={styles.slide321}>
-        <div className={`${styles.groupParent} ${styles.featureFrame}`}>
-          <img className={styles.frameItem} alt="" src="/assets/reply_1.png" />
-          <div className={styles.frameParent2}>
-            <div className={styles.replyWrapper}>
-              <div className={`${styles.cook} ${styles.headingText}`}>
-                reply
-              </div>
-            </div>
-            <div className={styles.cantFindACleanToiletSeatWrapper}>
-              <div className={`${styles.cantFindA} ${styles.bodyText}`}>
-                Can’t find a clean toilet seat? Want to help your classmates
-                because the prof doesn’t care? Reply and throw yourself into the
-                discussion.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div className={newStyles.featureContainer}>
         <img
-          className={newStyles.featureImage}
+          className={`${newStyles.featureImage} ${newStyles.featureImageReverse}`}
           alt=""
           src="/assets/reply_1.png"
         />
@@ -84,6 +64,7 @@ export const Features = () => {
           </div>
         </div>
       </div>
+
       {/* Recook Feature */}
       {/* <div className={styles.slide321}>
         <div className={`${styles.frameParent3} ${styles.featureFrame}`}>

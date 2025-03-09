@@ -64,6 +64,10 @@
       height: auto;
     }
 
+    & .featureImageReverse {
+        order: 2;
+    }
+
     & .featureText {
       width: auto;
       display: block;
