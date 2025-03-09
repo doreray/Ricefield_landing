@@ -203,8 +203,8 @@ export const Features = () => {
       </div>
 
       {/* Classes feature */}
-      <div className={styles.slide35}>
-        <div className={`${newStyles.frameParent6} ${newStyles.featureFrame}`}>
+      <div className={newStyles.slide35}>
+        <div className={`${newStyles.frameParent6}`}>
           <div className={newStyles.frameParent7}>
             <div>
               <div>
