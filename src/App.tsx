@@ -1,7 +1,7 @@
 import styles from "./styles/LandingFrame.module.css";
 
 import { Introduction } from "./components/sections/Introduction";
-import { Features } from "./components/sections/Feature";
+import { Features } from "./components/sections/Feature/Feature";
 import { LaunchSection } from "./components/sections/LaunchSection";
 import { UpcomingFeatures } from "./components/sections/UpcomingFeature";
 import { Footer } from "./components/sections/Footer";
