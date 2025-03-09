@@ -31,30 +31,29 @@ export const Features = () => {
           </div>
         </div>
       </div>
+
       {/* Cook Feature */}
-      <div className={styles.slide32}>
-        <div className={`${styles.frameDiv} ${styles.featureFrame}`}>
-          <div className={styles.frameParent1}>
-            <div className={styles.cookWrapper}>
-              <div className={`${styles.cook} ${styles.headingText}`}>cook</div>
-            </div>
-            <div className={styles.wantToShareDramasComplainWrapper}>
-              <div className={`${styles.wantToShare} ${styles.bodyText}`}>
-                Want to share dramas, complain about the communal bathrooms, or
-                get help on your CSE232 assignments? Select a space and cook a
-                post.
-              </div>
-            </div>
+      <div className={newStyles.featureContainer}>
+        <div className={newStyles.featureText}>
+          <p className={`${newStyles.headingText}`}>cook</p>
+          <div className={newStyles.featureDescription}>
+            Want to share dramas, complain about the communal bathrooms, or get
+            help on your CSE232 assignments? Select a space and cook a post.
           </div>
-          <img className={styles.frameItem} alt="" src="/assets/Group_10.png" />
         </div>
+        <img
+          className={newStyles.featureImage}
+          alt=""
+          src="/assets/features/cook.png"
+        />
       </div>
+
       {/* Reply Feature */}
       <div className={newStyles.featureContainer}>
         <img
           className={`${newStyles.featureImage} ${newStyles.featureImageReverse}`}
           alt=""
-          src="/assets/reply_1.png"
+          src="/assets/features/reply.png"
         />
         <div className={newStyles.featureText}>
           <p className={`${newStyles.headingText}`}>reply</p>
@@ -62,59 +61,6 @@ export const Features = () => {
             Can’t find a clean toilet seat? Want to help your classmates because
             the prof doesn’t care? Reply and throw yourself into the discussion.
           </div>
-        </div>
-      </div>
-
-      {/* Recook Feature */}
-      {/* <div className={styles.slide321}>
-        <div className={`${styles.frameParent3} ${styles.featureFrame}`}>
-          <div className={styles.frameParent4}>
-            <div className={styles.recookWrapper}>
-              <div className={`${styles.cook} ${styles.headingText}`}>
-                recook
-              </div>
-            </div>
-            <div className={styles.wantToShareDramasComplainWrapper}>
-              <div className={`${styles.wantToShare} ${styles.bodyText}`}>
-                Want your friends to also join the discussion? Recook it in your
-                own words, thoughts, or perspectives to add more tea to the
-                post.
-              </div>
-            </div>
-          </div>
-          <img
-            className={styles.recook3Icon}
-            alt=""
-            src="/assets/recook_3.png"
-          />
-        </div>
-      </div> */}
-
-      {/* Cook your classes feature */}
-      <div className={styles.slide35}>
-        <div className={`${styles.frameParent6} ${styles.featureFrame}`}>
-          <div className={styles.frameParent7}>
-            <div>
-              <div>
-                <p className={`${styles.cookClasses} ${styles.headingText}`}>
-                  cook your classes!
-                </p>
-              </div>
-            </div>
-            <div className={styles.wantToShareDramasComplainWrapper}>
-              <div
-                className={`${styles.examPrepAssignment} ${styles.bodyText}`}
-              >
-                Exam prep? Assignment help? Survival tips? Professor complaints?
-                It’s your chance to cook these classes communities!
-              </div>
-            </div>
-          </div>
-          <img
-            className={styles.frameItem}
-            alt=""
-            src="/assets/Group_197.png"
-          />
         </div>
       </div>
 
@@ -210,7 +156,7 @@ export const Features = () => {
         <img
           className={newStyles.featureImage}
           alt=""
-          src="/assets/classes.png"
+          src="/assets/features/classes.png"
         />
       </div>
     </>
