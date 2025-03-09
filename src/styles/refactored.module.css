@@ -19,22 +19,19 @@
   }
 }
 
-.featureDescription {
+.featureText {
   width: 435px;
 }
 
-.featureDescription .headingText {
+.featureText .headingText {
   line-height: 67px;
   font-weight: 1000;
   font-family: Fredoka;
 }
 
-.wantToShareDramasComplainWrapper {
-  align-self: stretch;
-  position: relative;
-  height: 70px;
+.featureText .featureDescription {
+  line-height: inherit;
   font-size: 20px;
-  font-weight: 1000;
 }
 
 .featureContainer {
@@ -62,7 +59,7 @@
   object-fit: cover;
 }
 
-/* RESPONSIVE STYLES FOR 'cook your classes' SECTION */
+/* RESPONSIVE STYLES FOR A FEATURE SECTION */
 @media (max-width: 600px) {
   .featureContainer {
     width: 100vw;
@@ -77,23 +74,12 @@
       height: auto;
     }
 
-    & .featureDescription {
+    & .featureText {
       width: auto;
       display: block;
 
       & .headingText {
         margin-bottom: 10px;
-      }
-
-      & .wantToShareDramasComplainWrapper {
-        height: auto;
-
-        & .examPrepAssignment {
-          position: static;
-          width: auto;
-          display: block;
-          line-height: inherit;
-        }
       }
     }
   }

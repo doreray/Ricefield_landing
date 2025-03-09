@@ -204,19 +204,11 @@ export const Features = () => {
 
       {/* Classes feature */}
       <div className={newStyles.featureContainer}>
-        <div className={newStyles.featureDescription}>
-          <p
-            className={`${newStyles.headingText}`}
-          >
-            classes
-          </p>
-          <div className={newStyles.wantToShareDramasComplainWrapper}>
-            <div
-              className={`${newStyles.examPrepAssignment} ${newStyles.bodyText}`}
-            >
-              Exam prep? Assignment help? Survival tips? Professor complaints?
-              It’s time to cook your classes and be as genuine as possible.
-            </div>
+        <div className={newStyles.featureText}>
+          <p className={`${newStyles.headingText}`}>classes</p>
+          <div className={newStyles.featureDescription}>
+            Exam prep? Assignment help? Survival tips? Professor complaints?
+            It’s time to cook your classes and be as genuine as possible.
           </div>
         </div>
         <img
