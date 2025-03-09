@@ -23,7 +23,7 @@
   width: 435px;
 }
 
-.cookClasses {
+.featureDescription .headingText {
   line-height: 67px;
   font-weight: 1000;
   font-family: Fredoka;
@@ -81,8 +81,7 @@
       width: auto;
       display: block;
 
-      & .cookClasses {
-        width: auto;
+      & .headingText {
         margin-bottom: 10px;
       }
 

@@ -206,7 +206,7 @@ export const Features = () => {
       <div className={newStyles.featureContainer}>
         <div className={newStyles.featureDescription}>
           <p
-            className={`${newStyles.cookClasses} ${newStyles.headingText}`}
+            className={`${newStyles.headingText}`}
           >
             classes
           </p>
