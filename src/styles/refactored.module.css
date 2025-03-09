@@ -43,16 +43,6 @@
   gap: 115px;
 }
 
-.examPrepAssignment {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  /* line-height: 23px; */
-  display: flex;
-  align-items: center;
-  width: 435px;
-}
-
 .featureImage {
   width: 435px;
   height: 435px;
