@@ -64,6 +64,22 @@ export const Features = () => {
         </div>
       </div>
 
+      {/* Anonymous feature */}
+      <div className={newStyles.featureContainer}>
+        <div className={newStyles.featureText}>
+          <p className={`${newStyles.headingText}`}>anonymous</p>
+          <div className={newStyles.featureDescription}>
+            Want to cook but don’t feel comfortable showing who you are? Switch
+            on that anonymous toggle in the post box and keep cooking.
+          </div>
+        </div>
+        <img
+          className={newStyles.featureImage}
+          alt=""
+          src="/assets/features/anonymous.png"
+        />
+      </div>
+
       {/* Voting Feature */}
       <div className={newStyles.featureContainer}>
         <img
@@ -81,7 +97,7 @@ export const Features = () => {
       </div>
 
       {/* Classes feature */}
-      <div className={newStyles.featureContainer}>
+      <div className={`${newStyles.featureContainer} ${newStyles.lastFeature}`}>
         <div className={newStyles.featureText}>
           <p className={`${newStyles.headingText}`}>classes</p>
           <div className={newStyles.featureDescription}>
