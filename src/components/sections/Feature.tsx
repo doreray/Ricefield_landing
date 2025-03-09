@@ -204,16 +204,12 @@ export const Features = () => {
 
       {/* Classes feature */}
       <div className={newStyles.featureContainer}>
-        <div className={newStyles.frameParent7}>
-          <div>
-            <div>
-              <p
-                className={`${newStyles.cookClasses} ${newStyles.headingText}`}
-              >
-                classes
-              </p>
-            </div>
-          </div>
+        <div className={newStyles.featureDescription}>
+          <p
+            className={`${newStyles.cookClasses} ${newStyles.headingText}`}
+          >
+            classes
+          </p>
           <div className={newStyles.wantToShareDramasComplainWrapper}>
             <div
               className={`${newStyles.examPrepAssignment} ${newStyles.bodyText}`}

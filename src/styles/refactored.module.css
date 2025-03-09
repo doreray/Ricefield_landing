@@ -19,21 +19,14 @@
   }
 }
 
-.frameParent7 {
+.featureDescription {
   width: 435px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 16px;
 }
 
 .cookClasses {
-  position: relative;
   line-height: 67px;
   font-weight: 1000;
   font-family: Fredoka;
-  width: 536px;
 }
 
 .wantToShareDramasComplainWrapper {
@@ -84,7 +77,7 @@
       height: auto;
     }
 
-    & .frameParent7 {
+    & .featureDescription {
       width: auto;
       display: block;
 
