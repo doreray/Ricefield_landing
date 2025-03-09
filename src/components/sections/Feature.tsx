@@ -69,6 +69,21 @@ export const Features = () => {
           </div>
         </div>
       </div>
+
+      <div className={newStyles.featureContainer}>
+        <img
+          className={newStyles.featureImage}
+          alt=""
+          src="/assets/reply_1.png"
+        />
+        <div className={newStyles.featureText}>
+          <p className={`${newStyles.headingText}`}>reply</p>
+          <div className={newStyles.featureDescription}>
+            Can’t find a clean toilet seat? Want to help your classmates because
+            the prof doesn’t care? Reply and throw yourself into the discussion.
+          </div>
+        </div>
+      </div>
       {/* Recook Feature */}
       {/* <div className={styles.slide321}>
         <div className={`${styles.frameParent3} ${styles.featureFrame}`}>
