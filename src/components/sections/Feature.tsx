@@ -203,33 +203,31 @@ export const Features = () => {
       </div>
 
       {/* Classes feature */}
-      <div className={newStyles.slide35}>
-        <div className={`${newStyles.frameParent6}`}>
-          <div className={newStyles.frameParent7}>
+      <div className={newStyles.featureContainer}>
+        <div className={newStyles.frameParent7}>
+          <div>
             <div>
-              <div>
-                <p
-                  className={`${newStyles.cookClasses} ${newStyles.headingText}`}
-                >
-                  classes
-                </p>
-              </div>
-            </div>
-            <div className={newStyles.wantToShareDramasComplainWrapper}>
-              <div
-                className={`${newStyles.examPrepAssignment} ${newStyles.bodyText}`}
+              <p
+                className={`${newStyles.cookClasses} ${newStyles.headingText}`}
               >
-                Exam prep? Assignment help? Survival tips? Professor complaints?
-                It’s time to cook your classes and be as genuine as possible.
-              </div>
+                classes
+              </p>
             </div>
           </div>
-          <img
-            className={newStyles.frameItem}
-            alt=""
-            src="/assets/classes.png"
-          />
+          <div className={newStyles.wantToShareDramasComplainWrapper}>
+            <div
+              className={`${newStyles.examPrepAssignment} ${newStyles.bodyText}`}
+            >
+              Exam prep? Assignment help? Survival tips? Professor complaints?
+              It’s time to cook your classes and be as genuine as possible.
+            </div>
+          </div>
         </div>
+        <img
+          className={newStyles.featureImage}
+          alt=""
+          src="/assets/classes.png"
+        />
       </div>
     </>
   );

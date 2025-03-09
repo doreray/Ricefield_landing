@@ -8,15 +8,15 @@
 }
 
 @media (max-width: 600px) {
-    .headingText {
-        font-size: 40px;
-        line-height: 1.0;
-    }
+  .headingText {
+    font-size: 40px;
+    line-height: 1;
+  }
 
-    .bodyText {
-        font-size: 18px;
-        line-height: 1.4;
-    }
+  .bodyText {
+    font-size: 18px;
+    line-height: 1.4;
+  }
 }
 
 .frameParent7 {
@@ -26,13 +26,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 16px;
-}
-.frameParent6 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 117px;
 }
 
 .cookClasses {
@@ -51,8 +44,13 @@
   font-weight: 1000;
 }
 
-.slide35 {
+.featureContainer {
   background: #f6f8f9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 115px;
 }
 
 .examPrepAssignment {
@@ -65,48 +63,44 @@
   width: 435px;
 }
 
-.frameItem {
+.featureImage {
   width: 435px;
-  position: relative;
   height: 435px;
   object-fit: cover;
 }
 
 /* RESPONSIVE STYLES FOR 'cook your classes' SECTION */
 @media (max-width: 600px) {
-  .slide35 {
+  .featureContainer {
     width: 100vw;
     height: auto;
-    display: block;
     padding: var(--feature-section-spacing) var(--column-margin-mobile);
 
-    & .frameParent6 {
-      flex-direction: column;
-      gap: 60px;
+    flex-direction: column;
+    gap: 60px;
 
-      & .frameItem {
-        max-width: 100%;
-        height: auto;
+    & .featureImage {
+      max-width: 100%;
+      height: auto;
+    }
+
+    & .frameParent7 {
+      width: auto;
+      display: block;
+
+      & .cookClasses {
+        width: auto;
+        margin-bottom: 10px;
       }
 
-      & .frameParent7 {
-        width: auto;
-        display: block;
+      & .wantToShareDramasComplainWrapper {
+        height: auto;
 
-        & .cookClasses {
+        & .examPrepAssignment {
+          position: static;
           width: auto;
-          margin-bottom: 10px;
-        }
-
-        & .wantToShareDramasComplainWrapper {
-          height: auto;
-
-          & .examPrepAssignment {
-            position: static;
-            width: auto;
-            display: block;
-            line-height: inherit;
-          }
+          display: block;
+          line-height: inherit;
         }
       }
     }
