@@ -65,81 +65,17 @@ export const Features = () => {
       </div>
 
       {/* Voting Feature */}
-      <div className={styles.slide34}>
-        <div className={`${styles.groupContainer} ${styles.featureFrame}`}>
-          <div className={styles.putInYourVoteParent}>
-            <div className={styles.putInYour}>put in your vote!</div>
-            <div className={styles.groupDiv}>
-              <img
-                className={styles.groupChild}
-                alt=""
-                src="/assets/Group_193.svg"
-              />
-              <div className={styles.vote}>
-                <img
-                  className={styles.upvoteIcon}
-                  alt="Upvote"
-                  src={
-                    upvoted
-                      ? "/assets/state_chosen.svg"
-                      : upvoteHovered
-                      ? "/assets/state_hover.svg"
-                      : "/assets/state_default.svg"
-                  }
-                  onMouseEnter={() => setUpvoteHovered(true)} // Set hover state to true
-                  onMouseLeave={() => setUpvoteHovered(false)} // Reset hover state to false
-                  onClick={handleUpvoteClick}
-                />
-                <b className={styles.num}>
-                  {upvoted ? votenum + 1 : downvoted ? votenum - 1 : votenum}
-                </b>
-                <img
-                  className={styles.downvoteIcon}
-                  alt="Downvote"
-                  src={
-                    downvoted
-                      ? "/assets/downvote_chosen.svg"
-                      : downvoteHovered
-                      ? "/assets/downvote_hover.svg"
-                      : "/assets/downvote_default.svg"
-                  }
-                  onMouseEnter={() => setDownvoteHovered(true)} // Set hover state to true
-                  onMouseLeave={() => setDownvoteHovered(false)} // Reset hover state to false
-                  onClick={handleDownvoteClick}
-                />
-              </div>
-            </div>
-          </div>
-          <div className={styles.frameParent5}>
-            <div className={styles.upvoteDownvoteWrapper}>
-              <div className={styles.cook}>
-                <div className={`${styles.votes} ${styles.headingText}`}>
-                  upvote?
-                </div>
-                <div className={`${styles.votes} ${styles.headingText}`}>
-                  downvote!
-                </div>
-              </div>
-            </div>
-            <div className={styles.tooTiredToCookInWordsButWrapper}>
-              <div className={styles.tooTiredToContainer}>
-                <span
-                  className={`${styles.theBestWayContainer1} ${styles.bodyText}`}
-                >
-                  <p className={styles.theBestWay}>
-                    Too tired to cook in words but still
-                  </p>
-                  <p className={styles.theBestWay}>
-                    want to follow up on the discussion?
-                  </p>
-                  <p className={styles.theBestWay}>&nbsp;</p>
-                  <p className={styles.theBestWay}>
-                    <span>{`Pineapple on pizza! `}</span>
-                    <b className={styles.agree}>Agree?</b>
-                  </p>
-                </span>
-              </div>
-            </div>
+      <div className={newStyles.featureContainer}>
+        <img
+          className={`${newStyles.featureImage} ${newStyles.featureImageReverse}`}
+          alt=""
+          src="/assets/features/vote.png"
+        />
+        <div className={newStyles.featureText}>
+          <p className={`${newStyles.headingText}`}>vote</p>
+          <div className={newStyles.featureDescription}>
+            Too tired to cook in words but still want to follow up the
+            discussion? Upvote the posts! (or downvote!)
           </div>
         </div>
       </div>
