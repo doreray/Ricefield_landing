@@ -1,6 +1,7 @@
 // components/sections/Features.tsx
 import { useState } from "react";
 import styles from "../../styles/LandingFrame.module.css";
+import newStyles from "../../styles/refactored.module.css";
 
 export const Features = () => {
   const [upvoted, setUpvoted] = useState(false);
@@ -25,7 +26,7 @@ export const Features = () => {
         <div className={styles.soHowDoesThisWorkWrapper}>
           <div className={styles.soHowDoesContainer}>
             <p className={`${styles.soHowDoes} ${styles.headingText}`}>
-              so, how does <br/> this work?
+              so, how does <br /> this work?
             </p>
           </div>
         </div>
@@ -45,21 +46,13 @@ export const Features = () => {
               </div>
             </div>
           </div>
-          <img
-            className={styles.frameItem}
-            alt=""
-            src="/assets/Group_10.png"
-          />
+          <img className={styles.frameItem} alt="" src="/assets/Group_10.png" />
         </div>
       </div>
       {/* Reply Feature */}
       <div className={styles.slide321}>
         <div className={`${styles.groupParent} ${styles.featureFrame}`}>
-          <img
-            className={styles.frameItem}
-            alt=""
-            src="/assets/reply_1.png"
-          />
+          <img className={styles.frameItem} alt="" src="/assets/reply_1.png" />
           <div className={styles.frameParent2}>
             <div className={styles.replyWrapper}>
               <div className={`${styles.cook} ${styles.headingText}`}>
@@ -188,7 +181,9 @@ export const Features = () => {
             </div>
             <div className={styles.tooTiredToCookInWordsButWrapper}>
               <div className={styles.tooTiredToContainer}>
-                <span className={`${styles.theBestWayContainer1} ${styles.bodyText}`}>
+                <span
+                  className={`${styles.theBestWayContainer1} ${styles.bodyText}`}
+                >
                   <p className={styles.theBestWay}>
                     Too tired to cook in words but still
                   </p>
@@ -204,6 +199,36 @@ export const Features = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Classes feature */}
+      <div className={styles.slide35}>
+        <div className={`${newStyles.frameParent6} ${newStyles.featureFrame}`}>
+          <div className={newStyles.frameParent7}>
+            <div>
+              <div>
+                <p
+                  className={`${newStyles.cookClasses} ${newStyles.headingText}`}
+                >
+                  classes
+                </p>
+              </div>
+            </div>
+            <div className={newStyles.wantToShareDramasComplainWrapper}>
+              <div
+                className={`${newStyles.examPrepAssignment} ${newStyles.bodyText}`}
+              >
+                Exam prep? Assignment help? Survival tips? Professor complaints?
+                It’s time to cook your classes and be as genuine as possible.
+              </div>
+            </div>
+          </div>
+          <img
+            className={newStyles.frameItem}
+            alt=""
+            src="/assets/classes.png"
+          />
         </div>
       </div>
     </>

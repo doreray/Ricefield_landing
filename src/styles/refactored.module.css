@@ -1,0 +1,123 @@
+.headingText {
+  font-size: 67px;
+  font-weight: 1000;
+}
+
+.bodyText {
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    .headingText {
+        font-size: 40px;
+        line-height: 1.0;
+    }
+
+    .bodyText {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+}
+
+.frameParent7 {
+  width: 435px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.frameParent6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 117px;
+}
+
+.cookClasses {
+  position: relative;
+  line-height: 67px;
+  font-weight: 1000;
+  font-family: Fredoka;
+  width: 536px;
+}
+
+.wantToShareDramasComplainWrapper {
+  align-self: stretch;
+  position: relative;
+  height: 70px;
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+.slide35 {
+  align-self: stretch;
+  background: #f6f8f9;
+  height: 502px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 144px 222px;
+  padding-bottom: 240px;
+  box-sizing: border-box;
+}
+
+.examPrepAssignment {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  /* line-height: 23px; */
+  display: flex;
+  align-items: center;
+  width: 435px;
+}
+
+.frameItem {
+  width: 435px;
+  position: relative;
+  height: 435px;
+  object-fit: cover;
+}
+
+/* RESPONSIVE STYLES FOR 'cook your classes' SECTION */
+@media (max-width: 600px) {
+  .slide35 {
+    width: 100vw;
+    height: auto;
+    display: block;
+    padding: var(--feature-section-spacing) var(--column-margin-mobile);
+
+    & .frameParent6 {
+      flex-direction: column;
+      gap: 60px;
+
+      & .frameItem {
+        max-width: 100%;
+        height: auto;
+      }
+
+      & .frameParent7 {
+        width: auto;
+        display: block;
+
+        & .cookClasses {
+          width: auto;
+          margin-bottom: 10px;
+        }
+
+        & .wantToShareDramasComplainWrapper {
+          height: auto;
+
+          & .examPrepAssignment {
+            position: static;
+            width: auto;
+            display: block;
+            line-height: inherit;
+          }
+        }
+      }
+    }
+  }
+}

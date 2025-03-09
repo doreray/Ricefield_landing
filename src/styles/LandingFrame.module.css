@@ -691,7 +691,8 @@ body {
 }
 .slide34 {
   align-self: stretch;
-  background: linear-gradient(180deg, #f6f8f9 67.17%, #9edffd);
+  background: #f6f8f9;
+  /* background: linear-gradient(180deg, #f6f8f9 67.17%, #9edffd); */
   height: 569px;
   display: flex;
   flex-direction: column;
