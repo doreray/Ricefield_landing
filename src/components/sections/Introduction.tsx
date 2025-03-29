@@ -18,6 +18,9 @@ export const Introduction = () => {
               className={styles.fromClassesTo}
             >{`From classes to clubs, from dorms to dining halls, from gyms to stadiums, Ricefield is a space for you, college students, to see and get updated on what the heck is happening in your college. You can cook (or get cooked?) everything and anything however you want. `}</div>
           </div>
+          <button className={styles.joinWaitlistButton1}>
+            Visit Ricefield
+          </button>
         </div>
       </div>
       <div className={styles.slide8}>

@@ -1,0 +1,64 @@
+.headingText {
+  font-size: 67px;
+  font-weight: 1000;
+  font-family: Fredoka;
+  line-height: 0.9;
+  margin-bottom: 30px;
+}
+
+.bodyText {
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  .headingText {
+    font-size: 40px;
+    line-height: 1;
+  }
+
+  .bodyText {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+}
+
+.smallHeading {
+    font-size: 0.6em;
+    font-weight: 800;
+}
+
+.subHeading {
+    font-size: 25px;
+}
+
+.button {
+    background-color: #448d57;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 1.3em;
+    margin-top: 15px;
+}
+
+.gradient {
+    height: 100px;
+    background: linear-gradient(180deg, #9edffd, #bae4f5);
+}
+
+.imgContainer {
+    margin: 0 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    text-align: center;
+    min-height: 1000px;
+
+    background-image: url("/assets/bg3_1.svg");
+    background-size: cover;
+    background-position: bottom center; /* Equivalent to object-position: top */
+    background-repeat: no-repeat;
+}

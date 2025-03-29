@@ -25,10 +25,14 @@ export const Footer = () => {
   const handleFarmersDictClick = () => {
     window.open('https://joinricefield.notion.site/Farmers-Dictionary-1043b99ded3180a68889ec80aa0bace7', '_blank');
   };
+
+  const handleLinkedInClick = () => {
+    window.open("https://www.linkedin.com/company/joinricefield/", '_blank');
+  }
   
-  const handlePrototypeClick = () => {
-    window.open('https://www.figma.com/proto/XSI4ZVnYeubv5XS0fZuwvB/ricefield---editor?node-id=4225-18146&node-type=frame&t=MvhnGZxlXF5xTW4g-1&scaling=scale-down-width&content-scaling=fixed&page-id=4037%3A16555&starting-point-node-id=4248%3A15497', '_blank');
-  };
+  // const handlePrototypeClick = () => {
+  //   window.open('https://www.figma.com/proto/XSI4ZVnYeubv5XS0fZuwvB/ricefield---editor?node-id=4225-18146&node-type=frame&t=MvhnGZxlXF5xTW4g-1&scaling=scale-down-width&content-scaling=fixed&page-id=4037%3A16555&starting-point-node-id=4248%3A15497', '_blank');
+  // };
 
   return (
     <div className={styles.footer}>
@@ -152,7 +156,7 @@ export const Footer = () => {
                   </b>
                 </div>
               </div>
-              <div className={styles.landingFooterButton}>
+              {/* <div className={styles.landingFooterButton}>
                 <div>
                   <b
                     className={styles.footerButton3}
@@ -166,7 +170,7 @@ export const Footer = () => {
                     View Prototype
                   </b>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className={styles.footerBottomRight}>
@@ -182,8 +186,24 @@ export const Footer = () => {
               />
               {/* Commented social media icons as in original code */}
               {/* <img className={styles.xLogoIcon} alt="" src="/assets/x_logo.svg" /> */}
-            <img className={styles.tiktokLogoIcon} alt="" src="/assets/tiktok_logo.svg" onClick={handleTiktokClick}/>
-            <img className={styles.youtubeLogoIcon} alt="" src="/assets/youtube_logo.svg" onClick={handleYoutubeClick}/>
+              <img
+                className={styles.tiktokLogoIcon}
+                alt=""
+                src="/assets/tiktok_logo.svg"
+                onClick={handleTiktokClick}
+              />
+              <img
+                className={styles.youtubeLogoIcon}
+                alt=""
+                src="/assets/youtube_logo.svg"
+                onClick={handleYoutubeClick}
+              />
+              <img
+                className={styles.linkedinLogoIcon}
+                alt=""
+                src="/assets/linkedin_logo.svg"
+                onClick={handleLinkedInClick}
+              />
             </div>
             <div className={styles.copyright2024RicefieldAllWrapper}>
               <div className={styles.copyright2024Ricefield}>

@@ -19,10 +19,13 @@ export const LaunchSection = () => {
         <div className={styles.weAreLaunchingNextSemesterWrapper}>
           <div>
             <p className={styles.weAreLaunching}>
-              we are launching this semester!
+              our beta <br /> is live!
             </p>
           </div>
         </div>
+
+        <img src="/assets/msu-logo.svg" alt="" />
+
         <div className={styles.itsGonnaBeLitToBeOneOfWrapper}>
           <div>
             <p className={styles.theBestWay}>
@@ -49,14 +52,6 @@ export const LaunchSection = () => {
               onKeyDown={(e) => e.key === "Enter" && handleJoinWaitlistClick()}
             >
               <div className={styles.joinTheWaitlist}>Join the Waitlist</div>
-            </div>
-          </div>
-          <div
-            className={styles.viewPrototypeButton}
-            onClick={handlePrototypeClick}
-          >
-            <div className={styles.viewPrototypeButton1}>
-              <div className={styles.joinTheWaitlist}>View Prototype</div>
             </div>
           </div>
         </div>

@@ -2,9 +2,13 @@
 import styles from "../../styles/LandingFrame.module.css";
 
 export const Header = () => {
-  const handleJoinWaitlistClick = () => {
-    window.open("https://forms.gle/XgjRixUwhZ3ZzkLe9", "_blank");
-  };
+  // const handleJoinWaitlistClick = () => {
+  //   window.open("https://forms.gle/XgjRixUwhZ3ZzkLe9", "_blank");
+  // };
+
+  const visitRicefield = () => {
+    window.open("https://www.joinricefield.com/");
+  }
 
   /*************  ✨ Codeium Command ⭐  *************/
   /******  2f9f311b-6871-4afc-bb05-7c8a695f8b2e  *******/ const handleFarmersDictClick =
@@ -49,13 +53,13 @@ export const Header = () => {
           </div>
           <div
             className={styles.joinWaitlistButton2}
-            onClick={handleJoinWaitlistClick}
+            onClick={visitRicefield}
             role="button"
             tabIndex={0}
-            onKeyDown={(e) => e.key === "Enter" && handleJoinWaitlistClick()}
+            onKeyDown={(e) => e.key === "Enter" && visitRicefield()}
           >
             <div className={styles.joinWaitlistButton1}>
-              <div className={styles.joinTheWaitlist}>Join the Waitlist</div>
+              <div className={styles.joinTheWaitlist}>Visit Ricefield</div>
             </div>
           </div>
         </div>

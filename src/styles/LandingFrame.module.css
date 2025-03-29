@@ -139,6 +139,7 @@ body {
 .whatTheHeck {
   position: relative;
   line-height: 67px;
+  font-size: 67px;
   display: flex;
   align-items: center;
   width: 469px;
@@ -975,6 +976,7 @@ body {
   display: flex;
   align-items: center;
   width: 321px;
+  font-size: 67px;
   font-weight: 1000;
   font-family: Fredoka;
 }
@@ -1223,6 +1225,19 @@ body {
 
 
 .tiktokLogoIcon:hover {
+  filter: sepia(90%) saturate(400) hue-rotate(326deg) brightness(1) contrast(4);
+}
+
+.linkedinLogoIcon {
+  width: 25px;
+  position: relative;
+  height: 28px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+
+.linkedinLogoIcon:hover {
   filter: sepia(90%) saturate(400) hue-rotate(326deg) brightness(1) contrast(4);
 }
 
@@ -1502,7 +1517,7 @@ body {
   position: relative;
   /* height: 5830px; */
   text-align: left;
-  font-size: 67px;
+  /* font-size: 67px; */
   color: #000;
 }
 
