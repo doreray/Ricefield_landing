@@ -76,7 +76,7 @@ export function LandingPageHeader() {
           </div>
         </div>
 
-        {/* Mobile Menu */}
+        {/* Mobile Menu  */}
         {isMenuOpen && (
           <div className={styles.mobileMenu}>
             <div
